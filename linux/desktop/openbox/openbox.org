@@ -1,0 +1,32 @@
+* Openbox
+
+** Vstanovlennia
+
+osnovni pakunky
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S lightmd lightdm-gtk-greeter openbox obconf pcmanfm
+#+END_SRC
+
+ale mozhna vstanovyty usi pakunky yaki potribno za bazhanniam
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S tint2 xterm alacritty nitrogen geany unzip xarchiver gnome-background manumaker
+#+END_SRC
+
+** Aktyvuiemo LIGHTDM
+
+#+BEGIN_SRC zsh
+    $ sudo systemctl enable lightdm
+    $ sudo reboot now
+#+END_SRC
+
+Robymo **reboot**, teper mozhemo vykorystovuvaty desktop
+
+** Menu v OPENBOX
+
+rekonfihuratsiia meniu
+
+#+BEGIN_SRC zsh
+    $ mmaker openbox -f -t terminal
+#+END_SRC
