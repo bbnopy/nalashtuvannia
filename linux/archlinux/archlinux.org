@@ -1,0 +1,208 @@
+* Vstanovlennyia Archlinux
+
+** Zavantazhennia
+
+Na [[archlinux.org][https://archlinux.org]] u rozdili **Downloads** zavantazhuiemo ISO
+
+** Haid po vstanovlenniu
+
+[[Installation Guide][https://wiki.archlinux.org/index.php/installation_guide]]
+
+*** Vstanovlennia na virtualnu mashynu
+
+#+BEGIN_SRC zsh
+    # ping google.com
+#+END_SRC
+
+*** Hodynnyk
+
+#+BEGIN_SRC zsh
+    # timedatectl set-ntp true
+    # timedatectl status
+#+END_SRC
+
+*** Rozmitka dysku
+
+#+BEGIN_SRC zsh
+    # cfdisk
+#+END_SRC
+
+| Mount Point | Partition    | Partition type | Rozmir      |
+|-------------+--------------+----------------+-------------|
+| SWAP        | /dev/sd*X*1  | Linux swap     | 1:1 abo 1:2 |
+| /mnt        | /dev/sd*X*2  | Linux          | 15Gb        |
+| /mnt/var    | /dev/sd*X*3  | Linux          | 10-30Gb     |
+| /mnt/home/  | /dev/sd*X*4  | Linux          | zalyshok    |
+
+dali vybyraiemo **Write** potim **Quit**
+
+*** SWAP rozdil
+
+#+BEGIN_SRC zsh
+    # mkswap /dev/sdX1
+    # swapon /dev/sdX1
+#+END_SRC
+
+*** Formatuvannia dysku
+
+#+BEGIN_SRC zsh
+    # mkfs ext4 /dev/sdX2
+    # mkfs ext4 /dev/sdX3
+    # mkfs ext4 /dev/sdX4
+#+END_SRC
+
+*** Montuvannia rozdilu
+
+#+BEGIN_SRC zsh
+    # mount /dev/sdX2 /mnt
+    # mkdir /mnt/var
+    # mount /dev/sdX3 /mnt/var
+    # mkdir /mnt/home
+    # mount /dev/sdX4 /mnt/home
+#+END_SRC
+
+*** Redahuiemo dzerkal
+
+#+BEGIN_SRC zsh
+    # vim /etc/pacman.d/mirrorlist
+#+END_SRC
+
+*** Vstanovlennia
+
+bazova komanda vstanovliuie vse neobkhidne
+
+#+BEGIN_SRC zsh
+    # pacstrap /mnt base linux linux-firmware
+#+END_SRC
+
+vse inshe treba vstanovliuvaty samostiino
+
+#+BEGIN_SRC zsh
+    # pacstrap /mnt base linux linux-firmware base-devil sudo man-pages inetutils netctl dhcpcd s-nail vi vim
+#+END_SRC
+
+*** Tochka montuvannia Fstab
+
+#+BEGIN_SRC zsh
+    # genfstab -U /mnt >> /mnt/etc/fstab
+    # cat /mnt/etc/fstab
+#+END_SRC
+
+*** Perekhid na ROOT vstanovlenoi systemy
+
+#+BEGIN_SRC zsh
+    # arch-chroot /mnt
+#+END_SRC
+
+*** Chasova zona
+
+#+BEGIN_SRC zsh
+    # ln -sf /usr/share/zoneinfo/Riehion/Misto /etc/localtime
+    # hwclock --systoch
+#+END_SRC
+
+*** Localization
+
+Redahuiemo */etc/local.gen*, rozkomentuiemo potribnu movu, heneruiemo *locale*
+
+#+BEGIN_SRC zsh
+    # locale-gen
+    # echo 'LANG=lang_LANG.UTF-8' > /etc/locale.conf
+#+END_SRC
+
+*** Nalashtuvannia NETWORK
+
+Vidkryvaiemo */etc/hostname*
+
+#+BEGIN_SRC vim
+    myhostname
+#+END_SRC
+
+teper */etc/hosts*
+
+#+BEGIN_SRC vim
+    127.0.0.1   localhost
+    ::1         localhost
+    127.0.1.1   myhostname.localhost myhostname
+#+END_SRC
+
+*** ROOT parol
+
+#+BEGIN_SRC zsh
+    # passwd
+#+END_SRC
+
+*** Vkliuchaiemo DHCP dlia NETWORK
+
+#+BEGIN_SRC zsh
+    # systemctl enable dhcpcd
+#+END_SRC
+
+*** Dodaiemo korystuvacha i parol
+
+#+BEGIN_SRC zsh
+    # useradd -m username
+    # passwd username
+#+END_SRC
+
+dodaiemo korystuvacha do hrup
+
+#+BEGIN_SRC zsh
+    # usermod -aG wheel,lp,network,sys,power,audio username
+    # groups username
+#+END_SRC
+
+vidkryvaiemo *visudo* znakhodymo i rozkomentuiemo riadok **%wheel ALL=(ALL) ALL**
+
+*** Vstanovliuiemo GRUB
+
+#+BEGIN_SRC zsh
+    # pacman -S grub
+    # grub-install /dev/sda
+    # grubmkconfig -a /boot/grub/grub.cfg
+#+END_SRC
+
+**Perezavantazhuiemo systemu**
+
+#+BEGIN_SRC zsh
+    # exit
+    # shutdown now
+#+END_SRC
+
+vidkliuchaiemo ISO i zapuskaiemo systemu, spochatku pereviriaiemo internet
+
+#+BEGIN_SRC zsh
+    $ ping google.com
+#+END_SRC
+
+*** Vstanovlennia XORG
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S xorg xorg-server
+#+END_SRC
+
+Dali vstanovlennia po bazhanniu desktop i prohramy po bazhanniu
+
+** Vstanovlennia ne na virtualnu mashynu
+
+potribno nalashtuvaty internet
+
+*** Nalashtuvannia WIFI
+
+vstanovlennia **iwd**
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S iwd
+    $ sudo systemctl enable iwd
+    $ sudo systemctl start iwd
+#+END_SRC
+
+Zapuskaiemo *iwctl shell*
+
+#+BEGIN_SRC zsh
+    $ iwctl
+    [iwd]$ device list
+    [iwd]$ station device scan
+    [iwd]$ station device get-network
+    [iwd]$ station device connect SSID
+#+END_SRC
