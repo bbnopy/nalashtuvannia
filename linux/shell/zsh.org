@@ -1,0 +1,39 @@
+* SHELL
+
+perevirka *shell* yakyi vykorystovuietsia
+
+#+BEGIN_SRC zsh
+    $ echo $SHELL
+#+END_SRC
+
+** ZSH
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S zsh zsh-completions
+#+END_SRC
+
+zapuskaiemo *zsh*
+
+#+BEGIN_SRC zsh
+    $ zsh
+#+END_SRC
+
+varianty vyboru 1, 2, 1, 0, teper vstanovliuiemo
+
+#+BEGIN_SRC zsh
+    $ yay pacman -S oh-my-zsh-git
+    $ cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+    $ sudo pacman -S ruby
+#+END_SRC
+
+vstanovlennia *zsh* za zamovchenniam dlia pevnoho yuzera
+
+#+BEGIN_SRC zsh
+    $ chsh -s /bin/zsh/username
+#+END_SRC
+
+vstanovlennia *zsh* dlia usih
+
+#+BEGIN_SRC zsh
+    $ chsh -s(which zsh)
+#+END_SRC
