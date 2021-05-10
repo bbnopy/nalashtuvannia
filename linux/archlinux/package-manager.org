@@ -1,0 +1,23 @@
+* Package manager
+
+** YAY
+
+vstanovlennia
+
+#+BEGIN_SRC zsh
+    $ pacman -S --needed git base-devel
+    $ git clone https://aur.archlinux.org/yay.git
+    $ cd yay
+    $ makepkg si
+#+END_SRC
+
+** PAMAC
+
+#+BEGIN_SRC zsh
+    $ sudo pacman -S --needed base-devel git wget yajil
+    $ cd /tmp
+    $ git clone https://aur.archlinux.org/package-query.git
+    $ cd package-query/
+    $ makepkg -si
+    $ yay -S pamac-aur
+#+END_SRC
