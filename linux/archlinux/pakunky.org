@@ -1,0 +1,57 @@
+* Pakunky
+
+1. AnyDesk
+    + AUR anedesk-bin
+2. Audacity
+3. Chromium
+4. Clamav
+    + sudo pacman -S clamav
+5. Clamtk
+6. Clipit
+    + AUR package
+7. Conky
+8. Discord
+9. Djveiw
+10. Double Commander
+    + doublecmd-qt5
+11. Emacs
+12. Filezilla
+13. GIMP
+14. Gparted
+15. Handbrake
+16. Heroku
+    + AUR heroku-cli package
+17. Libre Office
+    + libreoffice-fresh
+18. HTOP
+    + sudo pacman -S htop
+19. Inkscape
+20. KeepassXC
+21. Linux Headers
+    + sudo pacman -S linux-headers
+23. Lollypop
+24. Midori
+25. Nextcloud-client
+26. Nitrogen
+27. NodeJS
+    + sudo pacman -S nodejs npm
+28. Python2/3
+29. qBittorent
+30. Scratch2/3
+31. Shotwell
+32. Soundconverter
+33. Sublime Text 3
+34. Telegramm desktop
+35. Thunderbird
+36. Tmux
+37. Tweaks
+38. Veracrypt
+39. Viber
+40. Vi/ViM
+41. Vivaldi
+42. VLC
+43. Whatsapp
+44. Xarchiver
+45. Xterm
+46. ZSH
+    + sudo pacman -S zsh zsh-completions
