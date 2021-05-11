@@ -1,0 +1,13 @@
+* GIT
+
+** Yaksho vydaie pomylka git "client error, server cerificate virification failed"
+
+#+BEGIN_SRC zsh
+    $ git config --global http.sslverify false
+#+END_SRC
+
+** Zberezhennia lohinu i paroliu v GIT
+
+#+BEGIN_SRC zsh
+    $ git config --global credential.helper store
+#+END_SRC
