@@ -1,0 +1,44 @@
+* Nalashtuvannia v Windows
+
+1. System
+    + Display: Night light: On
+    + Power & Sleep: Sleep: Never
+    + Storage: 
+        + Storange Sence: On
+        + Run Storange Sence: Every week
+        + Temporary Files: postavyty halochku i vybraty 30 dniv
+2. Clipboard
+    + Clipboard: On
+    + Sync across devices: On (yaksho dodan akaunt)
+3. Devices:
+4. Phone:
+    + mozhlyvist dodaty mobilnyi do Windows
+5. Network & Internet
+6. Personalization:
+    + Themes:
+        + Desktop icon setting: znimaiemo usi halochky
+7. Apps:
+8. Accounts:
+    + Your info:
+        + pidkliuchennia **Microsoft account** do lokalnoho akauntu
+    + Email & accounts:
+        + dodannia poshtovoho akauntu
+9. Time & Language:
+    + Date & Time:
+        + nalashtuvannia daty t a chasu
+    + Region:
+        + nalashtuvannia rehionu
+    + Language:
+        + nalashtuvannia mov
+    + Keyword: Let me use a different input method for each app windows: postavyty halochku
+10. Gaming:
+11. Ease of Acess:
+12. Search:
+    + Searching Windows:
+        + Enhanced: vybyraiemo
+13. Privacy:
+14. Update & Security:
+    + Windows Update:
+        + Change active hours: On (abo nalashtuvaty svii chas)
+    + Delivery Optimization:
+        + Allow downloads from other PC's: Off

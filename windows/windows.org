@@ -1,0 +1,42 @@
+* Pry vstanovlennii Windows
+
+na pochatku nalashtuvan **Windows 10** nazhymaiemo **Ctrl+Shift+F3**, vinda perezavantazhuietsia u **audit mod** i zavantazhuie admin akaunt, pislia zavantazhennia ziavytsia **System Preparation Tool**, nazhymaiemo **Cancel**
+vidkryvaiemo **Notepad** i kopiiuiemo
+
+#+BEGIN_SRC xml
+    <?xml version="1.0" encoding="utf-8"
+    <unattend xmlns="urn:schemas-microsoft-com:wnattend">
+    <settings pass="oobeSystem">
+    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instante">
+    <FolderLocations>
+    <ProfilesDirectory>D:\Users</ProfilesDirectory>
+    </FolderLocations>
+    </component>
+    </settings>
+    </unattend>
+#+END_SRC
+
+zberihaiemo fail pid nazvoiu *relocate.xml* na *D:*
+zapuskaiemo **Comand Prompt**
+zupyniaiemo **WMP Network Sharing Service**
+
+#+BEGIN_SRC cmd
+    net stop wmpnetworksvc
+#+END_SRC
+
+teper pryminiaiemo zminy
+
+#+BEGIN_SRC cmd
+    %windir%\system32\sysprep\sysprep.exe /oobe /reboot /unattend:d:\relocate.xml
+#+END_SRC
+
+Yaksho vse normalno **windows** perezavantazhuiemo i pochnetsia nalashtuvannia **windows**. 
+Pislia vstanovlennia papka **users** povynna buty na dysku *D:*
+
+** Pislia vstanovlennia Windows 10
+
+1. pereviriaiemo naiavnist onovlen
+2. yakshcho ie vstanovliuiemo onovlennia
+3. u Windows 10 mozhna vykorystovuvaty **Windows Defender** yak antyvirus, abo vstanovyty antyvirus po bazhanniu
+4. onovliuiemo **Microsoft Edge**
+5. vstanovliuiemo draivera
