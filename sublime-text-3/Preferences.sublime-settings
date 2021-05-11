@@ -1,0 +1,74 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"add_space_between_categories": false,
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": true,
+	"auto_complete_with_fields": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"browsers":
+	[
+		"last 2 versions"
+	],
+	"caret_style": "phase",
+	"detect_indentation": false,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 0,
+	"open_file_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"reindent_on_save":
+	[
+		"json"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false,
+    // "color_scheme": "Packages/User/Material-Theme (SublimePythonIDE).tmTheme",
+    // "ignored_packages":
+    // ["Vintage"],
+    // "material_theme_big_fileicons": true,
+    // "material_theme_bold_tab": true,
+    // "material_theme_compact_panel": true,
+    // "material_theme_compact_sidebar": true,
+    // "material_theme_contrast_mode": true,
+    // "material_theme_small_statusbar": true,
+    // "material_theme_small_tab": true,
+    // "material_theme_tabs_autowidth": true,
+    // "material_theme_tabs_separator": true,
+    // "material_theme_tree_headings": true,
+    // "pep8":
+    // {
+        // "@disable": false,
+        // "args":
+        // [],
+        // "excludes":
+        // [],
+        // "ignore": "E501,C0301,W0142,W0402,R0201,E1101,E1102,C0103,R0901,R0903,R0904,C1001,W0223,W0232,W0201,E1103,R0801,C0111",
+        // "max-line-length": 100,
+        // "select": ""
+    // },
+    // "theme": "Material-Theme.sublime-theme",
+}

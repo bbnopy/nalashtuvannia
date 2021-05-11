@@ -1,0 +1,30 @@
+[
+    { "keys": ["alt+shift+f"], "command": "reindent" },
+    { "keys": ["alt+shift+t"], "command": "delete_trailing_spaces" },
+    { "keys": ["alt+shift+d"], "command": "toggle_trailing_spaces" },
+    {
+        "keys": ["alt+shift+1"], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    { "keys": ["alt+shift+n"], "command": "advanced_new_file_new" },
+    {
+        "keys": ["ctrl+alt+t"], "command": "toggle_terminus_panel",
+        "args": {
+            "config_name": "Default",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["alt+`"], "command": "terminus_open",
+        "args": {
+            "config_name": "Default"
+        }
+    },
+    { "keys": ["f6"], "command": "clean_css" },
+    { "keys": ["enter"], "command": "commit_completion", "context":
+        [
+            { "key": "auto_complete_visible" },
+            { "key": "setting.auto_complete_commit_on_tab", "operand": false }
+        ]
+    },
+]
