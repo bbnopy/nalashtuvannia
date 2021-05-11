@@ -1,0 +1,88 @@
+* Prohramy u Windows
+
+1. 7-Zip
+2. AnyDesk
+3. Bandicam
+4. Battle.net
+5. Bing Wallpapers
+6. Bitwarden
+7. Blender
+8. BlueStacks App Player
+9. CrystalDiskInfo
+10. CristalDiskMark
+11. Discord
+12. Docker Toolbox
+13. Dropbox
+14. Eclipce
+15. Epic Privacy Browser
+16. Facebook (beta)
+17. Free Radio Music
+18. Ghostery Down
+19. GIMP
+20. Git
+21. GitHub Desktop
+22. GitKraken
+23. GOG GALAXY
+24. Google Chrome
+25. Hack Font
+26. HandBrake
+27. Hyper
+28. Instagram
+29. iTunes
+30. KeePassXC
+31. Kite
+32. K-Lite Mega Codec Pack
+33. K-Pop Roks
+34. League of Legends
+35. Lightshot
+36. Megogo
+37. Messenger
+38. Microsoft 365
+39. Microsoft Edge
+40. Microsoft Sudoku
+41. Microsoft Visual Studio Code
+42. Microsoft Visual Studio Code Insiders
+43. MiniBin
+44. Mozilla Firefox
+45. myTybe!
+46. Nextcloud
+47. NFS Undeground
+48. NodeJS
+49. Office
+50. OneNote for Windows 10
+51. Opera GX
+52. Oracle VM VirtualBox
+53. Paint.net
+54. Picasa 3
+55. Plarium Play
+56. Putty
+57. PyCharm Community Edition
+58. Python
+59. qBittorrent
+60. Radio Uk
+61. Radio Ukraine
+62. Radio US
+63. Rainmeter
+64. Realtek Audio Console
+65. Remote Desktop
+66. Scratch 3
+67. Skype
+68. Slack
+69. SourceTree
+70. Spotify
+71. Sublime Text 3
+72. Team Viewer
+73. Telegram Desktop
+74. TeraCopy
+75. Termius
+76. Total Commander
+77. TuneIn Radio
+78. Twitter
+79. Ultimate Radio
+80. VeraCrypt
+81. Vivaldi
+82. VLC
+83. VMware Player
+84. Web Companion
+85. WinDjView
+86. Windows Terminal
