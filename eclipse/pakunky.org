@@ -1,0 +1,16 @@
+* Pakunky dlia Eclipse
+
+1. HTML Editor WTP
+2. JSHint Eclipse
+3. IBM Monitoring and Diagnostic Tools - Health Center
+4. IBM Monitoring and Diagnostic Tools - Garbage Collection and Memory Visualizer (GCMV)
+5. Clippet
+6. Wakatime
+7. Tern Eclipse IDE - Outdated - use Wild Web Developer instead
+8. Enide (Studio) 2015 - Node.js, JavaScript, Java and Web Tools
+9. Autodetect Encoding
+10. Chuck Norris Facts
+11. Yaml Editor
+12. Enide.p2f - Eclipse Node.js IDE
+13. Temy
+    + Eclipse Color Theme
