@@ -9,7 +9,7 @@
 | C-k C-*number*        | zhortaie hilku                                                                |
 | C-k C-j               | rozhortaie hilku                                                              |
 |-----------------------+-------------------------------------------------------------------------------|
-| Vydilennia                                                                                            |
+| Vydilennia            |                                                                               |
 |-----------------------+-------------------------------------------------------------------------------|
 | C-d                   | vydilyty slovona yakomu kursor / x2 vydilennia spivpadaiuchi                  |
 | A-F3                  | znaity i vydilyty vse (vydilene slovo )                                       |
