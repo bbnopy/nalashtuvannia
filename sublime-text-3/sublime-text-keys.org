@@ -20,7 +20,7 @@
 | C-S-j                 | vydilyty stroky z identychnym vidstupom                                       |
 | S-*right mouse clicl* | vertykalne vydilennia                                                         |
 |-----------------------+-------------------------------------------------------------------------------|
-| Poshuk                                                                                                |
+| Poshuk                |                                                                               |
 |-----------------------+-------------------------------------------------------------------------------|
 | C-p                   | poshuk konkretnoho failu v proekti                                            |
 | C-f                   | poshuk u faili                                                                |
@@ -42,14 +42,14 @@
 | F4                    | nastupne vkhodzhennia shukanoho (tilky v khodi poshuku po failam v paptsi )   |
 | S-F4                  | poperednie vkhodzhennia shukanoho (tilky v khodi poshuku po failakh v paptsi) |
 |-----------------------+-------------------------------------------------------------------------------|
-| Bloky Kodu                                                                                            |
+| Bloky Kodu            |                                                                               |
 |-----------------------+-------------------------------------------------------------------------------|
 | C-S-[                 | zhornuty potochnyi blok                                                       |
 | C-S-]                 | rozhornuty potochnyi blok                                                     |
 | C-/                   | zakomentuvaty riadok                                                          |
 | C-S-/                 | zakomentuvaty blok kodu (kursor v blotsi)                                     |
 |-----------------------+-------------------------------------------------------------------------------|
-| Vkladky                                                                                               |
+| Vkladky               |                                                                               |
 |-----------------------+-------------------------------------------------------------------------------|
 | C-n                   | stvoryty vkladku                                                              |
 | C-w                   | zakryty vkladku                                                               |
@@ -62,7 +62,7 @@
 | C-Tab                 | nastupna vkladka v stetsi                                                     |
 | C-S-Tab               | poperednia vkladka v stetsi                                                   |
 |-----------------------+-------------------------------------------------------------------------------|
-| Tekst                                                                                                 |
+| Tekst                 |                                                                               |
 |-----------------------+-------------------------------------------------------------------------------|
 | C-S-v                 | vstavyty z bufera z vidstupom                                                 |
 | C-Backspace           | vydalyty slovo pered kursorom                                                 |
@@ -78,138 +78,138 @@
 | C-]                   | dodaty riadky vidstup (kursor v bud-yakii pozytsii)                           |
 | C-[                   | prybraty u riadku vidstup (kursor v bud-yakii pozytsii)                       |
 | C-S-*arrow up*        | pidniaty riadok vhoru                                                         |
-| C-S-*arrow down*      | opustyty riadok vnyz |
-| C-S-d                 | produbliuvaty riadok (nemaie vydilennia) |
-| C-S-Enter             | vstavyty riadok vyshchie kursora |
-| C-Enter               | vstavyty riadok nyzhchie kursora |
-| C-S-k                 | vydalyty riadok v yakii kursor |
-| C-j                   | obiednaty riadky |
-|-----------------------+-------------------------------|
-| Perekhody                                     |
-|-----------------------+-------------------------------|
-| C-p                   | perekhid do failu v proekti (filtr) |
-| C-m                   | pereity do parnoi duzhky |
-| C-g                   | pereity do riadka |
-| C-F2                  | postavyty na riadku zakladky |
-| F2                    | k nastupnii zakladtsi |
-| S-F2 | k poperednoi zakladtsi |
-| C-S-F2 | prybraty vse zakladky |
-|---------------+-------------------------------|
-| Kursor                                        |
-|---------------+-------------------------------|
-| C-A-*arrow up*/*arrow down* | dodaty kursor na storintsi vyshchie abo nyzhche |
-| Esc | prybraty multykursor |
-| C-*left mouse click* | dodaty multikursor |
-|---------------+-------------------------------|
-| Zovnishnii vyhliad                            |
-|---------------+-------------------------------|
-| F11 | povnyi ekran |
-| S-F11 | tilky oblast redahuvannia |
-| A-S-1 ... 4 | pokazaty odnu/kilka oblast red |
-| A-S-5 | oblasti red-ia sitkoiu 2x2 |
-| A-S-8 | oblasti red-ia v dvi linii |
-| A-S-9 | oblasti red-ia v try linii |
-| C-1 ... 4 | pereity do oblasti re-ia z nomerom |
-| C-0 | perekliuchytysia na bichnu panel |
-|--------------+--------------------------------|
-| Rizne                                         |
-|--------------+--------------------------------|
-| C-*arrow up* | prokrutyty trokhy vhoru |
-| C-*arrow down* | prokrutyty trokhy vnyz |
-|--------------+--------------------------------|
-| Keybindings                                   |
-|--------------+--------------------------------|
-| A-S-f | peremotuvannia |
-| A-S-t | vydilyty kintsevi probily |
-| A-S-d | peremykaie kintsevi probily |
-| A-S-1 | goto css deklaratsii |
-| A-S-n | rozhyrenyi novyi fail |
-| C-A-t | peremykannia paneli terminaliv |
-| A-` | terminal vidkryty |
-| F6 | chystyi css |
-| Enter | zavershennia komitu |
-|--------------+--------------------------------|
-| Plahin Emmet                                  |
-|--------------+--------------------------------|
-| Tab | rozhornuty abreviaturu |
-| C-A-Enter | interaktyvna abreviatura (pyshemo abreviaturu i bachymo rezultat) |
-| C-S-; | prybraty teh, v yakomu kursor (tabuliatsiia zberezhetsia pravylnoiu |
-| C-, | vydilyty teh i ioho kontent (2x i dali - vydilyty i batkivskyi teh) |
-| C-S-0 | prybraty z vydilennia batkivskyi teh (zvorotnie "C ,") |
-| C-A-j | pereity do parnoho tehu |
-| C-S-g | obernuty vydilene v abreviaturu |
+| C-S-*arrow down*      | opustyty riadok vnyz                                                          |
+| C-S-d                 | produbliuvaty riadok (nemaie vydilennia)                                      |
+| C-S-Enter             | vstavyty riadok vyshchie kursora                                              |
+| C-Enter               | vstavyty riadok nyzhchie kursora                                              |
+| C-S-k                 | vydalyty riadok v yakii kursor                                                |
+| C-j                   | obiednaty riadky                                                              |
+|-----------------------+-------------------------------------------------------------------------------|
+| Perekhody             |                                                                               |
+|-----------------------+-------------------------------------------------------------------------------|
+| C-p                   | perekhid do failu v proekti (filtr)                                           |
+| C-m                   | pereity do parnoi duzhky                                                      |
+| C-g                   | pereity do riadka                                                             |
+| C-F2                  | postavyty na riadku zakladky                                                  |
+| F2                    | k nastupnii zakladtsi                                                         |
+| S-F2                  | k poperednoi zakladtsi                                                        |
+| C-S-F2                | prybraty vse zakladky                                                         |
+|-----------------------------+-------------------------------------------------------------------------------|
+| Kursor                      |                                                                               |
+|-----------------------------+-------------------------------------------------------------------------------|
+| C-A-*arrow up*/*arrow down* | dodaty kursor na storintsi vyshchie abo nyzhche                               |
+| Esc                         | prybraty multykursor                                                          |
+| C-*left mouse click*        | dodaty multikursor                                                            |
+|-----------------------------+-------------------------------------------------------------------------------|
+| Zovnishnii vyhliad          |                                                                               |
+|-----------------------------+-------------------------------------------------------------------------------|
+| F11                         | povnyi ekran                                                                  |
+| S-F11                       | tilky oblast redahuvannia                                                     |
+| A-S-1 ... 4                 | pokazaty odnu/kilka oblast red                                                |
+| A-S-5                       | oblasti red-ia sitkoiu 2x2                                                    |
+| A-S-8                       | oblasti red-ia v dvi linii                                                    |
+| A-S-9                       | oblasti red-ia v try linii                                                    |
+| C-1 ... 4                   | pereity do oblasti re-ia z nomerom                                            |
+| C-0                         | perekliuchytysia na bichnu panel                                              |
+|-----------------------------+-------------------------------------------------------------------------------|
+| Rizne                       |                                                                               |
+|-----------------------------+-------------------------------------------------------------------------------|
+| C-*arrow up*                | prokrutyty trokhy vhoru                                                       |
+| C-*arrow down*              | prokrutyty trokhy vnyz                                                        |
+|-----------------------------+-------------------------------------------------------------------------------|
+| Keybindings                 |                                                                               |
+|-----------------------------+-------------------------------------------------------------------------------|
+| A-S-f                       | peremotuvannia                                                                |
+| A-S-t                       | vydilyty kintsevi probily                                                     |
+| A-S-d                       | peremykaie kintsevi probily                                                   |
+| A-S-1                       | goto css deklaratsii                                                          |
+| A-S-n                       | rozhyrenyi novyi fail                                                         |
+| C-A-t                       | peremykannia paneli terminaliv                                                |
+| A-`                         | terminal vidkryty                                                             |
+| F6                          | chystyi css                                                                   |
+| Enter                       | zavershennia komitu                                                           |
+|--------------------------------+-------------------------------------------------------------------------------|
+| Plahin Emmet                   |                                                                               |
+|--------------------------------+-------------------------------------------------------------------------------|
+| Tab                            | rozhornuty abreviaturu |
+| C-A-Enter                      | interaktyvna abreviatura (pyshemo abreviaturu i bachymo rezultat) |
+| C-S-;                          | prybraty teh, v yakomu kursor (tabuliatsiia zberezhetsia pravylnoiu |
+| C-,                            | vydilyty teh i ioho kontent (2x i dali - vydilyty i batkivskyi teh) |
+| C-S-0                          | prybraty z vydilennia batkivskyi teh (zvorotnie "C ,") |
+| C-A-j                          | pereity do parnoho tehu |
+| C-S-g                          | obernuty vydilene v abreviaturu |
 | C-A-*arrow left*/*arrow right* | perekhid mizh tochkamy redahuvannia (tochka redahuvannia tse: porozhni tehy, porozhni atrybuty, porozhni riadky z vidstupamy) |
-| C-S-./, | vydilyty oblasti red-ia (nastupne/poperednie) (oblasti redahuvannia tse: tehy, atrybuty tsilkom, znachennia atrybutiv tsilkom, znachennia atrybutiv okremo |
-|  C-S-/ | zakomentuvaty riadky ano blok (yakshcho kursor poza tehom, zakomentuite vmist batkivskoho teha) |
-| C-S-` | zrobyty teh parnym/neparnym |
-| C-u | onovyty/dodaty rozmiry kartynky |
-| C-S-y | pidrakhuvaty mat. vyraz |
-| C-S-r | synkhronizuvaty CSS-pravyla (kilka pravyl z vendornymy prefiksamy |
-| C-' | koduvaty/dekoduvaty kartynku v data: URL |
-| C-S-' | vydilyty vidkryty i zakryty teh (redahuvaty teh) |
-| C-*arrow up*/*arrow down* | zminyty chyslo na 1 |
-| A-*arrow up*/*arrow down* | zminyty chyslo na 0.1 |
-| S-A-*arrow up*/*arrow down* | zminyty chyslo na 10 |
-|--------------------+-------------------------------------|
-| Plahin Trailing Spaces                                   |
-|--------------------+-------------------------------------|
-| C-S-t | vydalyty kintsevi probily |
-|--------------------+-------------------------------------|
-| Plahin Zen Tabs                                          |
-|--------------------+-------------------------------------|
-| A-S-r | zen tabs perezavantazhyty |
-| A-Tab | peremykannia vkladok |
-|--------------------+-------------------------------------|
-| Plahin Clipboard History                                 |
-|--------------------+-------------------------------------|
-| C-A-v | pokazaty istoriiu |
-| C-A-d | ochystyty istoriiu |
-| C-S-v | vstavyty poperednii (staryi) zapys istorii |
-| C-S-A-v | vstavte nastupni (novishyi) zapys istorii |
-|--------------------+-------------------------------------|
-| Plahin Console Wrap                                      |
-|--------------------+-------------------------------------|
-| C-S-q | console wrap |
-| C-S-A-q | console wrap |
-| A-S-f | peremotuvannia |
-| A-S-t | vydalyty trailing spaces |
-| A-S-d | peremykannia trailing spaces |
-| A-S-1 | goto css declaration |
-| A-S-n | rozshyrenyi novyi fail |
-| C-A-t | peremykannia termius panel |
-| A-` | vidkryty termius |
-| F6 | chystyi css |
-| Enter | zavershenia |
-|--------------------+-------------------------------------|
-| Plahin Termius                                           |
-|--------------------+-------------------------------------|
-| A-` | peremykannia terminal panel |
-| C-A-t | vidkryty vyhliad terminalu v potochnomu katalozi failiv |
-| C-w | zakryty terminal |
-|--------------------+-------------------------------------|
-| Plahin Sublime Linter                                    |
-|--------------------+-------------------------------------|
-| C-k/l | lint tsei view |
-| C-k/a | pokazaty usi pomylky |
-| C-k/n | do novoi pomylky |
-| C-k/p | do poperednoi pomylky |
-|--------------------+-------------------------------------|
-| Plahin Pretty YAML                                       |
-|--------------------+-------------------------------------|
-| C-A-y | |
-|--------------------+-------------------------------------|
-| Plahin jQuerry Docs                                      |
-|--------------------+-------------------------------------|
-| A-j | jQuery dokumenty |
-|--------------------+-------------------------------------|
-| Plahin Rainbow Brackets                                  |
-|--------------------+-------------------------------------|
-| C-A-9 | Replace the brackets around the cursors with () |
-| C-A-0 | Replace the brackets around the cursors with () |
-| C-A-[ | Replace the brackets around the cursors with [] |
-| C-A-] | Replace the brackets around the cursors with [] |
-| C-A-S [ | Replace the brackets around the cursors with {} |
-| C-A-S ] | Replace the brackets around the cursors with {} |
-| C-A-r | Remove the brackets around the cursors |
-| C-A-. | Remove the brackets around the cursors and select the text within the brackets |
-| C-A-, | Select the brackets around the cursors and the text within the brackets |
+| C-S-./,                        | vydilyty oblasti red-ia (nastupne/poperednie) (oblasti redahuvannia tse: tehy, atrybuty tsilkom, znachennia atrybutiv tsilkom, znachennia atrybutiv okremo |
+|  C-S-/                         | zakomentuvaty riadky ano blok (yakshcho kursor poza tehom, zakomentuite vmist batkivskoho teha) |
+| C-S-`                          | zrobyty teh parnym/neparnym |
+| C-u                            | onovyty/dodaty rozmiry kartynky |
+| C-S-y                          | pidrakhuvaty mat. vyraz |
+| C-S-r                          | synkhronizuvaty CSS-pravyla (kilka pravyl z vendornymy prefiksamy |
+| C-'                            | koduvaty/dekoduvaty kartynku v data: URL |
+| C-S-'                          | vydilyty vidkryty i zakryty teh (redahuvaty teh) |
+| C-*arrow up*/*arrow down*      | zminyty chyslo na 1 |
+| A-*arrow up*/*arrow down*      | zminyty chyslo na 0.1 |
+| S-A-*arrow up*/*arrow down*    | zminyty chyslo na 10 |
+|--------------------------------+-------------------------------------|
+| Plahin Trailing Spaces         |                          |
+|--------------------------------+-------------------------------------|
+| C-S-t                          | vydalyty kintsevi probily |
+|--------------------------------+-------------------------------------|
+| Plahin Zen Tabs                |                          |
+|--------------------------------+-------------------------------------|
+| A-S-r                          | zen tabs perezavantazhyty |
+| A-Tab                          | peremykannia vkladok |
+|--------------------------------+-------------------------------------|
+| Plahin Clipboard History       |                          |
+|--------------------------------+-------------------------------------|
+| C-A-v                          | pokazaty istoriiu |
+| C-A-d                          | ochystyty istoriiu |
+| C-S-v                          | vstavyty poperednii (staryi) zapys istorii |
+| C-S-A-v                        | vstavte nastupni (novishyi) zapys istorii |
+|--------------------------------+-------------------------------------|
+| Plahin Console Wrap            |                          |
+|--------------------------------+-------------------------------------|
+| C-S-q                          | console wrap |
+| C-S-A-q                        | console wrap |
+| A-S-f                          | peremotuvannia |
+| A-S-t                          | vydalyty trailing spaces |
+| A-S-d                          | peremykannia trailing spaces |
+| A-S-1                          | goto css declaration |
+| A-S-n                          | rozshyrenyi novyi fail |
+| C-A-t                          | peremykannia termius panel |
+| A-`                            | vidkryty termius |
+| F6                             | chystyi css |
+| Enter                          | zavershenia |
+|--------------------------------+-------------------------------------|
+| Plahin Termius                 |                          |
+|--------------------------------+-------------------------------------|
+| A-`                            | peremykannia terminal panel |
+| C-A-t                          | vidkryty vyhliad terminalu v potochnomu katalozi failiv |
+| C-w                            | zakryty terminal                                                               |
+|--------------------------------+--------------------------------------------------------------------------------|
+| Plahin Sublime Linter          |                                                                                |
+|--------------------------------+--------------------------------------------------------------------------------|
+| C-k/l                          | lint tsei view                                                                 |
+| C-k/a                          | pokazaty usi pomylky                                                           |
+| C-k/n                          | do novoi pomylky                                                               |
+| C-k/p                          | do poperednoi pomylky                                                          |
+|--------------------------------+--------------------------------------------------------------------------------|
+| Plahin Pretty YAML             |                                                                                |
+|--------------------------------+--------------------------------------------------------------------------------|
+| C-A-y                          |                                                                                |
+|--------------------------------+--------------------------------------------------------------------------------|
+| Plahin jQuerry Docs            |                                                                                |
+|--------------------------------+--------------------------------------------------------------------------------|
+| A-j                            | jQuery dokumenty                                                               |
+|--------------------------------+--------------------------------------------------------------------------------|
+| Plahin Rainbow Brackets        |                                                                                |
+|--------------------------------+--------------------------------------------------------------------------------|
+| C-A-9                          | Replace the brackets around the cursors with ()                                |
+| C-A-0                          | Replace the brackets around the cursors with ()                                |
+| C-A-[                          | Replace the brackets around the cursors with []                                |
+| C-A-]                          | Replace the brackets around the cursors with []                                |
+| C-A-S [                        | Replace the brackets around the cursors with {}                                |
+| C-A-S ]                        | Replace the brackets around the cursors with {}                                |
+| C-A-r                          | Remove the brackets around the cursors                                         |
+| C-A-.                          | Remove the brackets around the cursors and select the text within the brackets |
+| C-A-,                          | Select the brackets around the cursors and the text within the brackets        |

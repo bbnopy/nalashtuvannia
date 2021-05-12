@@ -1,0 +1,50 @@
+* Rozshyrennia dlia Sublime Text 3
+
+1. [[ST3 link][https://packagecontrol.io]]
+2. BracketHighlighter
+3. All Autocomplete
+4. AutoFileName
+5. ColorPicker
+6. SideBarEnhancements
+7. SyncedSideBar
+8. AdvancedNewFile
+9. TrailingSpaces
+10. Git
+11. GitGutter
+12. auto-save
+13. ImagePreview
+14. Zen Tabs
+15. Clipboard History
+16. ApacheConf
+17. Console Wrap
+18. Icon Fonts
+19. Terminus
+20. WordCount
+21. WakaTime
+22. SublimeLinter
+23. MarkdownPreview
+24. Markdown Extended
+25. SublimeCodeIntel
+26. Pretty YAML
+27. RainbowBrackets
+28. Veb
+    + Emmet
+    + Babel
+    + jQuery
+    + jQueryDocs
+    + JavaScript & NodeJS Snippets
+    + JavaScript Enhancements
+    + Nodejs
+    + SublimeLinter-eslint
+    + SublimeLinter-jshint
+    + Vue Syntax Highlight
+    + HTML-CSS-JS Prettify
+    + HTML5
+    + HTML Nest Comments
+    + Placeholders
+29. Temy
+    + Material Theme
+    + Theme - Soda
+    + Theme - Spacegray
+    + Theme - Flatland
+    + Base16 Color Schemes
