@@ -1,0 +1,33 @@
+* Rozshyrennia dlia Visual Studio Code
+
+1. Django
+    + Django
+    + Django Template
+2. Python
+    + Python
+    + Python Extension Pack
+    + Python for VSCode
+    + Python Test Explorer for Visual Studio Code
+    + Python Indent
+    + MagicPython
+3. Stackoverflow Instant Search
+4. Beautify
+5. Path Autocomplete
+6. Auto Close Tag
+7. Auto Rename Tag
+8. Color the tag name
+9. Sublime Babel
+10. GitLens — Git supercharged
+11. Highlight Matching Tag
+12 select highlight in minimap
+13. vscode-pigments
+14. Anaconda Extension Pack
+15. Bracket Pair Colorizer
+16. Temy
+    + MS-DOS Theme
+    + (Actual) Obsidian
+    + [Kuskus] Kusto Color Theme
+    + Arcade
+    + DarkCode & LightCode Theme
+    + 1337 Theme
+    + 1984
