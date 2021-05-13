@@ -1,0 +1,4 @@
+(:name pkg-info
+       :type elpa
+       :description "This library extracts information from installed packages"
+       :url "https://stable.melpa.org/#/pkg-info")
