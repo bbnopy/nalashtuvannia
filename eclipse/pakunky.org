@@ -12,5 +12,12 @@
 10. Chuck Norris Facts
 11. Yaml Editor
 12. Enide.p2f - Eclipse Node.js IDE
-13. Temy
+13. GoClipse
+14. PyDev
+15. Python::Codemix
+16. Codemix 3
+17. Eclipse Web Developer
+18. SonatLint
+19. Temy
     + Eclipse Color Theme
+    + Darkest Dark Theme with DevStyle CI
