@@ -2,32 +2,51 @@
 
 1. [[ST3 link][https://packagecontrol.io]]
 2. BracketHighlighter
+3. Color Highlighter
 3. All Autocomplete
 4. AutoFileName
 5. ColorPicker
+6. DocBlockr
+7. Emoji
+8. GhostText
+9. GutterColor
 6. SideBarEnhancements
 7. SyncedSideBar
 8. AdvancedNewFile
+9. A File Icon
+10. Aligment
 9. TrailingSpaces
+10. View In Browser
 10. Git
-11. GitGutter
-12. auto-save
-13. ImagePreview
-14. Zen Tabs
-15. Clipboard History
-16. ApacheConf
-17. Console Wrap
-18. Icon Fonts
-19. Terminus
-20. WordCount
-21. WakaTime
-22. SublimeLinter
-23. MarkdownPreview
-24. Markdown Extended
-25. SublimeCodeIntel
-26. Pretty YAML
-27. RainbowBrackets
-28. Veb
+    + Git
+    + GitGutter
+    + GitHubination
+    + GitOpenChangedFiles
+    + SublimeGit
+11. auto-save
+12. ImagePreview
+13. Zen Tabs
+14. Clipboard History
+15. ApacheConf
+16. Console Wrap
+17. Icon Fonts
+18. Terminus
+19. WordCount
+20. WakaTime
+21. SublimeLinter
+22. SublimeLinter-pep8
+22. Markdown
+    + MarkdownEditing
+    + OmniMarkupPreviewer
+    #+BEGIN_SRC
+        { "render_options-MarkdownRender": {"extensions": ["tables", "frenced_code", "codehilite"]}}
+    #+END_SRC
+    + MarkdownPreview
+    + Markdown Extended
+24. SublimeCodeIntel
+25. Pretty YAML
+26. RainbowBrackets
+27. Veb
     + Emmet
     + Babel
     + jQuery
@@ -42,9 +61,33 @@
     + HTML5
     + HTML Nest Comments
     + Placeholders
+27. Python
+    + DocBlockr_Python
+    + PyV8
+    + Jedi - Python autocomplete
+    + Python Improved
+    + Python 3
+28. Django
+    + Anaconda
+    + Djanero
+    + Django
+29. Golang
+    + Anaconda_go
+    + Golang build
+    + Sublimelinter-golangcilint
 29. Temy
     + Material Theme
     + Theme - Soda
     + Theme - Spacegray
     + Theme - Flatland
     + Base16 Color Schemes
+    + Agila Theme
+    + ayu
+    + Boxy Theme
+    + Colorsublime
+    + Materialize
+    + Predawn
+    + Seti_UI
+    + Theme - Centurion
+    + Theme - Lanzhou
+    + Tinacious Desing colour scheme
