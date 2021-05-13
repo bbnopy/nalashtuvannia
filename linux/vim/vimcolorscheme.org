@@ -1,0 +1,20 @@
+* Standartni kolorovi skhemy VIM
+
+1. blue
+2. darkblue
+3. default
+4. delek
+5. desert
+6. elflord
+7. evening
+8. industry
+9. koehler
+10. morning
+11. murphy
+12. pablo
+13. peachpuff
+14. ron
+15. shine
+16. slate
+17. torte
+18. zellner
