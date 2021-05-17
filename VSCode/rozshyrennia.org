@@ -1,127 +1,94 @@
 * Rozshyrennia dlia Visual Studio Code
 
-1. Django
-    + Django
-    + Django Template
-2. Python
-    + Python
-    + Python Extension Pack
-    + Python for VSCode
-    + Python Test Explorer for Visual Studio Code
-    + Python Indent
-    + MagicPython
-3. Stackoverflow Instant Search
-4. Beautify
-5. Path Autocomplete
-6. Auto Close Tag
-7. Auto Rename Tag
-8. Color the tag name
-9. Sublime Babel
-10. GitLens — Git supercharged
-11. Highlight Matching Tag
-12 select highlight in minimap
-13. vscode-pigments
-14. Anaconda Extension Pack
-15. Bracket Pair Colorizer
-16. Remote WSL
-17. Wakatime
-18. Sublime Text Keymap and Settings Imported
-19. Atom Keymap
-20. Visual Studio Keymap
-21. Git Project Manager
-22. Git History
-23. Notepad++ keymap
-24. Azure Repos
-25. Hg
-26. Perforce for VS Code
-27. Github Pull Requests
-28. Debugger for Chrome
-29. markdownlint
-30. Markdown TOC
-31. Markdown Shortcuts
-32. Markdown Preview Github Styling
-33. Markdown+Math
-34. Markdown Emoji
-35. Markdown Preview with Bitbucket Styles
-36. PowerShell v2019
-37. Emacs Keymap
-38. Eclipse Keymap
-39. Project Manager
-40. Auto Import
-41. Add jsdoc comments
-42. ESDoc MDN
-43. Google Fonts
-44. TODO Highlight
-45. Docker
+1. awesome-vscode
+2. Better Comments
+3. Blank Line at the End of File
+4. Bracket Pair Colorizer
+5. Browse Preview
+6. Code Time
+7. Color Highlight
+7. HTML/CSS/SASS/SCSS/JAVASCRIPT/JSON
+    + Beautify
+    + Beautify CSS/SASS/SCSS/LESS
+    + HTML
+        + Auto Close Tag
+        + Auto Rename Tag
+
+22. Color the tag name
+23. CSS Peek
+24. CSSTree validator
+25. Debugger for Chrome
+26. Django /     + Django /     + Django Template
+27. Docker
+28. Document This
+29. Eclipse Keymap
+30. ECMAScript Quotes Transformer
+31. EditorConfig for VS Code
+32. Emacs Keymap
+33. ESDoc MDN
+34. ESLint
+35. Flow Language Support
+36. ftp-sync
+37. GitLens - Git supercharged / Git Project Manager / Git History / Github Pull Requests / GitHub Extension
+38. Google Fonts
+39. Guides
+40. Handlebars
+41. Hg
+42. Highlight Matching TagbarFoldIcon
+43. HTML CSS Support
+44. HTMLHint
+45. HTML Snippets
 46. Import Cost
-47. Peacock
-48. Handlebars
-49. Bookmarks
-50. ftp-sync
-51. Runner
-52. Live Server
-53. Bracket Pair Colorizer
-54. Auto Rename Tag
-55. Remote - Containers
-56. Path IntelliSense
-57. Settings Sync
-58. Live Share
-59. GitHub Extension
-60. Markdown All in One
+47. indent-rainbow
+48. IntelliSense for CSS class names in HTML
+49. JavaScript and TypeScript Nightly
+50. JavaScript Booster
+51. JavaScript ES6 code snippets
+52. jshint
+53. JS & CSS Minifier
+54. Live Sass Compiler
+55. Live Server
+56. Live Share
+57. markdownlint / Markdown TOC / Markdown Shortcuts / Markdown Preview Github Styling / Markdown Math / Markdown Emoji / Markdown Preview with Bitbucket style / Markdown All In One / Instant Markdown
+58. Notepad++ keymap
+59. NPM
+60. npm Intellisense
 61. Open in Browser
-62. Trailing Spaces
-63. Blank Line at the End of File
-64. Guides
-65. Instant Markdown
-66. Rainbow Brackets
-67. indent-rainbow
-68. vscode-caniuse
-69. VS Color Picker
-70. Live Sass Compiler
-71. NPM
-72. EditorConfig for VS Code
-73. npm Intellisense
-74. Paste and Indent
-75. Sort lines
-76. Code time
-77. Polacode
-78. Browser Preview
-79. Better Align
-80. awesome-vscode
-81. Prettier - Code formatter
-82. stylelint
-83. ESLint
-84. Flow Language Support
-85. Code Runner
-86. Code Spellchecker
-87. XML Tools
-88. Beautify
-89. TSLint
-90. Auto Close Tag
-91. REST Client
-92. Better Comments
-93. HTML CSS Support
-94. IntelliSense for CSS class names in HTML
-95. Beautify css/sass/scss/less
-96. jshint
-97. StandartJS - JavaScript Standart Style
-98. HTML Snippets
-99. HTMLHint
-100. Document This
-101. JavaScript and TypeScript Nightly
-102. CSS Peek
-103. Color Highlight
-104. ECMAScript Quotes Transformer
-105. JavaScript ES6 code snippets
-106. Quokka.js
-107. CSSTree validator
-108. JS & CSS Minifier
-109. Atom JavaScript Snippet
-110. JavaScript Booster
-111. SCSS IntelliSense
-112. Sort JSON objects
-113. python
-114. 
+62. Paste and Indent
+63. Path Autocomplete
+64. Path IntelliSense
+65. Peacock
+66. Perforce for VS Code
+67. Prettier - Code formatter
+68. Polacode
+69. PowerShell v2019
+70. Project Manager
+71. Python /     + Python /     + Python Extension Pack /     + Python for VSCode /     + Python Test Explorer for Visual Studio Code  /    + Python Indent /     + MagicPython
+72. Quokka.js
+73. Rainbow Brackets
+74. Remote - Containrts
+75. Remote WSL
+76. REST Client
+77. Runner
+78. SCSS IntelliSense
+79. select highlight in minimap
+80. Settings Sync
+81. Sort JSON objects
+82. Sort lines
+83. Stackoverflow Instant Search
+84. StandartJS - JavaScript Standart Style
+85. stylelint
+86. Sublime Babel
+87. Sublime Text Keymap and Settings Imported
+88. TODO Highlight
+89. Trailng Spaces
+90. TSLint
+91. Visual Studio Keymap
+92. vscode-caniuse
+93. vscode-pigments
+94. VS Color Picker
+95. Wakatime
+96. XML Tools
 16. Temy
     + MS-DOS Theme
     + (Actual) Obsidian
