@@ -13,8 +13,7 @@
     + HTML
         + Auto Close Tag
         + Auto Rename Tag
-
-22. Color the tag name
+9. Color the tag name
 23. CSS Peek
 24. CSSTree validator
 25. Debugger for Chrome
