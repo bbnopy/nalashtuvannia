@@ -7,7 +7,7 @@
 5. Browse Preview
 6. Code Time
 7. Color Highlight
-7. HTML/CSS/SASS/SCSS/JAVASCRIPT/JSON
+8. HTML/CSS/SASS/SCSS/JAVASCRIPT/JSON
     + Beautify
     + Beautify CSS/SASS/SCSS/LESS
     + HTML
