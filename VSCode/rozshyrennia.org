@@ -1,202 +1,863 @@
 * Rozshyrennia dlia Visual Studio Code
 
 1. awesome-vscode
+    + .NET Core Test Explorer
+    + C# Extension
+    + Changelog
+    + Code Spell Chaker
+        + Ukrainian - Code Spell Checker
+    + Cucumber
+    + Debugger for Chrome
+    + Docker
+    + EditorConfig for VS Code
+    + ESLint
+    + GitHub Pull Requests and Issues
+    + GitLens - Git supercharged
+    + indent-rainbow
+    + jshint
+    + Markdown All in One
+    + markdownlint
+    + npm Intellisense
+    + Prettier - Code formatter
+    + Rainbow Bracket
+    + TSLint
+    + TypeScript Hero
+    + XML Tools
+    + Whitespace
 2. Better Comments
-3. Blank Line at the End of File
-4. Bracket Pair Colorizer
+3. Bracket Pair Colorizer 2
+4. BreadCrumb in StatusBar
 5. Browse Preview
-6. Code Time
-7. Color Highlight
-8. HTML/CSS/SASS/SCSS/JAVASCRIPT/JSON
-    + Beautify
-    + Beautify CSS/SASS/SCSS/LESS
-    + HTML
-        + Auto Close Tag
-        + Auto Rename Tag
-9. Color the tag name
-23. CSS Peek
-24. CSSTree validator
-25. Debugger for Chrome
-26. Django /     + Django /     + Django Template
-27. Docker
-28. Document This
-29. Eclipse Keymap
-30. ECMAScript Quotes Transformer
-31. EditorConfig for VS Code
-32. Emacs Keymap
-33. ESDoc MDN
-34. ESLint
-35. Flow Language Support
-36. ftp-sync
-37. GitLens - Git supercharged / Git Project Manager / Git History / Github Pull Requests / GitHub Extension
-38. Google Fonts
-39. Guides
-40. Handlebars
-41. Hg
-42. Highlight Matching TagbarFoldIcon
-43. HTML CSS Support
-44. HTMLHint
-45. HTML Snippets
-46. Import Cost
-47. indent-rainbow
-48. IntelliSense for CSS class names in HTML
-49. JavaScript and TypeScript Nightly
-50. JavaScript Booster
-51. JavaScript ES6 code snippets
-52. jshint
-53. JS & CSS Minifier
-54. Live Sass Compiler
-55. Live Server
-56. Live Share
-57. markdownlint / Markdown TOC / Markdown Shortcuts / Markdown Preview Github Styling / Markdown Math / Markdown Emoji / Markdown Preview with Bitbucket style / Markdown All In One / Instant Markdown
-58. Notepad++ keymap
-59. NPM
-60. npm Intellisense
-61. Open in Browser
-62. Paste and Indent
-63. Path Autocomplete
-64. Path IntelliSense
-65. Peacock
-66. Perforce for VS Code
-67. Prettier - Code formatter
-68. Polacode
-69. PowerShell v2019
-70. Project Manager
-71. Python /     + Python /     + Python Extension Pack /     + Python for VSCode /     + Python Test Explorer for Visual Studio Code  /    + Python Indent /     + MagicPython
-72. Quokka.js
-73. Rainbow Brackets
-74. Remote - Containrts
-75. Remote WSL
-76. REST Client
-77. Runner
-78. SCSS IntelliSense
-79. select highlight in minimap
-80. Settings Sync
-81. Sort JSON objects
-82. Sort lines
-83. Stackoverflow Instant Search
-84. StandartJS - JavaScript Standart Style
-85. stylelint
-86. Sublime Babel
-87. Sublime Text Keymap and Settings Imported
-88. TODO Highlight
-89. Trailng Spaces
-90. TSLint
-91. Visual Studio Keymap
-92. vscode-caniuse
-93. vscode-pigments
-94. VS Color Picker
-95. Wakatime
-96. XML Tools
-16. Temy
+6. CodeStream
+7. Code Time
+8. Color Highlight
+9. ColorTabs
+10. Debugger for Chrome
+11. Debugger for Firefox
+12. Emacs
+    + Emacs
+    + Emacs Keymap
+13. ftp-sync
+14. GCode
+    + nc-gcode
+15. Git
+    + GitHub
+    + gitignore
+    + Git History
+16. Glassit-VSC
+17. heroku-cli
+18. JSON
+    + JSON
+    + Sort JSON objects
+19. LISP
+    + Black Metal Common Lisp
+    + Common Lisp
+    + Lisp
+    + Lispy
+20. Markdown
+    + Markdown Preview Github Styling
+21. Marquee
+22. npm
+    + npm
+23. Org Mode
+24. Path Autocomplete
+25. Power Mode
+26. PowerShell
+27. Remote
+    + Remote - Containrts
+    + Remote - SSH: Editing Configuration Files
+    + Remote WSL
+28. select highlight in minimap
+29. SmoothType
+30. Sort lines
+31. SQL
+    + SQL Server (msqql)
+32. Stackoverflow Instant Search
+33. Syntax Highlighter
+34. Terminal
+    + Terminal
+    + Terminal All in One
+35. TODO Highlight
+36. Vibrancy
+37. VimL (Vim Language, Vim Script)
+38. vscode-pdf
+39. vscode-pigments
+40. VSCode Terminal themes
+41. VS Color Picker
+42. Wakatime
+43. Window Colors
+44. XML
+    + XML
+    + XML Tools
+45. YAML
+    + docs-yaml
+    + YAML
+
+41. Temy
     + MS-DOS Theme
     + (Actual) Obsidian
     + [Kuskus] Kusto Color Theme
     + Arcade
     + DarkCode & LightCode Theme
     + 1337 Theme
-    + 1987
+    + 1984
+    + 1987 Theme
+    + 1Dark RainCoat
     + 1mm Themes
-    + 2077
+    + 2077 theme
+    + 3024 Theme Kit
     + 8-Colour-Dark-Theme
     + 8bit
+    + 90s Anime
     + A Touch of Lilac Theme
+    + A-super-themes
+    + absolutely-black
     + Abyss Theme
+    + After Dark
     + Afterglow Remastered
     + Afterglow Theme
+    + Agila Theme
+    + Alabaster Theme
     + Amethyst Themes
     + An Old Hope Theme
     + Andromeda
     + Angular-io-Code
     + Aramok's Black
     + Arc Dark for Visual Studio Code
+    + Arc+
+    + Arduino
     + Ariake Dark
     + Arkademy - Odoo Technical Training
+    + Arkham Theme
+    + Atlantic Night
     + Atom Dark Syntax
     + Atom Material Theme
     + Atom One Dark Syntax Theme
     + Atom One Dark Theme
     + Atom One Light Theme
     + Atom Pro Theme
+    + Atomic Dark Theme
     + Atomize (Atome One Dark theme)
     + Atomized Theme
+    + August Themes
+    + Aurora
     + Aurora Theme
     + Aurora X
+    + Awesome Material Theme
     + Ayu
+    + Ayu Adaptive
+    + Ayu Legacy
+    + Ayu Mirage PowerUp
+    + Ayu MirageMod
     + Ayu One Dark
+    + Ayu One Dark Pro (deprecated)
     + Ayu Owl
     + Azure Dark Theme
     + azure Theme
     + Azurish
     + Base16 Grayscale
+    + Base16 Ocean Dark Extended Theme
     + Base16 Ocean Kit
+    + Base16 Theme Generator
     + Base16 Themes
     + Base16 Tomorrow Dark+
     + Base2tone VSCode Themes
     + bashling Theme
     + Batman Theme
+    + BBEdit Light Theme
     + Bear Theme
     + Bearded Theme
     + Beautiful UI
+    + Because Themes
     + Behave Theme
+    + Best Light Themes Pack
+    + Better MIPS Support
     + Better Solarized
+    + Beyond the Horizon
+    + Bio Dark
     + Bittersweet Theme
     + Black
+    + Black
+    + Black gold theme
+    + Black Ocean
     + blackai-theme
     + Blackboard Theme
+    + Blue Light Theme
+    + Bluberry Banana
+    + Bluberry dark theme
+    + Blueprint
     + Bluloco Dark Theme
     + Bluloco Light Theme
+    + Boxy Theme Kit
+    + Brackets Dark
+    + Brackets Light 
+    + Brackets Light Pro +++++
+    + Braver's Solarized
     + Breeze Dark Theme for VS Code
     + Brogrammer Theme
     + bubblegum
     + C/C++ Themes
+    + Calamity
     + Cameo
     + Capo-Dark Theme
     + Capo-Light Theme
+    + cc65 for 6502/65816
     + Celestial
     + Chalice Color Theme
+    + Chinolor Theme
+    + Chrome Dev Tools
     + Chrome_DevTools Theme
+    + Chromodynamics Theme
     + Cika dark purple, red, blue, black Theme
     + City Lights theme
     + Cobalt 3
     + Cobalt Blue
     + Cobalt Next
     + Cobalt Theme
+    + Cobalt0 Theme
     + Cobalt2 Theme
     + Cobalt2 Theme Official
     + Code Blue
     + Coder Coder Dark
     + CodeRunner 2 like Theme
+    + CodeSandbox Black
     + CodeSandbox Theme
+    + codeSTACKr Theme
+    + Codey Midnight
+    + Cold Horizon Theme
     + coldfusion
     + Community Material Theme
+    + Contrast Theme
     + Crayon-VSCode
+    + CRT Themes
+    + Custom C++ Highlighting
+    + Cute Pink Light Theme
     + Cyberpunk
     + Cyberpunk 2077
+    + Cyberpunk+
+    + Dainty
+    + Dainty - Material Theme Palenight
+    + Dainty - Nord
     + Dainty - Panda Theme
-    + Dracula 2.0 Python Adapter
-    + Dracula IntelliJ Theme
-    + Dracula PyCharm Theme
-    + Dracula python
-    + Dracula Theme
+    + Dank Neon
+    + Darcula *****
+    + Darcula 2.0 Python Adapter
+    + Darcula Extended Theme
+    + Darcula Extra
+    + Darcula IntelliJ Theme
+    + Darcula Operator Mono
+    + Darcula PyCharm Theme
+    + Darcula python
+    + Darcula Theme
+    + Darcula Theme - WebStorm Edition
     + Dracula theme for Elixir
-    + Dark C++
+    + Dark
+    + Dark Atom Dark Greeen Cursor Theme
+    + Dark Blue Spring
+    + Dark C++ Theme
     + Dark Candy
     + Dark Chrome DevTools
+    + Dark Dark
+    + Dark GitHub Theme
+    + Dark Green
+    + Dark hacker theme
     + Dark Low Contrast Themes
+    + Dark Mode
+    + Dark Mode - Mac OS
+    + Dark Molokai Theme
     + Dark One
+    + Dark Party
     + Dark Pixel
+    + Dark Purple - WebStorm Edition
+    + Dark Red Theme
+    + Dark Refined
+    + Dark Sea
     + Dark-Dracula Theme
     + dark-plus-syntax
+    + Dark+ Black
+    + Dark+ Elixir
     + Dark+ Material
     + Dark+ Mono
     + Dark++ Italic
+    + Dark++ Regular
     + Dark++ Theme
     + Darker Dark Theme
+    + Darkplusix
     + Darktooth Theme
     + Darkula
+    + Darwin
     + Dawn Theme
+    + Daybreak
+    + Dayle Rees Themes
+    + Deep Blue
     + Deepdark Material Theme
+    + Default Dark+ Contrast
+    + Default Material Dark Theme
+    + Default+ Tweaked
     + Delphi Themes
     + DesertEx
-    + 
+    + Dev-C++ Theme
+    + dimmed-monokai Theme
+    + Discord Tools
+    + Django Theme
+    + Dobri Next - Themes and Icons
+    + Dracula At Night
+    + Dracula Dracula
+    + Dracula Official
+    + Dracula Refined
+    + Dracula Soft Syntax Theme
+    + Dracula Theme
+    + Dracula Themes with Italic Keyword
+    + Dracula-Dark-Vibrant
+    + Dreamweaver Theme
+    + Dreamweaver Web Themes
+    + DuoTone Dark Themes
+    + DVLPR Theme
+    + Eagle Oceanic Next
+    + Earthbound Themes
+    + Earthsong Theme
+    + Eclipse Color Theme
+    + Edge Theme
+    + Egoist One
+    + Electron Color Theme
+    + Electron Highlighter Syntax
+    + Electron vue
+    + Enki
+    + Enki Theme
+    + eppz! (C# theme for Unity)
+    + escook-theme
+    + Espresso theme
+    + Eva Theme
+    + Expressive Theme
+    + fairyfloss
+    + Fania Theme
+    + Fantastic
+    + Feather
+    + feel_good Theme
+    + Field Light Theme
+    + FireFly Pro
+    + Firefox DevTools
+    + Firefox Quantum Themes
+    + Firefox Theme
+    + Flat Theme
+    + Flat UI
+    + Flat UI
+    + Flat UI Theme
+    + Flat_Dark Theme
+    + Flatland Monokai
+    + Flatland Monokai Theme
+    + Flatland_Dark Theme
+    + Forest Focus
+    + Forgive Green
+    + Framer Dark
+    + Framer Syntax
+    + Framer Syntax 2
+    + Fresh Light
+    + Fresh Material
+    + Gatito Theme
+    + GitHub 3
+    + GitHub Bold Theme
+    + GitHub Clean White Theme
+    + Github Light Theme
+    + GitHub Plus Theme
+    + GitHub Sharp Theme
+    + GitHub Theme
+    + GitHub Theme
+    + github-ui
+    + Glaciel
+    + Glacier Theme
+    + Glass UI
+    + Gloom
+    + Go Themes (playground & src)
+    + Golden Dracula
+    + Gotham Theme
+    + Gray Matter
+    + Green Theme
+    + Greenery
+    + Gruvbox Concoctis
+    + Gruvbox Material
+    + Gruvbox Minor
+    + Gruvbox Theme
+    + Hacker Colors
+    + Hacker Style Themes
+    + Hacker Theme
+    + hacker-theme
+    + hackerman-syntax
+    + Hackers Haze Theme
+    + Hackpot
+    + HackTheBox
+    + Hail Theme
+    + Halcyon Theme
+    + Happy Hipster
+    + Harmonic16 light Theme
+    + HBuilderX Soft Green Light Theme
+    + Henna Color Theme
+    + Hipster Theme
+    + Hop Light
+    + Hopscotch
+    + Horizon Theme
+    + Horizon Theme
+    + Horla Light Theme
+    + Huacat Pink Theme
+    + Hybrid Next
+    + Hydra Theme for VS-Code
+    + Hyper Dracula
+    + Hyper Term Theme
+    + IBM Color Theme
+    + Iceberg
+    + Iceberg Theme
+    + Icy Kiss & Deep Jungle Theme
+    + IDEA like light Theme
+    + IDLE Theme
+    + In Bed By 7pm
+    + infinity dark theme
+    + inkSea Theme
+    + Intellij IDEA light Theme
+    + Intellij-ish Darcula Theme
+    + InternetstormBold
+    + Japanesque Theme
+    + Jeng Theme Light
+    + JetJet-theme
+    + Jo's Light Theme
+    + Joker Theme
+    + JSFiddle Like Syntax Theme
+    + Julia Color Theme
+    + Just Black
+    + Kabukicho
+    + Kai Light
+    + Kaia Theme
+    + Karry Color Golang Theme
+    + Kary Pro Colors
+    + Kawaii Theme
+    + Kay theme
+    + Laetus: Dark Vibrant Theme
+    + Laravel Documentation Inspired Theme
+    + Laravel PyCharm Theme
+    + Laravel Theme
+    + Laravel Theme
+    + Laravel Theme
+    + LaserWave
+    + Launchbase Theme
+    + Level Up Tutorials Theme Official
+    + Light High Contrast Theme
+    + Lilac
+    + Linux Themes for VS Code
+    + Linux Themes for VS Code
+    + Liqube Dark Code
+    + lucy
+    + Luke Dark Theme
+    + Lukin Theme
+    + Mac Classic VS Code Theme
+    + Macaroon Theme
+    + macOS Classic
+    + MacOS Modern Theme
+    + macOS Theme
+    + maple
+    + Mariana
+    + Mariana Nord
+    + Mariana Pro
+    + Markdown Theme Kit
+    + Massimo-theme
+    + Materia
+    + Material Color
+    + Material Dark
+    + Material Dark Color Theme
+    + Material Dark Soda
+    + Material Darker Theme
+    + Material facebook Theme
+    + Material Gecko
+    + Material Light Theme
+    + Material Minimal Dark
+    + Material Monokai Theme
+    + Material Neutral Theme
+    + Material Ocean Next Theme +
+    + Material Syntax - Dark
+    + Material SynthWave
+    + Material Theme
+    + Material Theme
+    + Material Theme Italicize
+    + Material Theme Kit
+    + Material Theme Pack
+    + Material UI
+    + Material-last
+    + Matrix Theme
+    + Matrix-Theme
+    + Mayukai Theme
+    + Memory Color Theme
+    + merko's green theme
+    + Meteor theme
+    + Microsoft Graph Theme
+    + Midnight City
+    + Min Theme
+    + minimal
+    + Mirage
+    + Modified Seti Theme
+    + Momo Theme
+    + Mongo Runner
+    + Monochrome
+    + Monokai - High Contrast
+    + Monokai Alt
+    + Monokai Charcoal high contrast
+    + Monokai Dark Soda
+    + Monokai Dark Vibrant
+    + Monokai Extended
+    + Modified Seti Theme
+    + Monokai GRS
+    + monokai light
+    + Monokai Mega
+    + Monokai Night Theme
+    + Monokai Ocean
+    + Monokai One Dark Vivid
+    + Monokai Operator
+    + Monokai Phoenix
+    + Monokai Pro
+    + Monokai Seti
+    + Monokai Sharp
+    + Monokai Sharp Theme
+    + Monokai ST3
+    + Monokai Theme
+    + Monokai Theme Easylight
+    + Monokai Vibrant
+    + Monokai_light
+    + monokai-best Theme
+    + Monokai-Cobalt Theme
+    + Monokai-Contrast Theme
+    + Monokai-Midnight Theme
+    + Monokai-Polished
+    + Monokai-Soft-MD Theme
+    + Monokai++
+    + Monolivia Theme for C#
+    + Moonlight
+    + morgan.codes-theme
+    + Mr Pink
+    + MTA:SA Lua
+    + My Firewatch Theme
+    + Nano Themes
+    + NaturalContrast Theme with High Contrast
+    + Nebula Pandas
+    + Nebula Theme
+    + Neon Monokai
+    + Neon Night
+    + Neon Theme
+    + Neon Vommit Color Theme
+    + NetBeans Light Theme
+    + NetBeans Theme
+    + Netflix Red Theme
+    + New Moon Syntax Theme
+    + Nicer High Contrast
+    + Night Owl
+    + Night Owl Black
+    + Night Rider
+    + Night Wolf
+    + NightLion Dark Color Theme
+    + Niketa Theme Dark
+    + Niketa Theme Light
+    + Noctis
+    + Noctis High Contrast
+    + Nord
+    + Nord Dark *****
+    + Nord Deep
+    + Nord Light
+    + Nord Operator Theme
+    + Nord Wave
+    + Nosferatu
+    + Nostromo Theme
+    + NotepadPlusPlus Remixed Theme
+    + Nova
+    + Nushu
+    + Ocean Space
+    + Ocean Theme
+    + Oceanic Next (Sublime Babel)
+    + Oceanic Next Custom Dark
+    + Oceanic Next Italic
+    + Oceanic Next Sublime
+    + Oceanic Plus
+    + Office Theme
+    + Omni Theme
+    + One Dark Bimbo
+    + One Dark Darker
+    + One Dark Flatland Monokai
+    + One Dark Italic Theme
+    + One Dark Operator Theme
+    + One Dark Plus
+    + One Dark Pro
+    + One Dark Pro
+    + One Dark Pro Italic Vivid
+    + One Dark Pro Monokai Darker Theme
+    + One Dark Space Gray Theme
+    + One Dark Theme
+    + One Dark Theme
+    + One Dark Theme Improved
+    + One Dark Vivid
+    + One Dark Vivid Theme
+    + One Material Dark+
+    + One Monokai 80s Theme
+    + One Monokai Darker
+    + One Monokai Theme
+    + OneDark-Dark+
+    + OneDark++ & OneLight++
+    + OperatorMonoDarktheme
+    + Origamid Next
+    + Origamid Theme
+    + Orion Dark
+    + OS X Flat Dark
+    + Outurn
+    + Over Night Owl
+    + Overnight
+    + Paddy Color Theme
+    + Palenight Theme
+    + Panda Dark
+    + Panda Theme
+    + Paper-tmTheme
+    + papercolor-vscode
+    + Paradox Syntax
+    + Pastel-Pixels
+    + Pastel_on_Dark Theme
+    + peel Theme
+    + Pink Green Theme
+    + Pink-Cat-Boo Theme
+    + Pitch Black Theme
+    + Plain Theme
+    + Plastic
+    + Polymer Syntax
+    + Pop N'Lock Theme by Luxcium
+    + Pop Theme
+    + Popping and Locking Black Theme
+    + Popping and Locking Theme
+    + PowerShell
+    + Predawn Theme Kit
+    + Predawn Twilight
+    + Primal
+    + Primer Light
+    + Purple Night
+    + Py Light
+    + Pytheme
+    + Python Mix Theme
+    + Qiita
+    + Quiet Light for VSC
+    + Quiet Light+ Theme
+    + Ra Dark
+    + Ra Spring Light Theme
+    + Radical
+    + Railgun Theme
+    + RailCasts
+    + Railcasts Renewed
+    + Rainbow Theme
+    + Rainbow Theme
+    + Rainglow
+    + RBE Matrix Skin Theme
+    + React Theme
+    + React Theme
+    + Red Theme
+    + Relaxed
+    + reloaded Theme
+    + Remedy
+    + Retreon Color Theme
+    + Retro Assembler
+    + Retro Theme
+    + ReUI
+    + Rocket Theme
+    + Rose Pine
+    + Roseate
+    + Rouge Theme
+    + RubyBlue Theme
+    + Sakura Garden At Night
+    + Sam Monokai Dark
+    + Sandstorm Color Theme
+    + Sapphire Theme
+    + SC themes + icons pack
+    + Sea Green Theme
+    + Search Lights
+    + Sepia Theme
+    + September Steel
+    + Seti (Improved)
+    + Seti-Black
+    + Seti-theme
+    + Shades of Blue
+    + Signed of Purple
+    + Shaizei Lights
+    + Shark Color Theme
+    + Signed Dark Pro
+    + Simple Black Theme
+    + Simple Dark
+    + Simple Dark Theme
+    + Sk-VSC (Skript)
+    + Slack Theme
+    + Slime Theme
+    + Smile Theme
+    + Smooth Yellow Theme
+    + Snazzy Light
+    + Snazzy Operator
+    + Snazzy Plus
+    + Snazzy Theme
+    + soft era
+    + Solarized
+    + Solarized Custom
+    + Solarized Espresso Soda
+    + Solarized Light (no Bold)
+    + Solarized-dark Theme
+    + Solarized-light Theme
+    + Solarized-light-fjs
+    + Son of Obsidian Theme
+    + Sorcerer
+    + Sourcegraph Theme
+    + Sourlick Theme
+    + Space Ocean Kit Refined
+    + Spacegray VSCode
+    + spacegray-python
+    + Spacemacs
+    + Spacemacs Theme
+    + Spirited Away Color Theme
+    + Spotify Color Theme
+    + Spring Theme
+    + SQL Language
+    + Squirrelsong Light Theme
+    + Styrokai
+    + Sublime Material Theme
+    + Sublime MavenMate Monokai for Apex
+    + Sublime Monokai
+    + Sublime VSCode Theme
+    + Subliminal
+    + Subway (dark)
+    + Summer Time Theme
+    + Sunburst Theme
+    + Sunrise
+    + Sunset Theme
+    + Super One Dark Theme
+    + supudo Light Theme
+    + Sweet Vscode
+    + Symfony Dark Theme
+    + Symfony Theme
+    + syntax
+    + Syntax Highlight Theme
+    + Syntax
+    + SynthWave '84
+    + Syntax x Fluoromachine
+    + The Best Theme
+    + The Doki Theme
+    + The Orange Box Theme
+    + Theme -  Oceanic Next
+    + Theme - Seti Monokai
+    + theme black - dark JuanCarlos (Ruth)
+    + theme-chromodynamics
+    + theme-gruvbox
+    + Theme-RealGitHub
+    + themes
+    + Tinacious Design theme
+    + Tiny Light
+    + Tokyo Hack
+    + Tokyo Night
+    + Tomorrow and Tomorrow Night Operator Mono Theme
+    + Tomorrow and Tomorrow Night Theme Kit
+    + Tomorrow_Night Theme
+    + Tomorrow_Night_Eighties Theme
+    + tonic Theme
+    + Toothpaste
+    + Tsunetsuki Theme
+    + Twilight Theme
+    + TwoStones Theme
+    + Ubuntu Style Theme
+    + Ubuntu Vscode Theme
+    + Universe
+    + Verdandi Theme
+    + Verdandi Light Theme
+    + Viom Color Themes
+    + Visual Studio 2017 Light Theme
+    + Visual Studio 2019 Theme
+    + Visual Studio Blue Theme
+    + Visual Studio Dark Theme
+    + Visual Studio for Mac Light Theme
+    + Visual Studio Light Theme
+    + VS One Dark Theme
+    + vscode chester atom
+    + vscode-perfect-dark-color-theme
+    + Vue Theme
+    + vue-color
+    + Vulgocode Theme
+    + Wal Theme
+    + WebCode Light jetbrains theme
+    + WebStorm IntelliJ Dracula Theme
+    + White
+    + wild-cherry Theme
+    + Wildberry Theme
+    + Wildlife Theme
+    + Winter is Coming Theme
+    + Word
+    + Workbench Themes
+    + WoW Bundle
+    + Xcode 10
+    + Xcode Default Theme
+    + Xcode Midnight theme
+    + Xcode_default Theme
+    + XD Theme
+    + XT Color theme
+    + Varra Valley
+    + Yi Dark & Yi Light Themes
+    + Ysgrifennwr Theme
+    + zacks Theme
+    + Zenburn
+    + Zenburn Dark Matter Theme
+    + Zenburn Theme
+    + Zeonica
+    + Zeus-Sublime-Text Theme
+    + WeChat
+
+42. Ikonky
+    + Aramok's Black
+    + Atom Icons
+    + Bearded Icons
+    + Bootstrap Product Icons
+    + Cage Icons
+    + Carbon Product Icons
+    + Chalice Icon Theme
+    + City Lights Icon package
+    + Dark Mode
+    + Daybreak
+    + Deepdark Material Theme
+    + Default Dark+ Contrast
+    + Dobri Next - Themes and Icons
+    + Easy icon theme
+    + Enki
+    + Field Light Theme
+    + File & Folder Icons
+    + file-icons
+    + file-icons-mac
+    + flatland icon theme
+    + Fluent Icons
+    + Helium Icon Theme
+    + Kary Pro Colors
+    + Keen neutral icon theme
+    + macOS Classic
+    + MacOS Modern Theme
+    + Material Color
+    + Material Icon Theme
+    + Material Product Icons
+    + Material Theme Icons
+    + Minimalist Product Icon Theme
+    + Monokai Seti
+    + Mosmmy Icons
+    + Nomo Dark Icon Theme
+    + Nomo Dark macOS Icon Theme
+    + Origamid Next
+    + Primer Light
+    + Quill Icons
+    + Rose Pine
+    + Rusty icons
+    + SC themes + icons pack
+    + Seedling Icon Theme
+    + seti-icons
+    + Simple icons
+    + Smile Icons
+    + Studio Icons Theme
+    + Sweet Vscode Icons
+    + Try's Icon Pack
+    + Verdandi Theme
+    + Viking Icon Theme
+    + Visual Studio classic icons
+    + VS One Dark Theme
+    + VSCode Great Icons
+    + VSCode simpler icons with Angular
+    + vscode-icons
+    + vscode-icons-mac
+    + vscode-vba-icons
+    + WebStorm Icon Theme

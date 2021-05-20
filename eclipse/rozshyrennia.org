@@ -1,23 +1,32 @@
 * Pakunky dlia Eclipse
 
-1. HTML Editor WTP
-2. JSHint Eclipse
-3. IBM Monitoring and Diagnostic Tools - Health Center
-4. IBM Monitoring and Diagnostic Tools - Garbage Collection and Memory Visualizer (GCMV)
-5. Clippet
-6. Wakatime
-7. Tern Eclipse IDE - Outdated - use Wild Web Developer instead
+1. Autodetect Encoding
+2. Buildship Gradle Integration
+2. CheckStyle
+3. Chuck Norris Facts
+4. Clippet
+5. Codemix 3
+6. Eclipse Docker Tooling
+7. Eclipse Marketplace Client
+6. Eclipse Web Developer
+7. EGit - Git Integration for Eclipse
+7. Enide.p2f - Eclipse Node.js IDE
 8. Enide (Studio) 2015 - Node.js, JavaScript, Java and Web Tools
-9. Autodetect Encoding
-10. Chuck Norris Facts
-11. Yaml Editor
-12. Enide.p2f - Eclipse Node.js IDE
-13. GoClipse
-14. PyDev
-15. Python::Codemix
-16. Codemix 3
-17. Eclipse Web Developer
-18. SonatLint
-19. Temy
+9. GoClipse
+10. HTML Editor WTP
+11. IBM Monitoring and Diagnostic Tools - Garbage Collection and Memory Visualizer (GCMV)
+12. IBM Monitoring and Diagnostic Tools - Health Center
+13. JBoss Tools
+14. JSHint Eclipse
+15. Language Support for Apache Camel
+16. LiClipseText 2.1.2
+15. PyDev
+16. Python::Codemix
+17. SonatLint
+18. Spotbugs
+19. Tern Eclipse IDE - Outdated - use Wild Web Developer instead
+20. Wakatime
+21. Yaml Editor 
+22. Temy
     + Eclipse Color Theme
     + Darkest Dark Theme with DevStyle CI
