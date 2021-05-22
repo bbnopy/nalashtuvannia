@@ -1,0 +1,25 @@
+* Poznachka i Oblast
+
+** Vstabovlennia pozhachka
+
+**C-Spc** / **C-@** - pidsvichuie tekst mizh kursorom i tockoiu **set-mark-command**
+**C-x C-x** - zminyty mistsiamy mitku i tochku **exchange-point-mark**
+
+** Robota z oblastiu
+
+**C-w** - vydaliaie pomichennyi tekst **kill-region**
+**C-x r s** - zapysaty yoho v rehistr za dopomohoiu
+**C-x C-l** / **C-x C-u** - preobrazuvaty rehistr
+**C-x TAB** / **C-M-\** - zrobyty vidstup
+**M-x fill-region** - zapovnyty yak tekst
+**M-x print-region** - rozdrukuvaty za dopomohoiu
+**M-x eval-region** - vyrakhuvaty yoho yak Lysp-kod za dopomohoiu
+
+** Komandy dlia poznachky tekstualnykh obiektiv
+
+**M-@** - vstanovyty mitku pislia kintsia nastupnoho slova **mark-word**, komanda ne rukhaie tochku
+**C-M-@** - vstanovyty mitku pislia kintsia nastupnoho Lisp vyrazu **mark-sexp**, komanda ne rukhaie tochku
+**M-h** - vstanovyty oblast navkolo abzatsu **mark-paragraph**
+**C-M-h** - vstanovyty oblast navkolo potochnoho vyznachennia funktsii Lispa **mark-defun**
+**C-x h** vstanovyty oblast navkolo usoho potochnoho bufera **mark-whole-buffer**
+**C-x C-p** - vstanovyty oblast navkolo potochnoi storinky **mark-page**

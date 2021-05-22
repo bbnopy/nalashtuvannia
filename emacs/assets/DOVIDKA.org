@@ -1,0 +1,74 @@
+* Dovidka
+
+**C-h** / **F1** / **M-x help RET** - dopomoha
+**C-h C-h** / **help-for-help** - drukuie spysok usikh mozhlyvykh parametrov dopomohy z korotkym opysom kozhnoho z nykh
+**C-h a regexp RET** - pokazaty spysok komand, chyi imena vidpovidaiut rehuliarnomu vyslovu **regexp** **apropos-command**
+**C-h b** - pokazaty tablytsiu usikh pryviazok kliuchei, diiuchykh na dannyi moment v nastupnomu poriadku: pryviazky potochnykh druhoriadnykh rezhymiv, prybiazky osnovnoho rezhymu i hlobalni pryviazky **deskribe-bindings**
+**C-h c kliuch** - nadrukuvaty imia komandy, yaku zapuskaie na vykonannia zadanyi kliuch **describe-key-briefly**, tut **c** oznachaie **character** ( **znak** ), dlia otrymannia bilsh dokladnoi informatsii pro kliuchi, vykorystovuietsia **C-h k**
+**C-h f funktsiia RET** - pokazaty dokumentatsiiu na lispovskiie funktsiiu z imiam funktsiia **describe-function**, tak yak komandy ie lispovski funktsii, vy mozhete vykorystovuvaty imia komandy
+**C-h h** - vyvesty fail **hello**, yakyi pokazuie pryklady riznykh naboriv znakiv
+**C-h i** - zapustyty info, prohramu dlia perehliadu failiv dolumentatsii **info**, povne kerivnyctvo po Emacs asnuie yak dialohovyi fail v **Info**
+**C-h k kliuch** - pokazaty imia i opys lomandy, yaku zapuskaie kliuch **describe-key**
+**C-h l** - pokazuie opys ostanikh 100 nabranykh vamy znakiv **view-lossage**
+**C-h m** - pokazaty opys potochnoho osnovnoho rezhymu **describe-mode**
+**C-h n** - pokazuie opys zmin v Emacs, pershym same ostannie **view-emacs-news**
+**C-h p** - znaity paket po kliuchovym slovam **finder-by-keyword**
+**C-h s** - pokazaty potochnyi zmist syntaksychnoi tablytsi i poiasnyty, shcho vono oznachaie **describe-syntax**
+**C-h t** - zaity v interaktyvnyi samovchytel po Emacs **help-with-tutorial**
+**C-h v zminna RET** - pokazaty opys lyspovskoi zminnoi **describe-variable**
+**C-h w komanda RET** -nadrukuvaty, yaki kliuchi zapuskaiut na vykonannia komandu z imiam komnda (where-is)
+**C-h C koduvannia RET** - vyvesty opys systemy koduvannia z imiam koduvannia (describe coding-system)
+**C-h C RET** - opysaty vykorystovuiemu v dannyi moment systemu koduvannia
+**C-h I metod RET** - opysaty metod vvoda **describe-input-method**
+**C-h L movne-seredovyshche RET** - dyvytysia detali pro naborakh znakiv, systemakh koduvannia i metodakh vvedennia, vykorystovuvanykh u movnomu-seredovyshchi **describe-language-environment**
+**C-h C-c** - pokazaty umovy kopiiuvannia GNU Emacs
+**C-h C-d** - pokazaty informatsiiu o otrymanni novykh versii GNU Emacs
+**C-h C-f funktsiia RET** - vviity v **Info** s pereity do node, opysuie funktsiiu Emacs z imiam funktsii **Info-goto-emacs-command-node**
+**C-h C-k kliuch** - vviity v **Info** s pereity do node, opysuie zadanu poslidovnist kliuchiv **Info-goto-emacs-key-command-node**
+**C-h C-p** - pokazaty snformatsiiu o Proekti GNU
+**C-h TAB movnyi-symvol RET** - pokazaty dokumentatsiiu **Info** na movnyi-symvol u vidpovidnosti z movoiu prohramuvannia, na yakomu vy pyshyte **info-lookup-symbol**
+
+** Poshuk v bibliotekakh Lyspa za kliuchovymy slovamy
+
+**__abbrev__** - upravlinnia ckorochenniamy, shvydki klavishi, makrosy.
+**__bib__** - pidtrymka obrobnyka bibliohrafii bib.
+**__c__** - pidtrymka mov Сі i Сі ++.
+**__calendar__** - pidtrymka kalendaria ta operatsii z chasom.
+**__comm__** - komunikatsii, merezhi, viddalenyi dostup do failiv.
+**__data__** - pidtrymka redahuvannia failiv z danymy.
+**__docs__** - pidtrymka dokumentatsii Emacs.
+**__emulations__** - emuliatsiia inshykh redaktoriv.
+**__extensions__** - rozshyrennia movy Emacs Lisp.
+**__faces__** - pidtrymka riznykh nakreslen (shryftiv i koloriv).
+**__frames__** - pidtrymka freimiv i vikonnykh system.
+**__games__** - hry, zharty i rozvahy.
+**__hardware__** - pidtrymka interfeisiv z ekzotychnoi aparaturoiu.
+**__help__** - pidtrymka interaktyvnykh dovidkovykh system.
+**__hypermedia__** - pidtrymka dlia posylan u teksti.
+**__i18n__** - pidtrymka riznykh mov i alfavitiv.
+**__internal__** - vnutrishnii kod Emacs, zbirka, znachennia za zamovchuvanniam.
+**__languages__** - spetsializovani rezhymy dlia redahuvannia kodu.
+**__lisp__** - pidtrymka vykorystannia Lyspa (vkliuchaiuchy Emacs Lisp).
+**__local__** - biblioteky, lokalni dlia vashoi systemy.
+**__maint__** - koshty pidtrymky dlia hrupy rozrobnykiv Emacs.
+**__mail__** - rezhymy dlia roboty z elektronoiu poshtoiu.
+**__matching__** - poshukovi prohramy.
+**__news__** - pidtrymka chytannia i vidpravky merezhevykh novyn.
+**__non-text__** - pidtrymka dlia redahuvannia netekstovykh failiv.
+**__oop__** - pidtrymka obiektno-oriientovanoho prohramuvannia.
+**__outlines__** - perehliad iierarkhichnoi struktury tekstu.
+**__processes__** - protsesy, obolonka, kompiliatsiia i upravlinnia zavdanniamy.
+**__terminals__** - pidtrymka riznykh typiv terminaliv.
+**__tex__** - pidtrymka dlia prohramy kompiuternoho naboru TEX.
+**__tools__** - utylity dlia prohramuvannia.
+**__unix__** - interfeisy abo emuliatory mozhlyvostei Unix.
+**__vms__** - pidtrymka VMS.
+**__wp__** - obrobka tekstu.
+
+** Komandy rezhyma Help
+
+**SPC** - prokruchuie u pered
+**DEL** - prokruchuie nazad
+**RET** - perekhodyty po perekhrestnomu posylanni v tochtsi
+**TAB** - peremishaie vpered do nastupnoho perekhrestnoho posylannia
+**S-TAB** - peremishiuie nazad do poperednoho perekhrestnoho posylannia

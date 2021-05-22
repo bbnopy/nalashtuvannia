@@ -1,0 +1,3 @@
+* Zapusk komand za imiam
+
+**M-x** - bud yaka komanda mozhe buty vyklykana za imiam **M-x forward-char RET** abo **M-x form TAB c RET** tse komanda **C-f**

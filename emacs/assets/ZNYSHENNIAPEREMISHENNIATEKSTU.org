@@ -1,0 +1,49 @@
+* Znyshchennia i peremishchennia tekstu
+
+** Vydalennia
+
+**C-d** - vydalyty nastupnyi znak **delete-char**
+**DEL** - vydalyty poperednii znak **delete-backward-char**
+**M-\** - vydalyty usi probily i tabuliatsii navkolo tochky **delete-horizontal-space**
+**M-SPC** - vydalyty probily s tabuliatsiiu navkolo tochky, zalyshaiuchy odyn probil **just-one-space**
+**C-x C-o** - vydalyty porozhni riadky navkolo potochnoho riadka **delete-blank-lines**
+**M-^** - obiednaty dva riadky, vydaliaia znakhodiachyisia mizh nymy obmezhuvach novoho riadku i bud-iakyi vidstup, nastupnyi za nymy **delete-indentation**
+
+** Znysjennia riadkiv
+
+**C-k** - "znyshchyty" zalyshok riadkiv, abo odnu abo dekilka riadkiv **kill-line**
+
+** Inshi komandy znyshennia
+
+**C-w** - "znyshchyty" oblast vid tochky do mitky **kill-region**
+**M-d** - "znyshchyty" slovo **kill-word**
+**M-DEL** - "znyshchyty" poperednie slovo **backward-kill-word**
+**C-x DEL** - "znyshchyty" nazad do pochatku rechennia **backward-kill-sentence**
+**M-k** - "znyshchyty" vse do kibtsia rechennia **kill-sentence**
+**C-M-k** - "znyshchyty" s-vytaz **kill-sexp**
+**M-z znak** - "znyshchyty" azh do nastupnoi poiavy znaka **zap-to-char**
+
+** Vidnovlennia
+
+**C-y** - povertaie ostannii vydalenyi tekst **yank**
+**M-y** - dlia zaminy vidnovlennoho tekstu tym yakyi buv "znyshchenyiy" ranishe **yank-pop**
+**M-w** - zberehty oblast yak ostanii "znyshchennyi" tekst bez faktychnoho "znyshchennia" **kill-ring-save**
+**C-M-w** - dodaty nastupne "znyshchennia" do ostannoho kusku "znyshennia" tekstu **append-next-kill**
+
+** Nakopychennia tekstu
+
+**M-x append-to-buffer** - dodaty oblast v zadanyi bufer pislia tochky
+**M-x prepend-to-buffer** - dodaty oblast v zadanyi bufer pered tochkoiu
+**M-x copy-to-buffer** - kopiiuvaty oblast v zadanyi bufer, vydaliaiuche staryi vmist bufera
+**M-x insert-buffer** - vstavyty vmist zadanoho bufera v potochnyi bufer v tochtsi
+**M-x append-to-file** - vstavyty oblast v kinets zadanoho faila
+
+** Priamokutnyk
+
+**C-x r k** - "znyshyty" tekst oblasti-priamokutnyka, zberihaiuchy yoho vmist v yakosti "ostannoho znyshennoho priamokutnyka" **kill-rectangle**
+**C-x r d** - "vydalyty" tekst oblasti-priamokutnyka **delete-rectangle**
+**C-x r y** - vidnovyty ostanii "znyshennyi" priamokutnyk, pomishchaiuchy yoho verhnii livyi kut v tochtsi **yank-rectangle**
+**C-x r o** - vstavyty porozhnie mistse, zapovniuiuchy prostir oblasti-priamokutnyka **open-rectangle**
+**M-x clear-rectangle** - ochystyty oblast-priamokutnyka, zaminiuiuchy ii vmist probilamy
+**M-x delete-whitespace-rectangle** - vydalyty probilni znaky v kozhnomu riadku zadanoho priamokutnyka, pochynaiuchy z yoho samoho livoho stovptsia
+**C-x r t riadok RET** - vstavyty riadok v kozhniy riadok oblasti-priamokutnyka **string-rectangle**

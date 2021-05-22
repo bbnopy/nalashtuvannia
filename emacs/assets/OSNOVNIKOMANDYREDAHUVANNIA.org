@@ -1,0 +1,63 @@
+* Osnovni komandy redahuvannia
+
+** Vstavka tekstu
+
+**C-q** - za yakum mozhe ity bud-yakyi ne hrafichnyi znak( navit **C-g** ), vstavliaie tsei znak
+
+** Zmina polozhennia tochky
+
+**C-a** - na pochatok riadka **beginning-of-line**
+**C-e** - u kinets riadka **end-of-line**
+**C-f** - na symvol vpered **forward-char**
+**C-b** - na synvol nazad **backward-char**
+**M-f** - na slovo vpered **forward-word**
+**M-b** - na slovo nazad **backward-word**
+**C-n** - na nastupnyi riadok **next-line**
+**C-p** - na poperednii riadok **previous-line**
+**M-r** - sdvynuty tochku do livoho kraiu na riadok do seredyny vikna **move-to-window-line**
+**M-<** - na pochatok dokumentu **beginning-of-buffer**
+**M->** - u kinets dokumenta **end-of-buffer**
+**M-x goto-char** - zchytuie chyslo **n** i zrushuie tochku do pozytsii **n** v buferi.
+**M-x goto-line** - zhytuie chyslo **n** i zrushuie tochku do riadka z nomerom **n**.
+**C-x C-n** - vykorystovuie potochnyi stovpets, v yakomu znakhodytsia tochka, v yakosti polupostiinoho tsilovoho stovpchyka dlia **C-n** i **C-p** **set-goal-column**.
+**C-u C-x C-n** - skasuvaty tsilovyi stovpets.
+
+** Styrannia tekstu
+
+**DEL** - vydalyty symvol pered kursorom **delete-backward-char**
+**C-d** - vydalyty symvol sliduiuchyi za (nad) riadkym **delete-char**
+**C-k** - "vbyty" vse vid kursora do kintsia riadku **kill-line**
+**M-d** - "vbyty" slovo, za kursorom **kill-word**
+**M-DEL** - "vbyty" slovo, pered kursorom **backward-kill-word**
+
+** Vidmina zroblenykh zmin
+
+**C-x u** - vidmina
+**C-_** - vidmina
+**C-u C-x u** - vidminyty odnu hrupu zmin v oblasti
+
+** Faily
+
+**C-x C-f** - vidkryty znaity fail **find-file**
+
+** Porozhni riadky
+
+**C-o** / **C-q C-j** - vstavyty pislia kursoru odnu abo dekilka porozhnikh riadkiv **open-line**
+**C-x C-o** - znyshyty usi poslidovni porozhni riadki, okrim odniiei **delete-blank-lines**
+
+** Informatsiia o pozytsii kursora
+
+**M-x what-page** - nadrukuvaty nomer storinky, na yakii znakhodytsia tochka, i nomer stroky v mezhakh tsiiei storinky
+**M-x what-line** - nadrukuvaty nomer stroky, v yakii znakhodytsia tochka v buferi
+**M-x line-number-mode** - perekliuchyty rezhym avtomatychnoho vidobrazhennia nomera potochnoho riadku
+**M-=** - nadrokuvaty kilkist riadkiv v potochnoi oblasti **count-lines-region**
+**C-x=** - nadrukuvaty kod zamku pislia tochky, znakove polozhennia tochky i stovpets tochky **what-cursor-position**
+
+** Chyslovi arhumenty
+
+**M-5 C-n** - peredvynuty na 5 riadkiv do nyzu
+**C-u** - za yakym ide slidom tsyfry arhumenta, "pomnozhuie na chotyry" arhument nastupnoi komandy **universal-argument**
+
+** Povtorennia komandy
+
+**C-x z** - povtoryty
