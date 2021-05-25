@@ -1,0 +1,38 @@
+* Bezlich vikon
+
+** Podil vikon
+
+**C-x 2** - rozdilyty vybrane vikno na dva, odne pid inshym **split-windows-vetically**
+**C-x 3**  - rozdilyty vybrane vokno na dva, odne porad z inshym **split-window-horizontally**
+**C-Mouse-2** - u riadku rezhymu abo smuzi prokrutky, rozdiliaie tse vikno
+
+** Vykorystannia inshykh vikon
+
+**C-x o** - peremishennia v inshe vikno
+**C-M-v** / **ESC C-v** - prokrutka nyzhnoho vikna
+**M-x compare-windows** - znaity nastupne mistse, de tekst vybranoho vikna ne zbihaietsia z tekstom v nastupnomu vikni
+**Mouse-1** - Mouse-1 na riadku rezhymu yakohos vikna vybyraie tse vikno, ale ne peremishchuie v nomu tochku **mouse-select-window**
+
+** Zobrazhennia v inshomu vikni
+
+**C-x 4 b imia-bufera RET** - vybraty bufer imia-bufera v inshomu vikni, pry tsomu zapuskaietsia **switch-to-buffer-other-window**
+**C-x 4 C-o imia-bufera RET** - pokazuvaty bufer imia-bufera v inshomu vikni, ale ne vybyraty v nomu tsei bufer, tse zapuskaietsia **display-buffer**
+**C-x 4 f imia-bufera RET** - zvernutysia do failu nazva_pakunka i vybraty yoho bufer v inshomu vikni, pry tsomu zapuskaietsia **find-file-other-window**
+**C-x 4 d kataloh RET** - vybraty bufer **Dired** dlia katalohu v inshomu vikni, pry tsomu zapuskaietsia **dired-other-window**
+**C-x 4 m** - pochaty skladannia poshtovoho povidomlennia v inshomu vikni, pry tsomu zapuskaietsia **mail-other-window**; analoh tsiiei komandy, shcho pratsiuie v tomu zh vikni - **C-x m**
+**C-x 4 .** - znaity teh v potochnii tablytsi tehiv v inshomu vikni, pry tsomu zapuskaietsia **find-tag-other-window**, bahatovikonnyi variant
+**C-x 4 r  imia-bufera RET** - zvernutysia do failu imia-faila v rezhymi tilky dlia chytannia i vybraty yoho bufer v inshomu vikni, tsia optsiia rozpochne komandu **find-file-read-only-other-window**
+
+** Vydalennia i pereuporiadochnyty vikna
+
+**C-x 0** - vydakyty vybrane vikno **delete-window**, ostanii znak v tsii poslidovnosti kliuchiv - nul
+**C-x 1** - odno vikno, zakryty vsi inshi vikna **delete-other-windows**
+**C-x 4 0** - vydalyty vybrane vikno i znyshchyty bufer, yakyi buv v nomu pokazanyi **kill-buffer-and-window**, ostanii znak v tsii poslidovnosti kliuchiv - nul
+**C-x ^** - zrobyty vybrane vikno vyshche **enlarge-window**
+**C-x }** - rozshyryty vybrane vikno **enlarge-window-horizontally**
+**C-x {** - zvuzyty vybrane vikno **shrink-window-horizontally**
+**C-x -** - zmenshyty tse vikno, yaksho bufer v nomu ne vynahaie stilky riadkiv **shrink-window-if-larger-than-buffer**
+**C-x +** - vyrivniaty vysoty vsikh vikon **balance-windows**
+**Drag-Mouse-1** - peremishchennia riadka rezhymu vikna za dopomohoiu 'mouse-1' zminiuie vysotu vikon
+**Mouse-2** - Mouse-2 na riadku rezhymu vikna vydaliaie vsi inshi vikna v tsomu freimi **mouse-delete-other-windows**
+**Mouse-3** - Mouse-3 na riadku rezzhymu yakohos vikna vydaliaie tse vikno `mouse-delete-window`

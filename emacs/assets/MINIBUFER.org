@@ -1,0 +1,24 @@
+* Minibufer
+
+** Komandy zavershennia
+
+**TAB** - zavershyty predstavlenyi v minibuferi tekst naskilky tse mozhlyvo ***minibufer-complete**
+**SPC** - zavershyty tekst v minibuferi, no ne dodavaty bilshe odnoho slova ***minibuffer-complete-word**
+**RET* - predstavyty tekst v minibufer yak arhument, mozhlyvo dlia pochatku dopovniuiuchy yoho, yak opysano nyzhche **minibuffer-complete-and-exit**
+**?** - nadrukuvaty spysok usikh mozhlyvykhzavershen tekstu v minibuferi **minibuffer-list-completions**
+**M-v** - vybyraie vikno, pokazuiushchie bufer s perechnem zavershennia **switch-to-completions**
+**RET** - buferi z perechnem zavershen oberit zavershennia, na yakomu abo pislia yakoho znakhodytsia **choose-completion**
+**RIGHT** - peresuvaie tochku do nastupnoho zavershennia
+**LEFT** - rukhaie tochku blyzche do pochatku bufera, do poperednoho zavershennia **previous-completion**
+
+** Istoriia minibufera
+
+**M-p** - peremishshuietsia do poperednoho riadku arhumenta, zberezhennoi v istorii minibufera **previous-histori-element**
+**M-n** - peremishchuietsia do nastupnoho riadku arhumenta v istorii minibufera **next-history-element**
+**M-r regexp RET** - peremishuietsia do bilsh rannoho atrybutu v istorii minibuferu, v yakomu ie spivpadinnia s **regexp** **previous-matching-history-element**
+**M-s regexp RET** - peremishuietsia do bilsh piznoho arhumentu v istorii minibufera, v yakomu ie spivpadinnia s **regexp** **next-matching-history-element**
+
+** Povtor komand minibufera
+
+**C-x ESC ESC** - povtorne vykonannia ostannoi komandy minibufera **repeat-complex-command**
+**M-x list-command-history** - vyvesty povnu istoriiu usikh command, yaki mozhut povtoryty **C-x ESC ESC**, pochynaiuchy z bilsh novykh

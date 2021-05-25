@@ -1,0 +1,6 @@
+* Vkhid i Vykhid z Emacs
+
+** Vykhid z Emacs
+
+**C-z** pryzupynyty Emacs **suspend-emacs** abo minimizuvaty potochnyi freim **iconify-or-deiconify-frame**
+**C-x C-c** znyshyty Emacs **save-buffers-kill-emacs**

@@ -1,0 +1,14 @@
+* Upravlinnia zobrazhenniam
+
+** Prokrutka
+
+**C-l** - ozhystyty ekran i vidnovyty zobrazhennia, zrushuiuchy po vertykali vbrannia vikno do tsentralnoi tochky v mezhakh vikna **recenter**
+**C-v** - NEXT - prokrutyty vpered( na odne vikno abo na pevne chyslo riadkiv ) **scroll up**
+**M-v** - PRIOR - prokrutyty nazad **scroll-down**
+**arhument C-l** - prokrutyty takym chynom, shcho tochka vyiavliaietsia na riadku arhumenta **recenter**
+**C-M-l** - prokrutyty evrestychnyi, shchob vyvesty na ekran korysnu informatsiiu **Reposition-window**
+
+** Horizontalna prokrutka
+
+**C-x <** - prokruchuie tekst potochnoho vikna vlivo **scroll-left**
+**C-x >** - prokruchuye vpravo **scroll-right**

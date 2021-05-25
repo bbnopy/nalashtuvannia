@@ -1,0 +1,132 @@
+* Poshuk i zamina
+
+** Naroshchuvanyi poshuk
+
+**C-s** - poshuk vpered **isearch-forward**
+**C-r** - poshuk nazad **isearch-backward**
+
+** Nenarashchuvaiemyi poshuk
+
+**C-s RET riadok RET** - poshuk zadanoho riadku
+**C-r RET riadok RET** - poshuk riadku v obranomu napriamku
+
+** Poshuk sliv
+
+**C-s RET C-w slova RET** - shukaie slova, ihnoruie puktuatsiiu mizh nymy
+**C-r RET C-w slova RET** - shukaie slova v obratnomu napravleni, ihnoruie punktuatsiiu mizh nymy
+
+** Syntaksis rehuliarnykh vyraziv
+
+**.** - tochka ie spetsialnym znakom, yakyi vidpovidaie bud-yakomu odynochnomu znaku, za byiniatkom perekladu riadka, vykorystovuiuchy konkatenatsiiu( zcheplennia ), vy mozhete sklasty rehuliarnyi vyraz, pidibne **a.b**, yake vidpovidaie bud-yakomy trokhznakovoho riadku, shcho pochynaietsia z **a** i kinchaietsia na **b**
+**'*'** - sama po sobi ne ie konstruktsiieiu; tse postfiksnyi operator, yakyi oznachaie, shcho poperednie rehuliarnyi vyraz maie buty povtoreno stilky raziv, skilky tse mozhlyvo takym chynom, **'o*'** vidpovidaie bud-yakomu chyslu bukv **'o'** ( vkliuchaiuchy nul )
+    + **'*'** zavzhdy vidnosytsia do naimenshoho mozhlyvoho poperednoho vyrazu
+    + takym zhynom, **'fo*'** mistyt povtoriuvanu **o**, a ne **fo**, vona zbihaietsia z **f**, **fo**, **foo** i tak dali
+    + konstruktsiia **'*'** obrobliaietsia shliakhom zistavlennia z naibilshoiu kilkistiu povtoren, yake vidrazu mozhe buty znaideno, potim tryvaie porivniannia iz palyshkom shablonu, yakshcho vono proishlo nevdalo, to vidbuvaietsia perebir z povernenniam, deiaki z zbihiv z konstruktsiieiu z modyfikatorom
+    + **'*'** skydaiutsia, shchob daty mozhlyvist poshuku vidpovidnosti dlia zalyshku struktury, napryklad, porivniuiuchy **ca*ar** z riadkom **caaar**, **'a*'** spochatku stavytsia u vidpovidnist z usima troma **a**, ale zalyshok shablonu - tse **ar**, a v tsomu vypadku dlia pidboru zalyshaietsia tilky **r**, tomu tsia sproba nevdala
+    + nastupnyi variant - tse postavyty u vidpovidnist z **'a*'** tilky dvi litery **a**, pry takomu vybori zalyshok rehuliarnoho vyrazu uspishno vidpovidaie riadku
+**+** tse takyi zhe postfiksnyi operator, yak i **'*'**, za vyniatkom toho, shcho vin vynahaie, shchob poperednie iomu vyraz zistavlialosia prynaimni odyn raz, tak napryklad, **ca+r** bude vidpovidaty riadkam **car** i **caaar**, ale ne riadku **cr**, todi yak **ca*r** vidpovidaie vsim trom riadkam
+**?** postfiksnyi operator, yak i **'*'**, ale vin mozhe vidpovidaty perednomu vyslovu abo odyn raz, abo zhodnoho, napryklad, **ca?r** bude shcho vidpovidaie znachenniu **car** abo **cr** i nichomu bilshe
+**[...]** tse nabir znakiv, yakyi pochynaietsia **[' i zavershuietsia ']**, u naiprostishomu vypadku spivpadaie nabir formuiut znaky mizh tsymy duzhkamy, takym zhynom, **[ad]** vidpovidaie abo odniieiu **a**, abo odnomu **d**, a **'[ad]*'** vidpovidaie bud-yakomu riadku, skladenoi prosto z **a** i **d** ( vkliuchaiuchy porozhnii riadok ), z usoho tsoho vyplyvaie, shcho **c[ad]*r** vidpovidaie **cr**, **car**, **cdr**, **caddaar** i tak dali
+    + vy takozh mozhete vkliuchyty v bezlich znakiv intervaly, napysavshy dva znaka, rozdileni **-**; takym xhynom, **[a-z]** vidpovidaie bud-yakoi maloi bukvy ASCII, intervaly mozhut buty vilno peremisheni z okremymy znakamy, yak v **[a-z$%.]**, shcho vidpovidaie bud-yakoi maloi bukvy ASCII, abo **$**, abo **%** abo tochtsi
+    + zauvazhymo, shcho spetsialni znaky rehuliarnykh vyraziv vseredeni takoho bezlichi bilshe ne ie spetsialnymy, useredeni znakovoho bezlichi isnuiut zovsim inshyi nabir spetsialnykh znakiv: **]**, **-** i **^**
+    + shchob vkliuchyty v znakovyi nabir **]**, vy povynni postavyty yoho pershym, napryklad, **[]a]** vidpovidaie **]** abo **a**, shchob vkliuchyty **-**, napyshit **-** pershym abo ostanim znakom v nabori abo pomistit yoho pislia vkazivky intervalu, takym chynom, **[]-]** vidpovidaie **]** i **-**
+    + shchob vkliuchyty v nabir znak **^**, pyshit yoho de zavhodno, ale ne pershym
+    + yaksho vy zadaiete interval pry poshuku bez urakhuvannia rehistru, vy povynni abo napysaty obydva kintsi intervalu velykymy literamy, abo obydva malymy, abo obydva vony ne povynni buty bukvamy, povedinka intervalu z kintsiamy, zadanymy v rizhykh rehistrakh, vyznacheno pohano i mozhe buty zmineno v maibutnikh versiiakh Emacs
+**[^ ...]** **[^** pochynaie dodatkovyi nabir znakiv, yakyi vidpovidaie bud-yakomu znaku, vykliuchaiuchy opysani v nomu, takym chynom, **[^a-z0-9A-Z]** vidpovidaie vsim znakam, vykliuchaiuchy bukvy i tsyfry
+    + **'^'** ne ie spetsialnym v nabori znakiv, yakshcho vin ne stoit pershym, znak, nastupnyi za **^**, traktuietsia tak, yak yakshcho b vin buv pershym ( inshymy slovamy, **-** i **]** tut ne ie spetsialnym )
+    + dodatkovyi nabir znakiv mozhe vidpovidaty znaku novoho riadka, yakshcho vin ne zhaduietsia yak odyn z nezbizhnykh znakiv, tse superechyt sposobu obrobky rehuliarnykh vyraziv v takykh prohramakh, yak grep
+**^** tse cpetsialnyi znak, yakyi vidpovidaie porozhnomu riadku, ale tilky na pochatku riadka zistavliaietsia tekstu, v inshomu vypadku, porivniannia ne vdaietsia
+    + takym chynom, **^foo** vidpovidaie **foo**, yaka zustrinuta na pochatku riadka
+**$** podibnyi **^**, ale porivniannia vidbuvaietsia tilky v kintsi riadka, takym zhynom, **xx*$** vidpovidaie riadku z odnoho abo bilshe **x** v kintsi riadka
+**\** maie dvi funktsii: skasovuie osoblyvyi sens spetsilnykh znakiv ( vkliuchaiuchy **\** ) i vvodyt dodatkovi spetsialni konstruktsii
+    + tak yak **\** skasovuie osoblyvyi sens spetsialnykh znakiv, to **\$** - tse rehuliarnyi vyraz, yke vidpovidaie tilky **$**, a **\[** - rehuliarnyi vyraz, yake vidpovidaie tilky **[**, i tak dali
+**\|** opysuie alternatyvu, dva rehuliarnykh vyrazy *a* i *b* *c* **\|** mizh nymy formuiut vyraz, yake vidpovidaie bud-yakomu z nykh okremo: abo *a*, abo *b*, tse pratsiuie tak: spochatku probuietsia *a*, i yakshcho vidpovidnosti ne znaideno, probuietsia *b*
+    + takym chynom, **foo\|bar** vidpovidaie abo **foo**, abo **bar**, ale ne inshomu riadku
+    + **\|** zastosovuietsia do naibilshykh okhopliuie vyrazamy, tilky shcho okhopliuiut duzhky **\(...\)** mozhut obmezhyty hrupuiutsia sylu **\|**, isnuie mozhlyvist povnoho zvorotnoho vidnovlennia dlia obrobly bahatorozovykh vykorystan **\|**
+**\(...\)** hrupuiucha konstruktsiia, yaka sluzhyt dlia trokh tsikei:
+    1. shchob vidoktemyty nabir alternatyv **\|** vid inshykh operatsii, takym chynom, **\(foo\|mar\)x** vidpovidaie abo **foox**, abo **marx**
+    2. shchob obmezhyty ckladanyi vyraz dlia dii postfiksni operatoriv '*', '+' i '?', takym chynom, 'ba\(na\)*' vidpovidaie 'bananana' i tak dali z bud-yakym ( nulovym abo velykym ) chyslom riadkiv 'na'
+    3. shchob vidznachyty vidpovidnu podstroku dlia maibutnoho posylannia
+   
+`\n` vidpovidaie tekstu, shcho spivpala z n-noiu poiavoiu konstruktsii '\(...\)'
+    pislia kintsia konstruktsii '\(...\)' zistavlennia zapamiatovuie pochatok i kinets tekstu, shcho spivpala z tsiieiu konstruktsiieiu, potim, pisznishe v rehuliarnomu vyrazi, vy mozhete vykorystovuvaty '\', za yakym sliduie tsyfra n, shchob skazaty: 'zistavyty z tomu zh tekstom, yakyi zbihsia z n-noiu poiavoiu konstruktsii `\(...\)'''
+    riadkakh, shcho vidpovidaiut pershym deviaty konstruktsiiamy '\(...\)', yaki ziavliatymutsia v rehuliarnomu vyrazi, prysvoiuiutsia npmera vid 1 do 9 v tomu poriadku, v yakomu v rehuliarnomu vyrazi ziavylysia vidkryvaiutsia duzhky, konstruktsii vid '\1' do '\9' mozhut vykorystovuvatysia dlia posylannia na tekst konstruktsii '\(...\)' z tsym nomerom
+
+    napryklad, '\(.*\)\1' vidpovidaie bud-yakomu riadku, shcho ne mistyt znakiv perkladu riadka, yaka skladaietsia z dvokh odynakovykh polovyn, '\(.*\)' vidpovidaie pershii polovyni, yaka mozhe buty bud-yakyi, ale '\1', shcho ide slidom, polovyna vidpovidaty tochno takomu zh tekstu
+
+    yakshcho dlia bud-yakoi konstruktsii '\(...\)' znaideno bilshe odniiei vidpovidnosti ( shcho mozhe lehko statysia, yakshcho za neiu ide '*' ), to zapamiatovuietsia tilky ostannii zbih
+
+`\'` vidpovidaie porozhnomu riadku, ale tilky na pochatku bufera abo riadky, de vidbuvaietsia poshuk
+
+`\'` vidpovidaie porozhnomu riadku, ale tilky v kintsi bufera abo riadky, de vidbuvaietsia poshuk
+
+`\=` vidpovidaie porozhnomu riadku, ale tilky v tochtsi
+
+`\b` vidpovidaie porozhnomu riadku, yakshcho tsia konstruktsiia znakhodytsia na pochatku abo kintsi slova, takym chynom, '\bfoo\b' vidpovidaoe bud-yakii poiavi 'foo' yak okremoho slova, 'bballs?\b' vidpovidaie 'ball' abo 'balls' yak okremym slovam
+
+    '\b' znakhodyt vidpovidnist na pochatku abo naprykitsi bufera, nezalezhno vid toho, yakyi tekst ide dali
+
+`\B` vidpovidaie porozhnomu riadku, yakshcho tilky vona znakhodytsia ne na pochatku abo kintsi slova
+
+`\<` vidpovidaie porozhnomu riadku, yakshcho vona znakhodytsia na pochatku slova, '\<' znakhodyt vidpovidnist na pochatku bufera, ale tilky yakshcho potim ide znak, yakyi ie chastynoiu slova
+
+`\>` vidpovidaie porozhnomu riadku, yakshcho vona znakhodytsia v kintsi slova, '\>' znakhodyt vidpovidnist u kintsi bufera, ale tilky yakshcho bufer zavershuietsia znakom, shcho ie chastynoiu slova
+
+`\w` vidpovidaie bud-yakomu znaku, shcho ie chastynoiu slova, yaki same tse znaky, vyznachaie syntaksychna tablytsia
+
+`\W` vidpovidaie bud-yakomu znaku, yaka ne ie chastynoiu slova
+
+`\sc` vidpovidaie bud-yakomu znaku, chyi syntaksys vyznachaietsia kodom *c*, tut *c* - tse znak, yakyi yavliaie soboiu syntaksychnyi kod, napryklad, tse 'w' dlia chastyny slova, '-' dlia probilnykh znakiv, '(' dlia vidkryvaiuchoi duzhky, i tak dali, vy mozhete poznachyty probilnyi znak ( yakyi mozhe buty perekladom riadka ) abo yak '-', abo odnym propuskom
+
+`\Sc` vidpovidaie bud-yakomu znaku, chyi syntaksys ne vyznachaietsia kodom *c*
+
+## Bezumovna zamina
+
+`M-x replace-string <RET> riadok <RET> novyi-riadok <RET>` zaminyty kozhne vkhodzhennia riadka na novyi-riadok
+
+`M-x replace-regexp <RET> regexp <RET> novyi-riadok <RET>` zaminiuie kozhen zbih z 'regexp' na novyi-riadok
+
+## Zamina rehuliarnykh vyraziv
+
+`M-x replace-regexp <RET> c[ad]+r <RET> \&-safe <RET>` zaminyt ( napryklad ) 'cadr' na 'cadr-safe' i 'cddr' na 'cddr-safe'
+
+`M-x replace-regexp <RET> \(c[ad]+r\)-safe <RET> \1 <RET>` robyt zvorotnie peretvorennia
+
+## Komandy zaminy i rehistr bukv
+
+`M-x replace-string <RET> foo <RET> bar <RET>` zaminiuie 'foo' v nyzhnomu rehistri na 'bar' v nyzhnomu rehistri, 'FOO' v verkhnomu rehistri na 'BAR', a 'Foo' z pershoi velykoi litery na 'Bar', ( try tsi alternatyvy: usi mali litery, usi velyki i persha zaholovna - iedyni varianty, yaki mozhe rozpiznaty `replace-string`
+
+## Zamina z pidtverdzhenniam
+
+`M-% riadok <RET> novyi-riadok <RET>`/`M-x query-replace <RET> riadok <RET> novyi-riadok <RET>` zaminiuie deiaki vkhodzhennia riadka na novyi-riadok
+
+`C-M-% regexp <RET> novyi-riadok <RET>`/`M-x query-replace-regexp <RET> regexp <RET> novyi-riadok <RET>` zaminiuie deiaki zbihy z regexp na novyi-riadok
+
+`<SPC>` shchob zaminyty tse vkhodzhennia na novyi-riadok
+
+`<DEL>` shchob znaity nastupnyi prymirnyk, ne zaminiuiuchy tse
+
+`,` ( koma ) shchob zaminyty tse vkhodzhennia i pokazaty rezultat, potim u vas zapytuiut vvedennia shchie odnoho znaka, shchob diznatysia, shcho robyty dali, tak yak zamina vzhe provedena, to <DEL> i <SPC> v tsii sytuatsii ekvivalentni; obydvi perekhodiat do nastupnoho vkhodzhennia
+vy mozhete nabraty v tsomu mistsi `C-r` ( dyvitsia nyzhche ), shchob zminyty zaminenyi tekst, vy mozhete takozh nabraty `C-x u`, shchob skasuvaty zroblenu zaminu; tsia komanda vykhodyt z `query-replace`, tak shcho yakshcho vy khochete robyty podalshi zaminy, vy povynni vykorystovuvaty `C-x <ESC> <ESC> <RET>`, shchob zapustyty zaminu zanovo
+`<RET>` shchob vyity bez zdiisnennia podalshchykh zamin
+`.` ( tochka ) shchob zaminyty tsei ekzempliar i potim vyity bez prodovzhennia poshuku slidu shykh vkhodzhen
+`!` shchob zaminyty vsi ekzempliary, shcho zalyshylysia bez povtornykh zapytiv
+`^` shchob povernutysia do polozhennia poperednoho vkhodzhennia ( abo do toho, shcho im bulo ), yakshcho vy zminyly yoho pomylkovo, tse robytsia za dopomohoiu vyshtovkhuvannia zi spysku poznachok, mozhna vykorystovuvaty tilky odyn '^' pospil, tak yak pid chas roboty `query-replace` zberihaietsia tilky odna poperednia pozytsiia zaminy
+`C-r` shchob uviity v novyi riven rekursyvnoho redahuvannia, v tomu vypadku, koly ekzempliar potrebuie skorishe v redahuvanni, nizh prosot v zamini yoho novoho-riadka, koly vy zrobyte tse, vyidit z tsoho rivnia rekursyvnoho redahuvannia, nabravshy `C-M-c`, shchob pereity do nastupnoho vkhodzhennia
+`C-w` shchob vydalyty tse vkhodzhennia i potim uviity v novyi riven rekursyvnoho redahuvannia, yak v `C-r`, vykorystovuite rekursyvne redahuvannia dlia vstavky tekstu i zaminy viddalenoho vkhodzhennia riadka, koly vy zakinchyte, vyidit z tsoho rivnia rekursyvnoho redahuvannia za dopomohoiu `C-M-c`, shchob pereity do nastupnoho vkhodzhennia
+`C-l` shchob vidnovyty zobrazhennia ekranu, potim vy povynni nabraty shche odyn znak, shchob vkazaty, shcho robyty z tsym vkhodzhennia
+`C-h` shchob perehlianuty povidomlennia, reziumuiuchy tsi varianty, potim vy povynni nabraty shche odyn znak, shchob vkazaty, shcho robyty z tsym vkhodzhenniam
+
+## Inshi komandy poshuku v tsykli
+
+`M-x occur <RET> regexp <RET>` vyvodyt perelik, yakyi pokazuie kozhen riadok bufera, yaka mistyt zbih z regexp, chyslovyi arhument zadaie chyslo riadkiv kontekstu, yaki povynni buty nadrukovani pered i pislia kozhnoi porivniuiesh riadky; znachen za zamovchuvanniam - ne drukuvaty kontekst, shchob obmezhyty poshuk chastynoiu bufera, zvuzte do tsiiei chastyny
+
+    bufer '*Occur*', v yakyi zapysuietsia vysnovok, sluzhyt v yakosti meniu dlia poshuku vkhodzhen v ikh oryhinalnomu konteksti, klatsnit 'Mouse-2' na vkhodzhennia, pererakhovanomu v '*Occur*', abo pomistit tam tochku i natysnit <RET>; tse peremkne v bufer, de robyvsia poshuk, i peremistyt tochku do orihinalu obranoho vkhodzhennia
+
+`M-x list-matching-lines` synonim dlia `M-x occur`
+
+`M-x count-matches <RET> regexp <RET>` drukuie chyslo zbihiv z regexp pislia tochky
+
+`M-x flush-lines <RET> regexp <RET>` vydaliaie kozhen riadok, nastupnu pislia tochky i mistyt zbih z regexp
+
+`M-x keep-lines <RET> regexp <RET>` vydaliaie kozhen riadok, nastupnu pislia tochky i ne mistyt zbih z regexp

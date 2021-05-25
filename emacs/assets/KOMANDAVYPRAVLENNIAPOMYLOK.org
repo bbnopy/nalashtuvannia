@@ -1,0 +1,47 @@
+* Komanda dlia vypravlennia pomylok
+
+** Znyshchennia vashykh pomylok
+
+**DEL** - vydalyty ostanii znak **delete-backward-char**
+**M-DEL** - znyshchyty ostannie slovo **backward-kill-word**
+**C-x DEL** - znyshchyty vse do poshatku propozytsii **backward-kill-sentence**
+
+** Perestanovka tekstu
+
+**C-t** - perestavyty dva znaky **ranspose-chars**
+**M-t** - perestavyty dva slova **transpose-words**
+**C-M-t** - perestavyty dva zbalansovani vyrazhennia **transpose-sexps**
+**C-x C-t** - perestavyty dva riadky **transpose-lines**
+
+** Zmina rehistru
+
+**M-M-l** - perevesty ostannie slovo u nyzhnii rehistr
+**M-M-u** - perevesty ostnnie slovo u verkhnii rehistr
+**M-M-c** - perevesty ostannie slovo u nyzhnii rehistr s pershoiu velykoiu literoiu
+
+** Poshuk i vypravlennia orfohrafichnykh pomylok
+
+**M-x flyspell-mode** - vkliuchyty rezhym **Flyspell**, yakyi vysiliaie usi nepravylno napysani slova
+**M-$** - pereviryty i vypravyty napysani slova u tochtsi **ispell-word**
+**M-TAB** - zavershuie slovo pered tochkoiu, hruntuiuchys na orfohrafichnomu slovnyku **ispell-complete-word**
+**M-x ispell-buffer** - pereviriaie i vypravliaie napysannia usikh sliv u buferi
+**M-x ispell-region** - pereviriaie i vypravliaie napysannia usikh slov u oblasti
+**M-x ispell-message** - pereviriaie i vypravliaie napysannia usikh sliv v chernettsi poshtovoho povidomlennia, za vyniatkom tsytovanoho materialu
+**M-x ispell-ohange-dictionary RET slovnyk RET** - perezapustyty protsess **Ispell**, vykorystovuia slovnyk u yakosti slovaria
+**M-x ispell-kill-ispell** - znyshuie podprotsess **Ispell**
+**SPC** - propustyty tse slovo - prodovzhuvaty vvazhaty tse slovo nepravylnym, ale ne zminiuvaty yoho tut
+**r nove RET** - zaminyty tse slovo ( tilky v tsomu mistsi ) na nove
+**R nove RET** - zaminyty tse slovo na nove i vykonaty **query-replace**, shchob vy mohly zaminyty yoho u vsikh inshykh mistsiakh bufera, yakshcho khochete
+**tsyfra** - zaminyty tse slovo ( tilky v tsomu mistsi ) na odne z pokazanykh skhozhykh sliv, kozhnomu skhozhe slovo pererakhovuietsia z tsyfroiu; shchob vybraty yoho, naberit tsiu tsyfru
+**a** - pryiniaty nepravylne slovo - vvazhaty yoho pravylnym, ale tilky v tsomu sensi redahuvannia
+**A** - pryiniaty nepravylne slovo - vvazhaty yoho pravylnym, ale tilky v tsomu sensi redahuvannia i dlia tsoho bufera
+**i** - vstavyty tse slovo v vash osobystyi fail slovnyka, shchob **Ispell** vidteper vvazhav yoho pravylnym navit v maibutnikh seansakh
+**u** - vstavyty tse slovo v nyzhnomu rehistri v vash osobystyi fail slovnyka
+**m** - yak i, ale vy takozh mozhete vkazaty vidomosti pro zavershennia dlia slovnyka
+**l slovo RET** poshukaty v slovnyku slova, zistavliaty zi slovom, tsu slova staiut novym spyskom "vidminni odne vid odnoho"; vy mozhete vybraty dlia zaminy odne z nykh, nabravshy tsyfru, vy mozhete vykorystovuvaty v slovi znak **'*'** dlia opysu shablonu
+**C-g** - vyity z interaktyvnoiu perevirkoiu pravopysu, vy mozhete perezapustyty ii pisznishe za dopomohoiu **C-u M-$**
+**X** - te zh, shcho i **C-g**
+**x** - vyity z interaktyvnoiu perevirky pravopysu i peremistyty tochku nazad, de vona bula, koly vy zapustyly perevirku
+**q** - vyity z interaktyvnoiu perevirky pravopysu i znyshchyty protses **Ispell**
+**C-l** - peremaliuvaty ekran
+**C-z** - tsei kliuch maie svoie zvychaine znachennia ( pryzupynyty Emacs abo minimizuvaty tsei freim )

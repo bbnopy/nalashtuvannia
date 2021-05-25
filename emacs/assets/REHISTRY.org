@@ -1,0 +1,42 @@
+* Rehistry
+
+**M-x view-register RET 'r'** - vydaty opys toho, sho mistyt rehistr **'r'**
+
+** Zapys pozytsii v rehystri
+
+**C-x r SPC 'r'** - zapysaty polozhennia tochky v rehistr **'r'** **point-to-register**
+**C-x r j 'r'** - pereity v pozytsiiu, zapysanu v rehistr **'r'** **jump-to-register**
+
+** Zapys tekstu v rehistri
+
+**C-x r s 'r'** - kopiiuvaty oblast v rehistr **'r'** **copy-to-register**
+**C-x r i 'r'** - vstavyty tekst iz rehistru **'r'** **insert-register**
+
+** Zapys priamokutnyka v rehistri
+
+**C-x r r 'r'** - kopiiuie oblast-priamokutnyk v rehistr **'r'** **copy-region-to-rectangle** z shyslovym arhumentom shchie i vydaliaie yoho
+**C-x r i 'r'** - vstavliaie priamokutnyk, yakyi zapysanyi v rehistri **'r'** yaksho toi mistyt priamokutnyk **insert-register**
+
+** Zapys konfihuratsii vikon v rehystri
+
+**C-x r w 'r'** - zapysaty stan vikon obranoho freima v rehistr **'r'** **window-configuration-to-register**
+**C-x r f 'r'** - zapysaty stan vsikh freimiv, vkliuchaiuchy vsi ikhni vikna, v rehistr **'r'** **frame-configuration-to-register**
+
+** Zberihannia chysel v rehistrakh
+
+**C-u chyslo C-x r n 'per'** - zapysaty chyslo v rehistr **'per'** **number-to-register**
+**C-u chyslo C-x r + 'per'** - zbilshyty chyslo v rehistri **'per'** na zadane chyslo **increment-register**
+**C-x r g 'per'** - vstavyty chyslo iz rehistra **'per'** v bufer
+
+** Zakladky
+
+**C-x r m RET** - zaklasty zakladku v potochnomu faili v pozytsii tochky
+**C-x r m zakladka RET** - zaklasty v tochtsi zakladku z imiam zakladka **bookmark-set**
+**C-x r b zakladka RET** - pereity do zakladky z imiam zakladky **bookmark-jump**
+**C-x r l** - pererakhuvaty usi zakladky **list-bookmarks**
+**M-x bookmark-save** - zberehty vsi potochni znachennia zakladok v faili zakladok, vykorystovuvanomu za zamovchuvanniam
+**M-x bookmark-load RET imia-faila RET** - zavantazhyty fail z imiam nazva-failu, shcho mistyt spysok znachen zakladok. Vy mozhete vykorystovuvaty tsiu komandu, yak i komandu **bookmark-write**, dlia roboty z inshymy failamy zakladok krim vashoho failu zakladok za zamovchuvanniam
+**M-x bookmark-write RET imia-faila RET** - zberehty vsi potochni znachennia zakladok v faili imia-faila
+**M-x bookmark-delete RET zakladka RET** - vydalyty zakladku z imiam zakladka
+**M-x bookmark-insert-location RET zakladka RET** - vstavyty v bufer imia failu, na yakyi vkazuie zakladka zakladka
+**M-x bookmark-insert RET zakladka RET** - vstavyty v bufer vmist faylu, na yakyi vkazuie zakladka zakladka
