@@ -1,0 +1,136 @@
+* Komandy dlia pryrodnykh mov
+
+** Slova
+
+**M-f** - pereity vpered cherez slovo **forward-word**
+**M-b** - pereity nazad cherez slovo **backward-word**
+**M-d** - "znyshchyty" vpered vse azh do kintsia slova **kill-word**
+**M-DEL** - "znyshchyty" vse azh do pochatku slova **backward-kill-word**
+**M-@** - poznachyty kinets nastupnoho slova **mark-word**
+**M-t** - perestavyty dva slova abo perenesty odne slovo cherez inshi slova **transpose-words**
+
+** Rechennia
+
+**M-a** - nazad na pochatok rechennia
+**M-e** - vpered u kinets rechennia
+**M-k** - "znyshchyty" vperd do kintsia propozytsii **kill-sentence**
+**C-x DEL** - "znyshchyty" vse v zvorotnomu napriamku do pochatku propozytsii **backward-kill-sentence**
+
+** Abzatsy
+
+**M-{** - pereity nazad do pochatku poperednoho abzatsu **backward-paragraph**
+**M-}** - peremistytysia vpered do kintsia nastupnoho abzatsu **forward-paragraph**
+**M-h** - postavyty krapku i mitku navkolo tsoho abo nastupnoho abzatsu **mark-paragrap**
+
+** Storinky
+
+**C-x [** - zmistyty tochku na poperedniu storinku **backward-page**
+**C-x ]** - zmistyty tochku na nastupnu storinku **forward-page**
+**C-x C-p** - postavyty krapku i mitku po kraiakh tsiiei ( abo inshii ) storinky **mark-page**
+**C-x l** - porakhuvaty riadky v tsii storintsi **count-lines-page**
+
+** Rezhym Auto Fill
+
+**M-x auto-fill-mode** - vkliuchennia i vykliuchennia rezhymu 'Auto Fill`
+**SPC** / **RET** - u rezhymi 'Auto Fill' pereryvaie riadok, yakshcho tse potribno
+
+** Yavni komandy zapovnennia
+
+**M-q** - zapovnyty potochnyi abzats **fill-paragraph**
+**C-x f** - vstanovyty stovpets zapovnennia **set-fill-column**
+**M-x fill-region** - zapovnyty kozhen abzats v oblasti **fill-region**
+**M-x fill-region-as-paragraph** - zapovnyty oblast, rozhliadaiuchy ii yak odyn abzats
+**M-s** - vidtsentruvaty riadok
+
+** Prefiks zapovnennia
+
+**C-x .** - vstanovyty prefiks zapovnennia **set-fill-prefix**
+**M-q** - zapovnyty abzats z potochnym prefiksom zapovnennia **fill-paragraph**
+**M-x fill-individual-paragraphs** - zapovnyty oblast, rozhliadaiuchy kozhnu zminu vidstupu yak pochatok novoho abzatsu
+**M-x fill-nonuniform-paragraphs** - zapovnyty oblast, vvazhaiuchy pochatkom novoho abzatsu tilky riadky-rozdilnyky abzatsiv
+
+** Komandy peretvorennia rehistru
+
+**M-l** - perevesty nastupne slovo v nyzhnii rehistr **downcase-word**
+**M-u** - perevesty nastupne slovo v verkhnii rehistr **upcase-word**
+**M-c** - zrobyty pershu bukvu nastupnoho slova u verkhnomu rehistri, a inshi - malymy **capitalize-word**
+**C-x C-l** - perevesty oblast v nyzhnii rehistr **downcase-region**
+**C-x C-u** - perevesty oblast u verkhnii rehistr **upcase-region**
+
+** Komandy peremishchennia po strukturi
+
+**C-c C-n** - peresunuty tochku do nastupnoi vydymoi riadku zaholovka **outline-next-visible-heading**
+**C-c C-p** - peresunuty tochku do poperednoi vydymoi riadku zaholovka **outline-previous-visible-heading**
+**C-c C-f** - peresunuty tochku do nastupnoi vydymoi riadku zaholovka toho zh rivnia, shcho i riadok, na yakii znakhodytsia tochka **outline-forward-same-level**
+**C-c C-b** - peresunuty tochku do poperednoi vydymoi riadku zaholovka tsoho zh rivnia **outline-backward-same-level**
+**C-c C-u** - peresunuty toshku nazad do vydymoi riadku zaholovka nyzhnoho rivnia **outline-up-heading**
+
+** Komandy upravlinna vydymostiu struktury
+
+**C-c C-t** - zrobyty vsi riadky tila v buferi nevydymym **hide-body**
+**C-c C-a** - zrobyty vsi riadky v buferi vydymymy **show-all**
+**C-c C-d** - zrobyty vse pid tsym zaholovkom nevydymym, ale ne sam tsei zaholovok **hide-subtree**
+**C-c C-s** - zrobyty vse pid tsym zaholovkom vydymym, vkliuchaiuchy tilo, pidzaholovky i ikh tila **show-subtree**
+**C-c C-l** - zrobyty tilo tsoho riadka zaholovka i vse yoho pidzaholovky nevydymymy **hide-leaves**
+**C-c C-k** - zrobyty vsi pidzaholovky tsoho zaholovka vydymymy na vsikh rivniakh **show-branches**
+**C-c C-i** - zrobyty bezposeredni pidzaholovky ( na odyn riven vnyz ) tsoho zaholovka vydymym **show-children**
+**C-c C-c** - zrobyty tilo tsoho zaholovka nevydymym **hide-entry**
+**C-c C-e** - zrobyty tilo tsoho zaholovka vydymym **show-entry**
+**C-c C-q** - prykhovaty vse, krim 'n' verkhnikh rivniv riadkiv zaholovkiv **hide-sublevels**
+**C-c C-o** - prykhovaty vse, krim zaholovka abo tila, v yakomu zhakhodytsia tochka, i zaholovkiv, yaki vedut zvidsy do verkhnoho rivnia struktury **hide-other**
+
+** Komandy redahuvannia rezhymu TEX
+
+**"** - vstavyty zhidno kontekstu abo '', або '"', або '' **tex-insert-quote**
+**C-j** - vstavyty rozryv abzatsu ( dva pereklady riadka ) i pereviryty poperednii abzats na nezbalansovani fihurni duzhky abo znaky dolara **tex-terminate-paragraph**
+**M-x tex-validate-region** - pereviryty kozhen abzats v buferi na nezbalansovani fihurni duzhky abo znaky dolara
+**C-c {** - vstavyty '{}' i roztashuvaty toshku mizh nymy **tex-insert-braces**
+**C-c }** - pereity vpered za nastupnu neparnu zakryvaie fihurnu duzhku **up-list**
+
+** Komandy redahuvannia rezhymu LaTEX
+
+**C-c C-o** - vstavliaie '\begin' i '\end' dlia bloku LaTEX i pomishchaie tochku na riadku mizh nymy **tex-latex-block**
+**C-c C-e** - zakryvaie samyi vnutrishnii shche ne zakrytyi blok LaTEX **tex-close-latex-block**
+
+** Komandy druku dlia TEX
+
+**C-c C-r** - vyklykaty TEX dlia potochnoi oblasti razom z zaholovkom bufera **tex-region**
+**C-c C-b** - vyklykaty TEX dlia csoho potochnoho bufera **tex-buffer**
+**C-c TAB** - vyklykaty BibTEX dlia potochnoho failu **tex-bibtex-file**
+**C-c C-f** - vyklykaty TEX dlia potochnoho failu **tex-file**
+**C-c C-l** - peremistyty tsentr vikna, shcho pokazuie vysnovok pidlegloho TEX, shchob mozhna bulo pobachyty ostannii riadok **tex-recenter-output-buffer**
+**C-c C-k** - znyshchyty podprotsess TEX **tex-kill-job**
+**C-c C-p** - drukuvaty vysnovok z ostannoi komandy **C-c C-r**, **C-c C-b** abo **C-c C-f** **tex-print**
+**C-c C-v** - zapustyty poperednii perehliad vyvedennia ostannoi komandy **C-c C-r**, **C-c C-b** abo **C-c C-f** **tex-view**
+**C-c C-q** - pokazaty cherhu pryntera **tex-show-print-queue**
+
+** Rezhym Nrof
+
+**M-n** - pereity na pochatok nastupnoho riadka, yaka ne ie komandoiu nroff **Forward-text-line**, arhument sluzhyt lichylnykom povtoriv
+**M-p** - skhozha na **M-n**, ale zrushuie vhoru **backward-text-line**
+**M-?** - nadrukuvaty v luna-oblasti chyslo tekstovykh riadkiv ( riadkiv, yaki ne ie komandamy nroff ) v potochnii oblasti **count-text-lines**
+
+** Redahuvannia informatsii pro format
+
+**Remove Properties** - vydaliaie z oblasti vse vlastyvosti tekstu, z yakymy pratsuie meniu Text Properties **facemenu-remove-props**
+**Remove All** - vydaliaie vsi vlastyvosti tekstu z oblasti **facemenu-remove-all**
+**List Properties** - pererakhovuie vsi vlastyvosti tekstu dlia znaka pislia tochky **list-text-properties-at**
+**Display Faces** - pokazuie perelik vsikh vyznachenykh nakreslen
+**Display Colors** - pokazuie perelik vsikh pevnykh koloriv
+
+** Nakreslennia v formatovannomu teksti
+
+**M-g d** - kazhe, shcho oblast abo nastupnyi vstavlenyi znak povynni ziavytysia v nakreslenni 'default' **facemenu-set-default**
+**M-g b** - kazhe, shcho oblast abo nastupnyi vstavlenyi znak povynni ziavytysia v nakreslenni 'bold' **facemenu-set-bold**
+**M-g i** - kazhe, shcho oblast abo nastupnyi vstavlenyi znak povynni ziavytysia v nakreslenni 'italic' **facemenu-set-italic**
+**M-g l** - kazhe, shcho oblast abo nastupnyi vstavlenyi znak povynni ziavytysia v nakreslenni 'bold-italic' **facemenu-set-bold-italic**
+**M-g u** - kazhe, shcho oblast abo nastupnyi vstavlenyi znak povynni ziavytysia v nakreslenni 'underline' **facemenu-set-underline**
+**M-g o nakreslennia RET** - kazhe, shcho oblast abo nastupnyi vstavlennyi znak povynni ziavytysia v zadanomu zobrazhebbi **facemenu-set-face**
+
+** Vyrivniuvannia v formatovanomu teksti
+
+**M-j c** / **M-S** - tsentruie oblast **set-justification-center**
+**M-j u** - robyt oblast nevyrivnianoiu **set-justification-none**
+**M-j l** - vyrivniuie oblast zliva **set-justification-left**
+**M-j r** - vyrinniuie oblast pravoruch **set-justification-right**
+**M-j f** - vyrivmiuie oblast povnistiu **set-justification-full**

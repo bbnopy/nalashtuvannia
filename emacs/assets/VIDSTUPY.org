@@ -1,0 +1,11 @@
+* Vidstupy
+
+**TAB** - zrobyty vidstup potochnoho riadka, "vidpovidnyi" rezhymu
+**C-j** - vykonaty **RET**, za yakym slid  **TAB** **newline-and-indent**
+**M-^** - zlyty dva riadka **delete-indentation**, tse skasovuie diiu **C-j**
+**C-M-o** - rozbyty riadok v tochtsi; tekst na riadku pislia krapky staie novym riadkom z vidstupom do toho syovptsia, z yakoho vin pochynaietsia zaraz **split-line**
+**M-m** - peresunuty ( vpered abo nazad ) do pershoho neporozhnoi znaku na potochnomu riadku **back-to-indetation**
+**C-M-\** - zrobyty vidstup kilkokh riadkiv do odnoho i toho zh stovpchyka **indent-region**
+**C-x TAB** - zhorstko zrushyty blok riadkiv vlivo abo vpravo **indent-rigidly**
+**M-i** - zrobyty vidstup vid tochky do nastupnoho zumovlenoi kolonky pozytsii tabuliatsii **tab-to-tab-stop**
+**M-x indent-relative** - zrobyty vidstup vid tochky do mistsia pid tochkoiu vidstupu v poperednomu riadku

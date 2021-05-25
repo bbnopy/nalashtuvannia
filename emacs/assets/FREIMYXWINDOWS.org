@@ -38,60 +38,41 @@
 ** Komandy myshi dlia riadka rezhymu
 
 **Mouse-1** - 'Mouse-1' na riadku rezhymu vybyraie vikno zverkhu, provodiachy mysheiu z natysnutoiu na riadku rezhymu 'Mouse-1', vy mozhete peremishchaty tsei riadok rezhymu, zminiuiuchy takym chynom vysotu vikon zverkhu i znyzu
+**Mouse-2** - 'Mouse-2' na riadku rezhymu rozkryvaie vikno na ves freim
+**Mouse-3** - 'Mouse-3' na riadku rezhymu vydaliaie vikno zverkhu
+**C-Mouse-2** - 'C-Mouse-2' na riadku rezhymu rozbyvaie vikno zverkhu po vertykali v tomu mistsi, de vy klatsnuly
 
-`Mouse-2` 'Mouse-2' na riadku rezhymu rozkryvaie vikno na ves freim
+** Stvorennia freimiv
 
-`Mouse-3` 'Mouse-3' na riadku rezhymu vydaliaie vikno zverkhu
+**C-x 5 2** - stvoriuie novyi freim **make-frame-command**
+**C-x 5 b imia-bufera RET** - vybyraie bufer imia-bufera v inshomu freimi, tse zapuskaie **switch-to-buffer-other-frame**
+**C-x 5 f imia-faila RET** - zvertaietsia do failu imia-failu i vybyraie yoho bufer v inshomu freimi, tse zapuskaie **find-file-other-frame**
+**C-x 5 d kataloh **RET** - vybyraie bufer 'Dired' dlia katalohu kataloh v inshomu freimi, tse zapuskaie **dired-other-frame**
+**C-x 5 m** - dozvoliaie pochaty skladannia poshtovoho povidomlennia v inshomu freimi **mail-other-frame**, tse variant **C-x m**, shcho pratsiuie v inshomu freimi
+**C-x 5 .** - zvertaietsia do tehu z potochnoi tablytsi tehiv v inshomu freimi, tse zapuskaie **find-tag-other-frame**
+**C-x 5 r imia-faila RET** - zvertaietsia do failu imia-faila v rezhymi tilky dlia chytannia i vybyraie yoho bufer v inshomu freimi, tse zapuskaie **find-file-read-only-other-frame**
 
-`C-Mouse-2` 'C-Mouse-2' na riadku rezhymu rozbyvaie vikno zverkhu po vertykali v tomu mistsi, de vy klatsnuly
+** Bezlich dyspleiv
 
-## Stvorennia freimiv
+**M-x make-frame-on-display RET dysplei RET** - stvoriuie novyi freim na dysplei dysplei
 
-`C-x 5 2` stvoriuie novyi freim `make-frame-command`
+** Ustanovka parametriv freimu
 
-`C-x 5 b imia-bufera <RET>` vybyraie bufer imia-bufera v inshomu freimi, tse zapuskaie `switch-to-buffer-other-frame`
+**M-x set-foreground-color RET kolir RET** - zadaie kolir dlia tekstu v obranomu freimi
+**M-x set-background-color RET kolir RET** - zadaie kolir dlia fonu v obranomu freimi, takozh zminiuie kolir tekstu v zobrazhenni 'modeline', shchob vono zalyshalosia inversiieiu zobrazhennia za zamovchuvanniam
+**M-x set-cursor-color RET kolir RET** - zadaie kolir kursora v obranomu freimi
+**M-x set-mouse-color RET kolir RET** - zadaie kolir pokazhchyka myshi, koly vin znakhodytsia nad obranym freimom
+**M-x set-border-color RET kolir RET** - zadaie kolir ramky obranoho freima
+**M-x list-colors-display** - vyvodyt pevni imena kvitiv i pokazuie, yak tsi kolory vyhliadaiut, tce dekilka povilna komanda
+**M-x auto-raise-mode** - peremykaie avtomatychne pidniattia obranoho freima, avtomatychne pidniattia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu v tsei freim, vin pidnimaietsia
+    + zvernit uvahu, tse zasib avtomatychnoho pidniattia realizovano camym Emacs, deiaki prohramy upravlinnia viknamy takozh realizuiut avtopidniattia, yakshcho vy vkliuchete avtopidniattia dlia freimiv Emacs v vashii prohrami upravlinnia X-viknamy, tse bude pratsiuvaty, ale ne pid kontrolem Emacs, i otzhe, `auto-raise-mode` ne zihraie roli
+**M-x auto-lower-mode** - peremykaie avtomatychne opuskannia obranoho freima, avtomatychne opuskannia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu za mezhi tsoho freimu, vin perenosytsia vnyz steka X-vikon, komanda **auto-lower-mode** ne vplyvaie na avtoopuskaniie, realizovane prohramoiu upravlinnia X-viknamy, shchob kontroliuvaty tse, vy povynni vykorystovuvaty vidpovidni koshty svoiei prohramy upravlinnia viknamy
+**M-x set-frame-font RET shryft RET** - vyznachaie sryft yak osnovnyi shryft v obranomu freimi, osnovnyi shryft vykorystovuietsia dlia vsoho vidobrazhuvanoho v tsomu freimi tekstu, krim vypadkiv, koly dlia yakohos tekstu za dopomohoiu nakreslennia vyznacheno inshyi, shchob diznatysia pro sposoby pererakhuvannia dostupnykh u vashii systemi shruftiv
+    + vy takozh mozhete vstanovyty osnovnyi shryft freima cherez splyvaiuche meniu, shchob vyklykaty tse meniu, natysnit 'S-Mouse-1'
 
-`C-x 5 f imia-faila <RET>` zvertaietsia do failu imia-failu i vybyraie yoho bufer v inshomu freimi, tse zapuskaie `find-file-other-frame`
+** Inshi mozhlyvosti X Windows
 
-`C-x 5 d kataloh <RET>` vybyraie bufer 'Dired' dlia katalohu kataloh v inshomu freimi, tse zapuskaie `dired-other-frame`
-
-`C-x 5 m` dozvoliaie pochaty skladannia poshtovoho povidomlennia v inshomu freimi `mail-other-frame`, tse variant `C-x m`, shcho pratsiuie v inshomu freimi
-
-`C-x 5 .` zvertaietsia do tehu z potochnoi tablytsi tehiv v inshomu freimi, tse zapuskaie `find-tag-other-frame`
-
-`C-x 5 r imia-faila <RET>` zvertaietsia do failu imia-faila v rezhymi tilky dlia chytannia i vybyraie yoho bufer v inshomu freimi, tse zapuskaie `find-file-read-only-other-frame`
-
-## Bezlich dyspleiv
-
-`M-x make-frame-on-display <RET> dysplei <RET>` stvoriuie novyi freim na dysplei dysplei
-
-## Ustanovka parametriv freimu
-
-`M-x set-foreground-color <RET> kolir <RET>` zadaie kolir dlia tekstu v obranomu freimi
-
-`M-x set-background-color <RET> kolir <RET>` zadaie kolir dlia fonu v obranomu freimi, takozh zminiuie kolir tekstu v zobrazhenni 'modeline', shchob vono zalyshalosia inversiieiu zobrazhennia za zamovchuvanniam
-
-`M-x set-cursor-color <RET> kolir <RET>` zadaie kolir kursora v obranomu freimi
-
-`M-x set-mouse-color <RET> kolir <RET>` zadaie kolir pokazhchyka myshi, koly vin znakhodytsia nad obranym freimom
-
-`M-x set-border-color <RET> kolir <RET>` zadaie kolir ramky obranoho freima
-
-`M-x list-colors-display` vyvodyt pevni imena kvitiv i pokazuie, yak tsi kolory vyhliadaiut, tce dekilka povilna komanda
-
-`M-x auto-raise-mode` peremykaie avtomatychne pidniattia obranoho freima, avtomatychne pidniattia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu v tsei freim, vin pidnimaietsia
-zvernit uvahu, tse zasib avtomatychnoho pidniattia realizovano camym Emacs, deiaki prohramy upravlinnia viknamy takozh realizuiut avtopidniattia, yakshcho vy vkliuchete avtopidniattia dlia freimiv Emacs v vashii prohrami upravlinnia X-viknamy, tse bude pratsiuvaty, ale ne pid kontrolem Emacs, i otzhe, `auto-raise-mode` ne zihraie roli
-
-`M-x auto-lower-mode` peremykaie avtomatychne opuskannia obranoho freima, avtomatychne opuskannia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu za mezhi tsoho freimu, vin perenosytsia vnyz steka X-vikon, komanda `auto-lower-mode` ne vplyvaie na avtoopuskaniie, realizovane prohramoiu upravlinnia X-viknamy, shchob kontroliuvaty tse, vy povynni vykorystovuvaty vidpovidni koshty svoiei prohramy upravlinnia viknamy
-
-`M-x set-frame-font <RET> shryft <RET>` vyznachaie sryft yak osnovnyi shryft v obranomu freimi, osnovnyi shryft vykorystovuietsia dlia vsoho vidobrazhuvanoho v tsomu freimi tekstu, krim vypadkiv, koly dlia yakohos tekstu za dopomohoiu nakreslennia vyznacheno inshyi, shchob diznatysia pro sposoby pererakhuvannia dostupnykh u vashii systemi shruftiv
-vy takozh mozhete vstanovyty osnovnyi shryft freima cherez splyvaiuche meniu, shchob vyklykaty tse meniu, natysnit 'S-Mouse-1'
-
-## Inshi mozhlyvosti X Windows
-
-`C-z` minimizuie obranyi freim `iconify-or-deiconify-frame`, zvychaine znachennia `C-z`, prypynennia 'Emacs', marno pid vikonnoiu systemoiu, tomu v danomu vypadku u tsoho kliucha insha pryviazka
-yakshcho vy vvedete tsiu komandu v piktohrami freima 'Emacs', vona deminimizuie tsei freim
-
-`C-x 5 0` vydaliaie obranyi freim `delete-frame`, tse ne dopuskaietsia, yakshcho ie tilky odyn freim
-
-`C-x 5 o` vybyraie inshyi freim, pidnimaie yoho i perenosyt v noho mysha, shchob vin zalyshavsia obranym, yakshcho vy povtoriuiete tsiu komandu, vona tsyklichno prokhodyt po vsim freimam na vashomu terminali
+**C-z** - minimizuie obranyi freim **iconify-or-deiconify-frame**, zvychaine znachennia **C-z**, prypynennia 'Emacs', marno pid vikonnoiu systemoiu, tomu v danomu vypadku u tsoho kliucha insha pryviazka
+    + yakshcho vy vvedete tsiu komandu v piktohrami freima 'Emacs', vona deminimizuie tsei freim
+**C-x 5 0** - vydaliaie obranyi freim **delete-frame**, tse ne dopuskaietsia, yakshcho ie tilky odyn freim
+**C-x 5 o** - vybyraie inshyi freim, pidnimaie yoho i perenosyt v noho mysha, shchob vin zalyshavsia obranym, yakshcho vy povtoriuiete tsiu komandu, vona tsyklichno prokhodyt po vsim freimam na vashomu terminali
