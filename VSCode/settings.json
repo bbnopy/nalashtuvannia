@@ -2,6 +2,7 @@
     // => Editor <=
     "editor.fontFamily": "Fira Code", // ==> Font "'Anonymous Pro', monospace"
     "editor.fontLigatures": true,
+    "editor.fontSize": 14, // ==> Controls the font size in pixels
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.insertSpaces": true,
@@ -27,12 +28,16 @@
     "workbench.iconTheme": "atom-icons", // ==> Icon Theme
     "workbench.productIconTheme": "el-vsc-v1-icons",
     "workbench.settings.useSplitJSON": true, // ==> Controls whether to use the split JSON editor when editing settings as JSON
+    "workbench.sideBar.location": "right", // ==> Controls the location of the sidebar. It can either show on the left or right of the workbench
+    "workbench.statusBar.visible": true, // ==> Controls the visibility of the status bar at the bottom of the workbench
     "workbench.tree.indent": 16, // ==> Sidebar TreeIndent
     // => Window <=
+    "window.zoomLevel": 0, // ==> Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity
     // => Features <=
     "debug.openDebug": "neverOpen",
     "debug.toolBarLocation": "docked", // ==> Debug
     "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 14, // ==> Controls the font size in pixels of the terminal
     // => Application <=
     // => Security <=
     // => Extensions <=
