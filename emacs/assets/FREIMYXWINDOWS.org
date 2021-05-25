@@ -1,0 +1,97 @@
+* Freimy i X Windows
+
+** Komandy myshi dlia redahuvannia
+
+**Mouse-1** - peremishchennia tochku tudy, de vy klatsnuly **mouse-set-point**, zazvychai tse liva knopka
+**Drag-Mouse-1** - vstanovliuie oblast navkolo tekstu, za yakym vy provely, i kopiiuie tsei tekst v spysok znyshchen **mouse-set-region**, za dopomohoiu tsiiei komandy vy mozhete vkazaty obydva kintsi oblasti
+    + yakshcho pry provedenni mysheiu vy peremistit ii za verkhniu chy nyzhniu mezhu vikna, tse vikno bezperervno prokruchuietsia, poky vy ne povernete v noho mysha, takym chynom vy mozhete vydiliaty oblasti, shcho ne vmishchaiutsia na ekrani, chyslo prokruchuvanykh za odyn krok riadkiv zalezhyt vid toho, naskilky daleko za krai vikna pishla mysha; minimalnyi rozmir kroku vyznachaie zamina `mouse-scroll-min-lines`
+**Mouse-2** - vidnovliuie ostanii znyshchenyi tekst v tomu mistsi, de vy klatsnuly **mouse-yank-at-click**, zazvychai tse serednia knopka
+**Mouse-3** - tsia komanda, **mouse-save-then-kill**, maie kilka pryznachen v zalezhnosti vid toho, de vy klatsnuly, i vid stanu oblasti
+    + naiholovnishyi vypadok - tse koly vy natyskaiete 'Mouse-1' v odnomu mistsi, a potim 'Mouse-3' v inshomu, tse vydiliaie tekst mizh dvoma tsymy pozytsiiamy v yakosti oblasti, tse takozh kopiiuie novu oblast v spysok znyshchen, shchob vy mohly skopiiuvaty yoho v inshe mistse
+    + yakshcho vy klatsnit v teksti 'Mouse-1', pereidit vikno za dopomohoiu smuzhky prokrutky i potim klatsnit 'Mouse-3', Emacs zapamiataie, de bula tochka pered prokrutkoiu ( de vy pomistyly ii za dopomohoiu 'Mouse-1' ), i vykorystovuie tsiu pozytsiiu yak inshyi kinets oblasti, tse zrobleno, shchob vy mohly vydiliaty oblasti, yaki ne pomishchaiutsia povnistiu na ekrani
+    + u bilsh zahalnomu vyhliadi, yakshcho u vas nemaie pidsvichuietsia oblasti, 'Mouse-3' vydiliaie v yakosti oblasti tekst mizh tochkoiu i mistsem klatsannia, vona robyt tse, vstanovliuiuchy mitku tam, de bula tochka, i peremishchaiuchy tochku do tiiei pozytsii, de vy klatsnuly
+    + yakshcho u vas ie pidsvichena oblast, abo yakshcho oblast bula vstanovlena bezposeredno pered tsym za dopomohoiu provedennia knopkoiu 1, 'Mouse-3' pidlashtovuie naiblyzhchyi kinets oblasti, peremishchaiuchy yoho do mistsia klatsannia, takozh, tekst pidlashtovanyi oblasti zamishchaie v spysku znyshchen tekst staroi oblasti
+    + yakshcho vy z samoho pochatku zadaly oblast, vykorystovuiuchy podviine abo potriine klatsannia 'Mouse-1', shchob vyznachyty oblast yak shcho skladaietsia z tsilykh sliv abo riadkiv, to pidstroiuvannia oblasti za dopomohoiu 'Mouse-3' takozh prokhodyt po tsilymy slovamy abo riadkamy
+    + yakshcho vy zastosuiete 'Mouse-3' dva raz pospil na odnomu mistsi, vy znyshchyte vzhe vydilenu oblast
+**Double-Mouse-1** - tsei kliuch vstanovliuie oblast navkolo slova, na yakomu vy klatsnuky, yakshcho vy klatsnuly na znaku z syntaksychnoiu katehoriieiu "symbol" ( napryklad, na
+    + pocherk v rezhymi C ), vin vstanovliuie oblast navkolo symvolu, yakomu nalezhyt tsei znak
+    + yakshcho vy klatsnuly na znaku z syntaksychnoiu katehoriieiu vidkryvaie abo zakryvaie kruhloi duzhky, oblast vstanovliuietsia navkolo hrupy ( s-vyrazy ), yaka zavershuietsia abo pochynaietsia na tsomu znaku, yakshcho vy klatsnuly na znaku z syntaksychnoiu katehoriieiu rozdilnyk riadkiv ( takomu yak lapky abo podviini lapky v С ), oblast bude vstanovlena navkolo tsiiei strokovoi konstanty ( z vykorystanniam evrystyky, shchob ziasuvaty, chy ie tsei znak pochatkivtsiam abo zavershalnym )
+**Double-Drag-Mouse-1** - tsei kliuch vydiliaie oblast, shcho skladaietsia z sliv, za yakymy vy provely
+**Triple-Mouse-1** - tsei kliuch vstanovliuie oblast navkolo riadka, na yakii vy klatsnuly
+**Triple-Drag-Mouse-1** - tsei kliuch vydiliaie oblast, shcho skladaietsia z riadkiv, po yakykh vy provely
+
+** Vtorynne vydilennia
+
+**M-Drag-Mouse-1** - vstanovliuie vtorynne vydilennia z odnym kintsem v tomu mistsi, de vy natysnuly knopku, i inshym - v tomu, de vy ii vidpustyly **mouse-set-secondary**, koly vy provodyte mysheiu, ziavliaietsia i zminiuietsia pidsvichuvannia
+    + yakshcho pry provedenni mysheiu vy zrushyte ii za verkhniu chy nyxhniu mezhu vikna, tse vikno bezperervno prokruchuietsia, poky vy ne povernete v noho mysha, takym sposobom vy mozhete vydiliaty oblasti, shcho ne vmishchaiutsia na ekrani
+**M-Mouse-1** - vstanovliuie odnu z hranychnykh tochok vtorynnoho vydilennia **mouse-start-secondary**
+**M-Mouse-3** - stvoriie vtorychne vydilennia, vykorystovuiuchy mistse, vkazane za dopomohoiu 'M-Mouse-1' yak yoho druhyi kinets **mouse-secondary-save-then-kill**, druhe klatsannia na tsomu zh mistsi znyshuie tilky shcho zroblene vtorynne vydilenna
+**M-Mouse-2** - vstavliaie v mistsi klatsannia vtorynna vydilennia **mouse-yank-secondary**, tse pomishchaie tochku v kinets vidnovlenoho tekstu
+
+** Klatsannia myshi dlia meniu
+
+**C-Mouse-1** - tse meniu dlia vyboru bufera
+**C-Mouse-2** - tse meniu dlia zavdannia nakreslen i inshykh vlastyvostei tekstu dlia redahuvannia tekstu fiksovanoi
+**C-Mouse-3** - tse meniu vyznachaietsia rezhymom, dlia bilshosti rezhymiv dane meniu maie ti zh punkty, shcho mistiatsia u vsikh vyznachenykh rezhymom meniu z smuzhky meniu, deiaki rezhymy mozhut vyznaxhyty dlia tsiiei knopky inshe meniu
+**S-mouse-1** - tse meniu dlia zavdannia osnovnoho shryftu freimu
+
+** Komandy myshi dlia riadka rezhymu
+
+**Mouse-1** - 'Mouse-1' na riadku rezhymu vybyraie vikno zverkhu, provodiachy mysheiu z natysnutoiu na riadku rezhymu 'Mouse-1', vy mozhete peremishchaty tsei riadok rezhymu, zminiuiuchy takym chynom vysotu vikon zverkhu i znyzu
+
+`Mouse-2` 'Mouse-2' na riadku rezhymu rozkryvaie vikno na ves freim
+
+`Mouse-3` 'Mouse-3' na riadku rezhymu vydaliaie vikno zverkhu
+
+`C-Mouse-2` 'C-Mouse-2' na riadku rezhymu rozbyvaie vikno zverkhu po vertykali v tomu mistsi, de vy klatsnuly
+
+## Stvorennia freimiv
+
+`C-x 5 2` stvoriuie novyi freim `make-frame-command`
+
+`C-x 5 b imia-bufera <RET>` vybyraie bufer imia-bufera v inshomu freimi, tse zapuskaie `switch-to-buffer-other-frame`
+
+`C-x 5 f imia-faila <RET>` zvertaietsia do failu imia-failu i vybyraie yoho bufer v inshomu freimi, tse zapuskaie `find-file-other-frame`
+
+`C-x 5 d kataloh <RET>` vybyraie bufer 'Dired' dlia katalohu kataloh v inshomu freimi, tse zapuskaie `dired-other-frame`
+
+`C-x 5 m` dozvoliaie pochaty skladannia poshtovoho povidomlennia v inshomu freimi `mail-other-frame`, tse variant `C-x m`, shcho pratsiuie v inshomu freimi
+
+`C-x 5 .` zvertaietsia do tehu z potochnoi tablytsi tehiv v inshomu freimi, tse zapuskaie `find-tag-other-frame`
+
+`C-x 5 r imia-faila <RET>` zvertaietsia do failu imia-faila v rezhymi tilky dlia chytannia i vybyraie yoho bufer v inshomu freimi, tse zapuskaie `find-file-read-only-other-frame`
+
+## Bezlich dyspleiv
+
+`M-x make-frame-on-display <RET> dysplei <RET>` stvoriuie novyi freim na dysplei dysplei
+
+## Ustanovka parametriv freimu
+
+`M-x set-foreground-color <RET> kolir <RET>` zadaie kolir dlia tekstu v obranomu freimi
+
+`M-x set-background-color <RET> kolir <RET>` zadaie kolir dlia fonu v obranomu freimi, takozh zminiuie kolir tekstu v zobrazhenni 'modeline', shchob vono zalyshalosia inversiieiu zobrazhennia za zamovchuvanniam
+
+`M-x set-cursor-color <RET> kolir <RET>` zadaie kolir kursora v obranomu freimi
+
+`M-x set-mouse-color <RET> kolir <RET>` zadaie kolir pokazhchyka myshi, koly vin znakhodytsia nad obranym freimom
+
+`M-x set-border-color <RET> kolir <RET>` zadaie kolir ramky obranoho freima
+
+`M-x list-colors-display` vyvodyt pevni imena kvitiv i pokazuie, yak tsi kolory vyhliadaiut, tce dekilka povilna komanda
+
+`M-x auto-raise-mode` peremykaie avtomatychne pidniattia obranoho freima, avtomatychne pidniattia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu v tsei freim, vin pidnimaietsia
+zvernit uvahu, tse zasib avtomatychnoho pidniattia realizovano camym Emacs, deiaki prohramy upravlinnia viknamy takozh realizuiut avtopidniattia, yakshcho vy vkliuchete avtopidniattia dlia freimiv Emacs v vashii prohrami upravlinnia X-viknamy, tse bude pratsiuvaty, ale ne pid kontrolem Emacs, i otzhe, `auto-raise-mode` ne zihraie roli
+
+`M-x auto-lower-mode` peremykaie avtomatychne opuskannia obranoho freima, avtomatychne opuskannia oznachaie, shcho vsiakyi raz, koly vy peresuvaiete myshu za mezhi tsoho freimu, vin perenosytsia vnyz steka X-vikon, komanda `auto-lower-mode` ne vplyvaie na avtoopuskaniie, realizovane prohramoiu upravlinnia X-viknamy, shchob kontroliuvaty tse, vy povynni vykorystovuvaty vidpovidni koshty svoiei prohramy upravlinnia viknamy
+
+`M-x set-frame-font <RET> shryft <RET>` vyznachaie sryft yak osnovnyi shryft v obranomu freimi, osnovnyi shryft vykorystovuietsia dlia vsoho vidobrazhuvanoho v tsomu freimi tekstu, krim vypadkiv, koly dlia yakohos tekstu za dopomohoiu nakreslennia vyznacheno inshyi, shchob diznatysia pro sposoby pererakhuvannia dostupnykh u vashii systemi shruftiv
+vy takozh mozhete vstanovyty osnovnyi shryft freima cherez splyvaiuche meniu, shchob vyklykaty tse meniu, natysnit 'S-Mouse-1'
+
+## Inshi mozhlyvosti X Windows
+
+`C-z` minimizuie obranyi freim `iconify-or-deiconify-frame`, zvychaine znachennia `C-z`, prypynennia 'Emacs', marno pid vikonnoiu systemoiu, tomu v danomu vypadku u tsoho kliucha insha pryviazka
+yakshcho vy vvedete tsiu komandu v piktohrami freima 'Emacs', vona deminimizuie tsei freim
+
+`C-x 5 0` vydaliaie obranyi freim `delete-frame`, tse ne dopuskaietsia, yakshcho ie tilky odyn freim
+
+`C-x 5 o` vybyraie inshyi freim, pidnimaie yoho i perenosyt v noho mysha, shchob vin zalyshavsia obranym, yakshcho vy povtoriuiete tsiu komandu, vona tsyklichno prokhodyt po vsim freimam na vashomu terminali

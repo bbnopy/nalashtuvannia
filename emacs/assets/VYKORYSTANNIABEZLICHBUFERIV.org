@@ -1,0 +1,49 @@
+* Vykorystannia bezlichi buferiv
+
+** Stvorennia i vybir buferiv
+
+**C-x b foo RETURN** - perekliuchennia v bufer "foo" **switch-to-buffer**
+**C-x 4 b bufer RET** - vybyraie bufer v inshomu vikni **switch-to-buffer-other-window**
+**C-x 5 b bufer RET** - vybyraie bufer v druhomu freimi **switch-to-bufer-other-frame**
+
+** Pererakhuvannia isnuiuchykh buferiv
+
+**C-x C-b** - spysok buferiv **list-buffers**
+
+** Riznomanitni operatsii nad buferom
+
+**C-x C-q** - perekliuchyty dostup na zapys v bufer **vs-toggle-read-only**
+**M-x rename-buffer RET imia RET** - zminyty imia potochnoho bufera
+**M-x rename-uniquely** - pereimenuvaty bufer dodanniam **chysla** u kinets imeni
+**M-x view-buffer RET buffer RET** - podyvytysia bufer
+
+** Znyshchennia buferiv
+
+**C-x k imia-bufera RET** - 'znyshchyty' bufer 'imia-bufera' **kill-buffer**
+**M-x kill-some-buffers** - proponuie 'znyshchyty' kozhen bufer odyn za odnym
+
+** Dii nad dekilkoma buferamy
+
+**M-x buffer-menu** - pochaty redahuvaty bufer, shcho mistyt spysok usikh buferiv Emacs
+**d** - zaprosyty vydalennia ( znyshchennia ) bufera, i potim zrushyty vnyz, zapyt pokazuietsia yak 'D' na riadku pered imiam bufera, vytrebuvani vydalennia vidbuvaiutsia, koly vy drukuiete komandu x
+**C-d** - yak d, ale zrushuie vhoru, a ne vnyz
+**s** - zaprosyty zberezhennia bufera, zapyt pokazuietsia yak **S** na riadku, neobkhidni zberezhennia vidbuvaiutsia, koly vykorystovuietsia komanda x, vy mozhete zaprosyty i zapys, i vydalennia dlia odnoho i toho zh bufera
+**x** - vykonaty ranishe zapytani vydalennia i zberezhennia
+**u** - znyshchyty bud-yakyi zapyt, zroblenyi dlia potochnoho riadka, i zrushyty kursor vnyz
+**DEL** - zrushyty kursor do poperednoho riadka i znyshchyty bud-yakyi zapyt, zroblenyi dlia tsoho riadka
+**~** - poznachyty bufer yak "nezminenyi", komanda **~** robyt tse nehaino pislia toho, yak vy ii vvely
+**%** - peremykaie prapor dostupnosti na zapys dlia bufera, komanda **%** diie vidrazu pislia vvedennia
+**t** - zvernutysia do buferu yak do tablytsi tehiv
+**q** - vyity z meniu buferiv - vidrazu vidobrazyty ostanii bufer, shcho buv ranishe vydymym na yoho mistsi
+**RET f** - nehaino vybraty bufer na tsomu riadku na mistse bufera '*Buffer List*'
+**o** - nehaino vybraty bufer na tsomu riadku v inshomu vikni, yak yakshcho b tse bulo zrobleno za dopomohoiu **C-x 4 b**, zalyshaiuchy '*Buffer List*' vydymym
+**C-o** - nehaino vidobrazyty bufer na tsomu riadku v inshomu vikni, ale ne vybraty tse vikno
+**1** - nehaino vybraty bufer na tsomu riadku v povnoejrannomu vikni
+**2** - nehaino stvoryty dva vikna, odne z buferom na tsomu riadku, a druhe z poperednim obranym buferom ( krim bufera '*Buffer List*' )
+**b** - skhovaty bufer, pererakhovanyi v potochnomu riadku
+**m** - pomityty tsei bufer dlia pokazu v inshomu vikni, yakshcho vy vyidit z dopomohoiu komandy **q**, takyi zapyt pokazuietsia yak **>** na pochatku riadka, ( Odyn i toi zhe bufer ne mozhe maty i zapyt na pokaz, i zapyt na vydalennia )
+**v** - nehaino vybraty bufer na tsomu riadku, a takozh pokazaty v inshykh viknakh bud-yaki bufery, persh pomicheni za dopomohoiu komandy **m**, yakshcho takykh buferiv nemaie, to tsia komanda ekvivalentna 1
+
+** Nepriami bufery
+
+**M-x make-indirect-buffer bazovyi-bufer RET nepriame-imia RET** - stvoriuie nepriamyi bufer z imiam nrpriame-imiam, chyi bazovyi bufer - tse bazovyi-bufer

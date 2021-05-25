@@ -30,71 +30,73 @@
 5. Browse Preview
 6. CodeStream
 7. Code Time
-8. Color Highlight
-9. ColorTabs
-10. Debugger for Chrome
-11. Debugger for Firefox
-12. Emacs
+8. CodeTime
+9. Color Higuhlight
+10.ColorTabs
+11. Debugger for Chrome
+12. Debugger for Firefox
+13. Emacs
     + Emacs
     + Emacs Keymap
-13. ftp-sync
-14. GCode
+14. ftp-sync
+15. GCode
     + nc-gcode
-15. Git
+16. Git
     + GitHub
     + gitignore
     + Git History
-16. Glassit-VSC
-17. heroku-cli
-18. JSON
+17. Glassit-VSC
+18. heroku-cli
+19. JSON
     + JSON
     + Sort JSON objects
-19. LISP
+20. LISP
     + Black Metal Common Lisp
     + Common Lisp
     + Lisp
     + Lispy
-20. Markdown
+21. Markdown
     + Markdown Preview Github Styling
-21. Marquee
-22. npm
+22. Marquee
+23. npm
     + npm
-23. Org Mode
-24. Path Autocomplete
-25. Power Mode
-26. PowerShell
-27. Remote
+24. Org Mode
+25. Path Autocomplete
+26. Power Mode
+27. PowerShell
+28. Remote
     + Remote - Containrts
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-28. select highlight in minimap
-29. SmoothType
-30. Sort lines
-31. SQL
+29. select highlight in minimap
+30. SmoothType
+31. Sort lines
+32. SQL
     + SQL Server (msqql)
-32. Stackoverflow Instant Search
-33. Syntax Highlighter
-34. Terminal
+33. Stackoverflow Instant Search
+34. Syntax Highlighter
+35. Terminal
     + Terminal
     + Terminal All in One
-35. TODO Highlight
-36. Vibrancy
-37. VimL (Vim Language, Vim Script)
-38. vscode-pdf
-39. vscode-pigments
-40. VSCode Terminal themes
-41. VS Color Picker
-42. Wakatime
-43. Window Colors
-44. XML
+36. TODO Highlight
+37. Vibrancy
+38. VimL (Vim Language, Vim Script)
+39. vscode-pdf
+40. vscode-pigments
+41. VSCode Terminal themes
+42. VS Color Picker
+43. Wakatime
+44. Window Colors
+45. XML
     + XML
     + XML Tools
-45. YAML
+46. YAML
     + docs-yaml
     + YAML
-
-41. Temy
+47. Temy
     + MS-DOS Theme
+
+
     + (Actual) Obsidian
     + [Kuskus] Kusto Color Theme
     + Arcade
