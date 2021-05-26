@@ -11,6 +11,7 @@
     + Docker
     + EditorConfig for VS Code
     + ESLint
+        + **
     + GitHub Pull Requests and Issues
     + GitLens - Git supercharged
     + indent-rainbow
@@ -28,72 +29,73 @@
 3. Bracket Pair Colorizer 2
 4. BreadCrumb in StatusBar
 5. Browse Preview
-6. CodeStream
-7. Code Time
-8. CodeTime
-9. Color Higuhlight
-10.ColorTabs
-11. Debugger for Chrome
-12. Debugger for Firefox
-13. Emacs
+6. C# Extension
+7. CodeStream
+8. Code Time
+9. CodeTime
+10. Color Higuhlight
+11.ColorTabs
+12. Debugger for Chrome
+13. Debugger for Firefox
+14. Emacs
     + Emacs
     + Emacs Keymap
-14. ftp-sync
-15. GCode
+15. ftp-sync
+16. GCode
     + nc-gcode
-16. Git
+17. Git
     + GitHub
     + gitignore
     + Git History
-17. Glassit-VSC
-18. heroku-cli
-19. JSON
+18. Glassit-VSC
+19. heroku-cli
+20. JSON
     + JSON
     + Sort JSON objects
-20. LISP
+21. LISP
     + Black Metal Common Lisp
     + Common Lisp
     + Lisp
     + Lispy
-21. Markdown
+22. Markdown
     + Markdown Preview Github Styling
-22. Marquee
-23. npm
+23. Marquee
+24. npm
     + npm
-24. Org Mode
-25. Path Autocomplete
-26. Power Mode
-27. PowerShell
-28. Remote
+25. Org Mode
+26. Path Autocomplete
+27. Power Mode
+28. PowerShell
+29. Remote
     + Remote - Containrts
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-29. select highlight in minimap
-30. SmoothType
-31. Sort lines
-32. SQL
+30. select highlight in minimap
+31. SmoothType
+32. Sort lines
+33. SQL
     + SQL Server (msqql)
-33. Stackoverflow Instant Search
-34. Syntax Highlighter
-35. Terminal
+34. Stackoverflow Instant Search
+35. Syntax Highlighter
+36. Terminal
     + Terminal
     + Terminal All in One
-36. TODO Highlight
-37. Vibrancy
-38. VimL (Vim Language, Vim Script)
-39. vscode-pdf
-40. vscode-pigments
-41. VSCode Terminal themes
-42. VS Color Picker
-43. Wakatime
-44. Window Colors
-45. XML
+37. TODO Highlight
+38. Vibrancy
+39. VimL (Vim Language, Vim Script)
+40. vscode-pdf
+41. vscode-pigments
+42. VSCode Terminal themes
+43. VS Color Picker
+44. Wakatime
+45. Window Colors
+46. XML
     + XML
     + XML Tools
-46. YAML
+47. YAML
     + docs-yaml
     + YAML
-47. Temy
+48. Temy
     + MS-DOS Theme
 
 

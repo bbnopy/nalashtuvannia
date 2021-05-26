@@ -24,6 +24,8 @@
     // => Workbench <=
     "workbench.colorTheme": "(Actual) Obsidian", // ==> Color Theme
     "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "right", // ==> Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. Select `first` or `last` to open editors independently from the currently active one
+    "workbench.editor.openSideBySideDirection": "down", // ==> Controls the default direction of editors that are opened side by side (e.g. from the explorer). By default, editors will open on the right hand side of the currently active one. If changed to `down`, the editors will open below the currently active one
     "workbench.editor.tabSizing": "shrink", // ==> Top Tab openned
     "workbench.iconTheme": "atom-icons", // ==> Icon Theme
     "workbench.productIconTheme": "el-vsc-v1-icons",
@@ -41,6 +43,24 @@
     // => Application <=
     // => Security <=
     // => Extensions <=
+    // ==> Bracket Pair Colorizer 2 <==
+    "bracket-pair-colorizer-2.colors": [ // ==> Define the colors used to colorize brackets. Accepts valid color names, hex codes, and rgba() values
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "bracket-pair-colorizer-2.colorMode":"Consecutive",
+    "bracket-pair-colorizer-2.showBracketsInGutter":true,
+    "bracket-pair-colorizer-2.rulerPosition":"Center",
+    "bracket-pair-colorizer-2.showVerticalScopeLine":true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine":true,
+    "bracket-pair-colorizer-2.scopeLineCSS":[
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
     // ==> BreadCrumb <==
     "breadcrumbs.filePath": "off",
     "breadcrumbs.showModules": false,
@@ -49,12 +69,34 @@
     "cSpell.language": "en,uk",
     // ==> CodeSteam <==
     "codestream.email": "bbhanazono@outlook.com",
+    // ==> ColorTabs <==
+    "colorTabs.activityBarBackground":true,
+    "colorTabs.config": [
+        {
+            "regex": "D:/Users/zerg/OneDrive/Документи/GitHub/nalashtuvannia/.*",
+            "color": "#FF0000",
+            "label": "NALASHTUVANNIA"
+        }
+    ],
+    "colorTabs.ignoreCase": true,
+    "colorTabs.statusBarBackground":true,
+    "colorTabs.tabBorder":true,
+    "colorTabs.titleBackground": true,
+    "colorTabs.titleLabel":true,
     // ==> Cucumber <==
     "cucumberautocomplete.customParameters": [],
     // ==> GIT <==
     "git.autofetch": true,
     // ==> GlassIt-VSC
     "glassit.alpha": 220,
+    // ==> Markdown <==
+    "[markdown]": { // ==> Configure editor settings to be overridden for [markdown] language
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
     // ==> PowerMode <==
     "powermode.enabled": true,
     // ==> YAML <==

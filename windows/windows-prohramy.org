@@ -84,5 +84,6 @@
 82. VLC
 83. VMware Player
 84. Web Companion
-85. WinDjView
-86. Windows Terminal
+85. Whatsapp
+86. WinDjView
+87. Windows Terminal
