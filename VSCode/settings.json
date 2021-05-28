@@ -118,7 +118,7 @@
     // ==> Code Spell Chacker
     "cSpell.language": "en,uk",
     // ==> CodeSteam <==
-    "codestream.email": "mail",
+    "codestream.email": "mail@mail.mail",
     // ==> ColorTabs <==
     "colorTabs.activityBarBackground": true,
     "colorTabs.config": [
@@ -151,7 +151,7 @@
     },
     // ==> PowerMode <==
     "powermode.enabled": true,
-    "powermode.presents": "fireworks",
+    "powermode.presets": "clippy", // ==> clippy, exploding-rift, fireworks, flames, magic, particles, simple-rift
     // ==> YAML <==
     "yaml.schemas": {
         "file:///toc.schema.json": "/toc\\.yml/i"
