@@ -43,20 +43,70 @@
     // => Application <=
     // => Security <=
     // => Extensions <=
+    // ==> Better Comments <==
+    "better-comments.multilineComments": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
     // ==> Bracket Pair Colorizer 2 <==
-    "bracket-pair-colorizer-2.colors": [ // ==> Define the colors used to colorize brackets. Accepts valid color names, hex codes, and rgba() values
+    // ==> Define the colors used to colorize brackets. Accepts valid color names, hex codes, and rgba() values
+    "bracket-pair-colorizer-2.colors": [
         "Gold",
         "Orchid",
         "LightSkyBlue"
     ],
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
     "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-    "bracket-pair-colorizer-2.colorMode":"Consecutive",
-    "bracket-pair-colorizer-2.showBracketsInGutter":true,
-    "bracket-pair-colorizer-2.rulerPosition":"Center",
-    "bracket-pair-colorizer-2.showVerticalScopeLine":true,
-    "bracket-pair-colorizer-2.showHorizontalScopeLine":true,
-    "bracket-pair-colorizer-2.scopeLineCSS":[
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.rulerPosition": "Center",
+    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+    "bracket-pair-colorizer-2.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 0.5"
@@ -68,25 +118,27 @@
     // ==> Code Spell Chacker
     "cSpell.language": "en,uk",
     // ==> CodeSteam <==
-    "codestream.email": "bbhanazono@outlook.com",
+    "codestream.email": "mail",
     // ==> ColorTabs <==
-    "colorTabs.activityBarBackground":true,
+    "colorTabs.activityBarBackground": true,
     "colorTabs.config": [
         {
-            "regex": "D:/Users/zerg/OneDrive/Документи/GitHub/nalashtuvannia/.*",
+            "regex": ".*\/nalashtuvannia\/.*",
             "color": "#FF0000",
             "label": "NALASHTUVANNIA"
         }
     ],
     "colorTabs.ignoreCase": true,
-    "colorTabs.statusBarBackground":true,
-    "colorTabs.tabBorder":true,
+    "colorTabs.statusBarBackground": true,
+    "colorTabs.tabBorder": true,
     "colorTabs.titleBackground": true,
-    "colorTabs.titleLabel":true,
+    "colorTabs.titleLabel": true,
     // ==> Cucumber <==
     "cucumberautocomplete.customParameters": [],
     // ==> GIT <==
     "git.autofetch": true,
+    // ==> Gitignore <==
+    "gitignore.cacheExpirationInterval": 3600, // ==> Number of seconds the list of `.gitignore` files retrieved from github will be cached
     // ==> GlassIt-VSC
     "glassit.alpha": 220,
     // ==> Markdown <==
@@ -99,11 +151,11 @@
     },
     // ==> PowerMode <==
     "powermode.enabled": true,
+    "powermode.presents": "fireworks",
     // ==> YAML <==
     "yaml.schemas": {
         "file:///toc.schema.json": "/toc\\.yml/i"
     },
-
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {

@@ -10,8 +10,7 @@
     + Debugger for Chrome
     + Docker
     + EditorConfig for VS Code
-    + ESLint
-        + **
+    + ESLint 
     + GitHub Pull Requests and Issues
     + GitLens - Git supercharged
     + indent-rainbow
@@ -66,36 +65,36 @@
 26. Path Autocomplete
 27. Power Mode
 28. PowerShell
-29. Remote
+29. Red Hat Commons
+30. Remote
     + Remote - Containrts
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-30. select highlight in minimap
-31. SmoothType
-32. Sort lines
-33. SQL
+31. select highlight in minimap
+32. SmoothType
+33. Sort lines
+34. SQL
     + SQL Server (msqql)
-34. Stackoverflow Instant Search
-35. Syntax Highlighter
-36. Terminal
+35. Stackoverflow Instant Search
+36. Syntax Highlighter
+37. Terminal
     + Terminal
     + Terminal All in One
-37. TODO Highlight
-38. Vibrancy
-39. VimL (Vim Language, Vim Script)
-40. vscode-pdf
-41. vscode-pigments
-42. VSCode Terminal themes
-43. VS Color Picker
-44. Wakatime
-45. Window Colors
-46. XML
+38. TODO Highlight
+39. Vibrancy
+40. VimL (Vim Language, Vim Script)
+41. vscode-pdf
+42. vscode-pigments
+43. VSCode Terminal themes
+44. VS Color Picker
+45. Wakatime
+46. Window Colors
+47. XML
     + XML
-    + XML Tools
-47. YAML
+48. YAML
     + docs-yaml
     + YAML
-48. Temy
+49. Temy
     + MS-DOS Theme
 
 
