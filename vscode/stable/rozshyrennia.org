@@ -1,0 +1,30 @@
+* Rozshyrennia dlia Visual Studio Code
+
+1. awesome-code
+    + .NET Core Test Explorer
+    + C# Extension
+    + Changelog
+    + Code Spell Chaker
+        + Ukrainian - Code Spell Checker
+    + Cucumber
+    + Debugger for Chrome
+    + Docker
+    + EditorConfig for VS Code
+    + ESLint
+        + **npm install -g eslint** / **npm install eslint**
+    + GitHub Pull Requests and Issues
+    + GitLens - Git supercharged
+    + indent-rainbow
+    + jshint
+        + **npm install -g jshint** / **npm install jshint**
+    + Markdown All in One
+    + markdownlint
+    + npm Intellisense
+    + Prettier - Code formatter
+    + Rainbow Bracket
+    + TSLint
+    + TypeScript Hero
+    + Whitespace
+    + XML Tools
+2. Temy
+    + MS-DOS Theme

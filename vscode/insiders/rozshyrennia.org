@@ -1,4 +1,4 @@
-* Rozshyrennia dlia Visual Studio Code
+* Rozshyrennia dlia Visual Studio Code - Insaiders
 
 1. awesome-vscode
     + .NET Core Test Explorer
@@ -10,11 +10,13 @@
     + Debugger for Chrome
     + Docker
     + EditorConfig for VS Code
-    + ESLint 
+    + ESLint
+        + **npm install -g eslint** / **npm install eslint**
     + GitHub Pull Requests and Issues
     + GitLens - Git supercharged
     + indent-rainbow
     + jshint
+        + **npm install -g jshint** / **npm install jshint**
     + Markdown All in One
     + markdownlint
     + npm Intellisense
@@ -22,19 +24,18 @@
     + Rainbow Bracket
     + TSLint
     + TypeScript Hero
-    + XML Tools
     + Whitespace
+    + XML Tools
 2. Better Comments
 3. Bracket Pair Colorizer 2
 4. BreadCrumb in StatusBar
 5. Browse Preview
 6. C# Extension
+7. Code Time
 7. CodeStream
-8. Code Time
 9. CodeTime
 10. Color Higuhlight
 11. ColorTabs
-12. Debugger for Chrome
 13. Debugger for Firefox
 14. Emacs
     + Emacs
@@ -68,6 +69,7 @@
 29. Red Hat Commons
 30. Remote
     + Remote - Containrts
+    + Remote SSH
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
 31. select highlight in minimap
