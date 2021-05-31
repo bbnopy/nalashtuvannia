@@ -1,0 +1,79 @@
+* Rozshyrennia dlia Visual Studio Code
+
+1. awesome-vscode
+    + .NET Core Test Explorer
+    + C# Extension
+    + Changelog
+    + Code Spell Checker
+        + Ukrainian - Code Spell Checker
+    + Cucumber
+    + Debugger for Chrome
+    + Docker
+    + EditorConfig for VS Code
+    + ESLint
+        + **npm install -g eslint** / **npm install eslint**
+    + GitHub Pull Requests and Issues
+    + GitLens - Git supercharged
+    + indent-rainbow
+    + jshint
+        + **npm install -g jshint** / **npm install jshint**
+    + Markdown All in One
+    + markdownlint
+    + npm Intellisense
+    + Prettier - Code formatter
+    + Rainbow Bracket
+    + TSLint
+    + TypeScript Hero
+    + Whitespace
+    + XML Tools
+2. Better Comments
+3. Bracket Pair Colorizer 2
+4. BreadCrumb in StatusBar
+5. Browser Preview
+6. C#
+7. Code Time
+8. CodeStream
+9. Color Higuhlight
+10. Debugger for Firefox
+11. Emacs
+    + Emacs
+    + Emacs Keymap
+12. ftp-sync
+13. GCode
+    + nc-gcode
+14. Git
+    + GitHub
+    + gitignore
+    + Git History
+15. heroku-cli
+16. JSON
+17. LISP
+    + Black Metal Common Lisp
+    + Common Lisp
+    + Lisp
+    + Lispy
+18. Markdown
+    + Markdown Preview Github Styling
+19. npm
+20. Org Mode
+21. Path Autocomplete
+22. Power Mode
+23. PowerShell
+24. Remote
+    + Remote - Containrts
+    + Remote SSH
+    + Remote - SSH: Editing Configuration Files
+    + Remote WSL
+25. select highlight in minimap
+26. SmoothType
+27. Stackoverflow Instant Search
+28. Syntax Highlighter
+29. VimL (Vim Language, Vim Script)
+30. Wakatime
+31. XML
+    + XML
+32. YAML
+    + docs-yaml
+    + YAML
+33. Temy
+    + MS-DOS Theme

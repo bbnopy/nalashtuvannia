@@ -23,6 +23,7 @@
     + Prettier - Code formatter
     + Rainbow Bracket
     + TSLint
+        + **npm install -g tslint** / **npm install tslint**
     + TypeScript Hero
     + Whitespace
     + XML Tools
@@ -32,12 +33,12 @@
 5. Browse Preview
 6. C# Extension
 7. Code Time
-7. CodeStream
+8. CodeStream
 9. CodeTime
 10. Color Higuhlight
 11. ColorTabs
-13. Debugger for Firefox
-14. Emacs
+12. Debugger for Firefox
+13. Emacs
     + Emacs
     + Emacs Keymap
 15. ftp-sync

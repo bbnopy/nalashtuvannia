@@ -2,88 +2,111 @@
 
 1. 7-Zip
 2. AnyDesk
-3. Bandicam
-4. Battle.net
-5. Bing Wallpapers
-6. Bitwarden
-7. Blender
-8. BlueStacks App Player
-9. CrystalDiskInfo
-10. CristalDiskMark
-11. Discord
-12. Docker Toolbox
-13. Dropbox
-14. Eclipce
-15. Epic Privacy Browser
-16. Facebook (beta)
-17. Free Radio Music
-18. Ghostery Down
-19. GIMP
-20. Git
-21. GitHub Desktop
-22. GitKraken
-23. GOG GALAXY
-24. Google Chrome
-25. Hack Font
-26. HandBrake
-27. Hyper
-28. Instagram
-29. iTunes
-30. KeePassXC
-31. Kite
-32. K-Lite Mega Codec Pack
-33. K-Pop Roks
-34. League of Legends
-35. Lightshot
-36. Megogo
-37. Messenger
-38. Microsoft 365
-39. Microsoft Edge
-40. Microsoft Sudoku
-41. Microsoft Visual Studio Code
-42. Microsoft Visual Studio Code Insiders
-43. MiniBin
-44. Mozilla Firefox
-45. myTybe!
-46. Nextcloud
-47. NFS Undeground
-48. NodeJS
-49. Office
-50. OneNote for Windows 10
-51. Opera GX
-52. Oracle VM VirtualBox
-53. Paint.net
-54. Picasa 3
-55. Plarium Play
-56. Putty
-57. PyCharm Community Edition
-58. Python
-59. qBittorrent
-60. Radio Uk
-61. Radio Ukraine
-62. Radio US
-63. Rainmeter
-64. Realtek Audio Console
-65. Remote Desktop
-66. Scratch 3
-67. Skype
-68. Slack
-69. SourceTree
-70. Spotify
-71. Sublime Text 3
-72. Team Viewer
-73. Telegram Desktop
-74. TeraCopy
-75. Termius
-76. Total Commander
-77. TuneIn Radio
-78. Twitter
-79. Ultimate Radio
-80. VeraCrypt
-81. Vivaldi
-82. VLC
-83. VMware Player
-84. Web Companion
-85. Whatsapp
-86. WinDjView
-87. Windows Terminal
+3. Audacity
+4. Bandicam
+5. Battle.net
+6. Bing Wallpapers
+7. Bitwarden
+8. Blender
+9. BlueStacks App Player
+10. ConEmu
+11. CrystalDiskInfo
+12. CristalDiskMark
+13. CPUID CPU-Z
+14. Discord
+15. Docker Toolbox
+16. Double Commander
+17. Dropbox
+18. Eclipce
+19. Epic Game Launcher
+20. Epic Privacy Browser
+21. Facebook (beta)
+22. Free Radio Music
+23. Ghostery Down
+24. GIMP
+25. Git
+26. GitHub Desktop
+27. GitKraken
+28. Glyph
+29. GODOTEngine
+30. GOG GALAXY
+31. Google Chrome
+32. Guild Wars 2
+33. Hack Font
+34. HandBrake
+35. Heroku
+36. Hyper
+37. Instagram
+38. iTunes
+39. KeePassXC
+40. Kite
+41. K-Lite Mega Codec Pack
+42. K-Pop Roks
+73. League of Legends
+44. Lightshot
+45. Megogo
+46. Meld
+47. Messenger
+48. Microsoft 365
+49. Microsoft Edge
+50. Microsoft Sudoku
+51. Microsoft Visual Studio Code
+52. Microsoft Visual Studio Code Insiders
+53. Minecraft
+54. MiniBin
+55. MobaXTerm
+56. Mozilla Firefox
+57. myTybe!
+58. Nextcloud
+59. NFS Undeground
+60. NodeJS
+61. Office
+62. OneNote for Windows 10
+63. Opera GX
+64. Oracle VM VirtualBox
+65. Origin
+66. Paint.net
+67. Picasa 3
+68. Plarium Play
+69. PoEdit
+70. Putty
+71. PyCharm Community Edition
+72. Python
+    + pip
+    + virtualenv / virtualenvwrapper
+73. qBittorrent
+74. Radio Uk
+75. Radio Ukraine
+76. Radio US
+77. Rainmeter
+78. Realtek Audio Console
+79. Remote Desktop
+80. RIOT Games
+81. Rockstar games launcher
+82. Scratch 3
+83. Skype
+84. Slack
+85. SourceTree
+86. Spotify
+87. Steam
+88. Sublime Text 4
+89. Team Viewer
+90. Telegram Desktop
+91. TeraCopy
+92. Termius
+93. Total Commander
+94. TuneIn Radio
+95. Twitter
+96. Ultimate Radio
+97. VeraCrypt
+98. Vivaldi
+99. VLC
+100. VMware Player
+101. Web Companion
+102. Whatsapp
+103. WinCDEmu
+104. WinDjView
+105. WinSCP
+106. Windows Terminal
+107. Zeal
+108. ZOC Terminal

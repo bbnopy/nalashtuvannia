@@ -14,44 +14,53 @@
 9. Djveiw
 10. Double Commander
     + doublecmd-qt5
-11. Emacs
-12. Filezilla
-13. GIMP
-14. Gparted
-15. Handbrake
-16. Heroku
+11. Dropbox
+12. Emacs
+13. Filezilla
+14. GIMP
+15. Git
+16. GODOTEngine
+17. Gparted
+18. HandBrake
+19. Heroku
     + AUR heroku-cli package
-17. Libre Office
+20. Libre Office
     + libreoffice-fresh
-18. HTOP
+21. Heroku
+22. HTOP
     + sudo pacman -S htop
-19. Inkscape
-20. KeepassXC
-21. Linux Headers
+23. Hyperjs
+24. Inkscape
+25. KeepassXC
+26. Linux Headers
     + sudo pacman -S linux-headers
-23. Lollypop
-24. Midori
-25. Nextcloud-client
-26. Nitrogen
-27. NodeJS
+27. Lollypop
+28. mc
+29. Nextcloud-client
+30. Nitrogen
+31. NodeJS
     + sudo pacman -S nodejs npm
-28. Python2/3
-29. qBittorent
-30. Scratch2/3
-31. Shotwell
-32. Soundconverter
-33. Sublime Text 3
-34. Telegramm desktop
-35. Thunderbird
-36. Tmux
-37. Tweaks
-38. Veracrypt
-39. Viber
-40. Vi/ViM
-41. Vivaldi
-42. VLC
-43. Whatsapp
-44. Xarchiver
-45. Xterm
-46. ZSH
+32. Python2/3
+    + pip
+    + virtualenv / virtualenvwrapper
+33. qBittorent
+34. Scratch2/3
+35. Shotwell
+36. Snap
+    + Snapd
+37. Soundconverter
+38. Sublime Text 3
+39. Telegramm desktop
+40. Thunderbird
+41. Tmux
+42. Tweaks
+43. Veracrypt
+44. Viber
+45. Vi/ViM
+46. Vivaldi
+47. VLC
+48. Whatsapp
+49. Xarchiver
+50. Xterm
+51. ZSH
     + sudo pacman -S zsh zsh-completions
