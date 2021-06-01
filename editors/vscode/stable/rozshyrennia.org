@@ -33,7 +33,7 @@
 6. C#
 7. Code Time
 8. CodeStream
-9. Color Higuhlight
+9. Color Highlight
 10. Debugger for Firefox
 11. Emacs
     + Emacs
@@ -60,7 +60,7 @@
 22. Power Mode
 23. PowerShell
 24. Remote
-    + Remote - Containrts
+    + Remote - Containers
     + Remote SSH
     + Remote - SSH: Editing Configuration Files
     + Remote WSL

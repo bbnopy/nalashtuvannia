@@ -1,11 +1,28 @@
 * Rozshurennia dlia Sublime Text 4
 
-1. CodeTime
-2. EditorConfig
-3. ESLint
-4. jshint
-5. SublimeLinter-contrib-markdownlint
-6. RainbowBracket
-7. SublimeLinter-tslint
-8. Whitespace
-9. BreadCrumb
+1. BreadCrumb
+2. CodeTime
+3. ColorHighlight
+4. EditorConfig
+5. ESLint
+6. FTPSync
+7. G-Code Syntax Highlights
+8. Git
+    + gitignore
+    + sublime-github
+9. jshint
+10. Lisp
+    + lispindent
+11. MarkdownPreview
+12. orgmode
+13. PowerShell
+14. RainbowBracket
+15. SublimeLinter-contrib-markdownlint
+16. SublimeLinter-tslint
+17. VimL
+18. WakaTime
+19. Whitespace
+20. Temy
+    + ayu
+21. Icon
+    + A File Icon

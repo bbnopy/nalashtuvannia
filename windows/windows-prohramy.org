@@ -56,57 +56,58 @@
 54. MiniBin
 55. MobaXTerm
 56. Mozilla Firefox
-57. myTybe!
-58. Nextcloud
-59. NFS Undeground
-60. NodeJS
-61. Office
-62. OneNote for Windows 10
-63. Opera GX
-64. Oracle VM VirtualBox
-65. Origin
-66. Paint.net
-67. Picasa 3
-68. Plarium Play
-69. PoEdit
-70. Putty
-71. PyCharm Community Edition
-72. Python
+57. MySQL Workbench
+58. myTybe!
+59. Nextcloud
+60. NFS Undeground
+61. NodeJS
+62. Office
+63. OneNote for Windows 10
+64. Opera GX
+65. Oracle VM VirtualBox
+66. Origin
+67. Paint.net
+68. Picasa 3
+69. Plarium Play
+70. PoEdit
+71. Putty
+72. PyCharm Community Edition
+73. Python
     + pip
     + virtualenv / virtualenvwrapper
-73. qBittorrent
-74. Radio Uk
-75. Radio Ukraine
-76. Radio US
-77. Rainmeter
-78. Realtek Audio Console
-79. Remote Desktop
-80. RIOT Games
-81. Rockstar games launcher
-82. Scratch 3
-83. Skype
-84. Slack
-85. SourceTree
-86. Spotify
-87. Steam
-88. Sublime Text 4
-89. Team Viewer
-90. Telegram Desktop
-91. TeraCopy
-92. Termius
-93. Total Commander
-94. TuneIn Radio
-95. Twitter
-96. Ultimate Radio
-97. VeraCrypt
-98. Vivaldi
-99. VLC
-100. VMware Player
-101. Web Companion
-102. Whatsapp
-103. WinCDEmu
-104. WinDjView
-105. WinSCP
-106. Windows Terminal
-107. Zeal
-108. ZOC Terminal
+74. qBittorrent
+75. Radio Uk
+76. Radio Ukraine
+77. Radio US
+78. Rainmeter
+79. Realtek Audio Console
+80. Remote Desktop
+81. RIOT Games
+82. Rockstar games launcher
+83. Scratch 3
+84. Skype
+85. Slack
+86. SourceTree
+87. Spotify
+88. Steam
+89. Sublime Text 4
+90. Team Viewer
+91. Telegram Desktop
+92. TeraCopy
+93. Termius
+94. Total Commander
+95. TuneIn Radio
+96. Twitter
+97. Ultimate Radio
+98. VeraCrypt
+99. Vivaldi
+100. VLC
+101. VMware Player
+102. Web Companion
+103. Whatsapp
+104. WinCDEmu
+105. WinDjView
+106. WinSCP
+107. Windows Terminal
+108. Zeal
+109. ZOC Terminal
