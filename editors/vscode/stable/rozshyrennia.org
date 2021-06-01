@@ -26,7 +26,9 @@
     + TypeScript Hero
     + Whitespace
     + XML Tools
+2. Better Align
 2. Better Comments
+3. Bookmarks
 3. Bracket Pair Colorizer 2
 4. BreadCrumb in StatusBar
 5. Browser Preview
@@ -46,34 +48,53 @@
     + gitignore
     + Git History
 15. heroku-cli
-16. JSON
-17. LISP
+16. HTML/XML
+    + Auto Close Tag
+    + Auto Rename Tag
+    + Color Info
+    + HTML Boilerplate
+    + HTML CSS Support
+    + HTMLHint
+    + HTML Preview
+    + HTML Snippets
+    + IntelliSense for CSS class names in HTML
+    + Mithrill Emmet
+    + Open-In-Browser
+    + Path Intellisense
+17. JSON
+18. LISP
     + Black Metal Common Lisp
     + Common Lisp
     + Lisp
     + Lispy
-18. Markdown
+19. Live Server
+19. Markdown
     + Markdown Preview Github Styling
-19. npm
-20. Org Mode
-21. Path Autocomplete
-22. Power Mode
-23. PowerShell
-24. Remote
+20. npm
+21. Org Mode
+22. Path Autocomplete
+23. Power Mode
+24. PowerShell
+25. Project Manager
+25. Remote
     + Remote - Containers
     + Remote SSH
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-25. select highlight in minimap
-26. SmoothType
-27. Stackoverflow Instant Search
-28. Syntax Highlighter
-29. VimL (Vim Language, Vim Script)
-30. Wakatime
-31. XML
+26. select highlight in minimap
+27. SmoothType
+28. Stackoverflow Instant Search
+29. Syntax Highlighter
+30. TODO Highlight
+31. VimL (Vim Language, Vim Script)
+32. vscode-faker
+33. Wakatime
+34. XML
     + XML
-32. YAML
+35. YAML
     + docs-yaml
     + YAML
-33. Temy
+36. Temy
     + MS-DOS Theme
+37. Ikonky
+    + ayu
