@@ -1,142 +1,154 @@
-// VS Code settings
-// =>Editor<=
-"editor.fontFamily": "Fira Code", // ==> Editor Font
-"editor.fontLigatures": true,
-"editor.fontSize": 12, // ==> Controls the fonts size in the pixels
-"editor.formatOnSave": true,
-"editor.formatOnPaste": true,
-"editor.insertSpaces": true,
-"editor.linkedEditing": true,
-"editor.minimap.side": "left", // ==> Minimap side
-"editor.quickSuggestions": true,
-"editor.quickSuggestionsDelay": 0,
-"editor.renderWhiteespace": "all",
-"editor.tabSize": 4, // ==> Tab size
-"editor.wordWrap": "on", // ==> Wrap lines
-// => Editor/Files <=
-"files.autoSave": "afterDelay", // ==> Autosave
-"files.autoSaveDelay": 500,
-// => Workbench <=
-"workbench.colorTheme": "msdos", // ==> Color themes
-"workbench.editor.enablePreview": false,
-"workbench.editor.openPositioning": "right", // ==> Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. Select `first` or `last` to open editors independently from the currently active one
-"workbench.editor.openSideBySideDirection": "down", // ==> Controls the default direction of editors that are opened side by side (e.g. from the explorer). By default, editors will open on the right hand side of the currently active one. If changed to `down`, the editors will open below the currently active one
-"workbench.editor.tabSizing": "shrink", // ==> Top tab layout rules
-"workbench.iconTheme": "ayu", // ==> Icon theme
-"workbench.settings.useSplitJSON": true, // ==> Controls whether to use the split JSON editor when editing settings as JSON
-"workbench.sideBar.location": "right", // ==> Controls the location of the sidebar. It can either show on the left or right of the workbench
-"workbench.statusBar.visible": true, // ==> ontrols the visibility of the status bar at the bottom of the workbench
-"workbench.treeIndent": 16, // ==> Sidebar project tree indent
-// => Window <=
-"window.zoomLevel": 0, // ==> Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity
-// => Features <=
-"debug.openDebug": "neverOpen",
-"debug.toolBarLocation": "docked", // ==> Debug
-"explorer.compactFolders": false,
-"terminal.integrated.fontSize": 12, // ==> Controls the font size in pixels of the terminal
-// => Extensions <=
-"better-comments.multilineComments": true,
-"better-comments.tags": [
-    {
-        "tag": "!",
-        "color": "#FF2D00",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-    },
-    {
-        "tag": "?",
-        "color": "#3498DB",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-    },
-    {
-        "tag": "//",
-        "color": "#474747",
-        "strikethrough": true,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-    },
-    {
-        "tag": "todo",
-        "color": "#FF8C00",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-    },
-    {
-        "tag": "*",
-        "color": "#98C379",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-    }
-],
-// ==> Bracket Pair Colorizer 2 <==
-"bracket-pair-colorizer-2.colors": [ // ==> Define the colors used to colorize brackets. Accepts valid color names, hex codes, and rgba() values
-    "Gold",
-    "Orchid",
-    "LightSkyBlue"
-],
-"bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-"bracket-pair-colorizer-2.forceIterationColorCycle": true,
-"bracket-pair-colorizer-2.colorMode": "Consecutive",
-"bracket-pair-colorizer-2.showBracketsInGutter": true,
-"bracket-pair-colorizer-2.rulerPosition": "Center",
-"bracket-pair-colorizer-2.showVerticalScopeLine": true,
-"bracket-pair-colorizer-2.showHorizontalScopeLine": true,
-"bracket-pair-colorizer-2.scopeLineCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1px",
-    "borderColor : {color}; opacity: 0.5"
-],
-// ==> BreadCrumb <==
-"breadcrumbs.filePath": "off",
-"breadcrumbs.showModules": false,
-"breadcrumbs.showPackages": false,
-// ==> Code Spell Checker
-"cSpell.language": "en,uk",
-// ==> CodeSteam <==
-"codestream.email": "bbhanazono@outlook.com",
-// ==> Cucumber <==
-"cucumberautocomplete.customParameters": [],
-// ==> GIT <==
-"git.autofetch": true,
-// ==> Gitignore <==
-"gitignore.cacheExpirationInterval": 3600, // ==> Number of seconds the list of `.gitignore` files retrieved from github will be cached
-// ==> HTML <==
-// ====> HTML <====
-"html.suggest.angular1": true, // ==> Configures if the built-in HTML language suggests Angular V1 tags and properties
-"html.suggest.ionic": true, // ==> Configures if the built-in HTML language suggests Ionic tags, properties and values
-"html.suggest.html5": true, // ==> Configures if the built-in HTML language suggests HTML5 tags, properties and values
-"html.validate.scripts": true, // ==> Configures if the built-in HTML language support validates embedded scripts
-"html.validate.styles": true, // ==> Configures if the built-in HTML language support validates embedded styles
-"[html]": {
-    "editor.foldingStrategy": "indentation"
-},
-// ==> Markdown <==
-"[markdown]": { // ==> Configure editor settings to be overridden for [markdown] language
-    "editor.wordWrap": "on",
-    "editor.quickSuggestions": false,
+{
+    // VS Code settings
+    // =>Editor<=
+    "editor.fontFamily": "Fira Code", // ==> Editor Font
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12, // ==> Controls the fonts size in the pixels
     "editor.formatOnSave": true,
-    "editor.renderWhitespace": "all",
-    "editor.acceptSuggestionOnEnter": "off"
-},
-// ==> PowerMode <==
-"powermode.enabled": true,
-"powermode.presets": "clippy", // ==> clippy, exploding-rift, fireworks, flames, magic, particles, simple-rift
-// ==> YAML <==
-"yaml.schemas": { // ==> Sidebar project tree indent
-    "file:///toc.schema.json": "/toc\\.yml/i"
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.side": "left", // ==> Minimap side
+    "editor.quickSuggestions": true,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderWhiteespace": "all",
+    "editor.tabSize": 4, // ==> Tab size
+    "editor.wordWrap": "on", // ==> Wrap lines
+    // => Editor/Files <=
+    "files.autoSave": "afterDelay", // ==> Autosave
+    "files.autoSaveDelay": 500,
+    // => Workbench <=
+    "workbench.colorTheme": "msdos", // ==> Color themes
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "right", // ==> Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. Select `first` or `last` to open editors independently from the currently active one
+    "workbench.editor.openSideBySideDirection": "down", // ==> Controls the default direction of editors that are opened side by side (e.g. from the explorer). By default, editors will open on the right hand side of the currently active one. If changed to `down`, the editors will open below the currently active one
+    "workbench.editor.tabSizing": "shrink", // ==> Top tab layout rules
+    "workbench.iconTheme": "ayu", // ==> Icon theme
+    "workbench.settings.useSplitJSON": true, // ==> Controls whether to use the split JSON editor when editing settings as JSON
+    "workbench.sideBar.location": "right", // ==> Controls the location of the sidebar. It can either show on the left or right of the workbench
+    "workbench.statusBar.visible": true, // ==> ontrols the visibility of the status bar at the bottom of the workbench
+    "workbench.treeIndent": 16, // ==> Sidebar project tree indent
+    // => Window <=
+    "window.zoomLevel": 0, // ==> Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity
+    // => Features <=
+    "debug.openDebug": "neverOpen",
+    "debug.toolBarLocation": "docked", // ==> Debug
+    "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 12, // ==> Controls the font size in pixels of the terminal
+    // => Extensions <=
+    "better-comments.multilineComments": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    // ==> Bracket Pair Colorizer 2 <==
+    "bracket-pair-colorizer-2.colors": [ // ==> Define the colors used to colorize brackets. Accepts valid color names, hex codes, and rgba() values
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.rulerPosition": "Center",
+    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+    "bracket-pair-colorizer-2.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    // ==> BreadCrumb <==
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.showModules": false,
+    "breadcrumbs.showPackages": false,
+    // ==> Code Spell Checker
+    "cSpell.language": "en,uk",
+    // ==> CodeSteam <==
+    "codestream.email": "bbhanazono@outlook.com",
+    // ==> Cucumber <==
+    "cucumberautocomplete.customParameters": [],
+    // ==> GIT <==
+    "git.autofetch": true,
+    // ==> Gitignore <==
+    "gitignore.cacheExpirationInterval": 3600, // ==> Number of seconds the list of `.gitignore` files retrieved from github will be cached
+    // ==> HTML <==
+    // ====> HTML <====
+    "html.suggest.angular1": true, // ==> Configures if the built-in HTML language suggests Angular V1 tags and properties
+    "html.suggest.ionic": true, // ==> Configures if the built-in HTML language suggests Ionic tags, properties and values
+    "html.suggest.html5": true, // ==> Configures if the built-in HTML language suggests HTML5 tags, properties and values
+    "html.validate.scripts": true, // ==> Configures if the built-in HTML language support validates embedded scripts
+    "html.validate.styles": true, // ==> Configures if the built-in HTML language support validates embedded styles
+    "[html]": {
+        "editor.foldingStrategy": "indentation"
+    },
+    // ==> JAVA <==
+    // ===> Language Support for Java(TM) by Red Hat <===
+    "java.configuration.runtimes": [
+        {
+            "name":"JavaSE-11",
+            "path": "C:Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/",
+        }
+    ],
+    // ==> Markdown <==
+    "[markdown]": { // ==> Configure editor settings to be overridden for [markdown] language
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    // ==> PowerMode <==
+    "powermode.enabled": true,
+    "powermode.presets": "clippy", // ==> clippy, exploding-rift, fireworks, flames, magic, particles, simple-rift
+    // ==> YAML <==
+    "yaml.schemas": { // ==> Sidebar project tree indent
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

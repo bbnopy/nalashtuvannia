@@ -61,40 +61,47 @@
     + Mithrill Emmet
     + Open-In-Browser
     + Path Intellisense
-17. JSON
-18. LISP
+17. Java Extension Pack
+    + Debugger for Java
+    + Java Test Runner
+    + Language Support for Java(TM) by Red Hat
+    + Maven for Java
+    + Project Manager for Java
+    + Visual Studio IntelliCode
+18. JSON
+19. LISP
     + Black Metal Common Lisp
     + Common Lisp
     + Lisp
     + Lispy
-19. Live Server
-19. Markdown
+20. Live Server
+21. Markdown
     + Markdown Preview Github Styling
-20. npm
-21. Org Mode
-22. Path Autocomplete
-23. Power Mode
-24. PowerShell
-25. Project Manager
-25. Remote
+22. npm
+23. Org Mode
+24. Path Autocomplete
+25. Power Mode
+26. PowerShell
+27. Project Manager
+28. Remote
     + Remote - Containers
     + Remote SSH
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-26. select highlight in minimap
-27. SmoothType
-28. Stackoverflow Instant Search
-29. Syntax Highlighter
-30. TODO Highlight
-31. VimL (Vim Language, Vim Script)
-32. vscode-faker
-33. Wakatime
-34. XML
+29. select highlight in minimap
+30. SmoothType
+31. Stackoverflow Instant Search
+32. Syntax Highlighter
+33. TODO Highlight
+34. VimL (Vim Language, Vim Script)
+35. vscode-faker
+36. Wakatime
+37. XML
     + XML
-35. YAML
+38. YAML
     + docs-yaml
     + YAML
-36. Temy
+39. Temy
     + MS-DOS Theme
-37. Ikonky
+40. Ikonky
     + ayu
