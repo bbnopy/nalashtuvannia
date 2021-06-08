@@ -34,21 +34,23 @@
 5. Browser Preview
 6. C#
 7. Code Time
-8. CodeStream
-9. Color Highlight
-10. Debugger for Firefox
-11. Emacs
+8. CodeTime
+9. CodeStream
+10. Color Highlight
+11. Debugger for Firefox
+12. Debugger for Microsoft Edge
+13. Emacs
     + Emacs
     + Emacs Keymap
-12. ftp-sync
-13. GCode
+14. ftp-sync
+15. GCode
     + nc-gcode
-14. Git
+16. Git
     + GitHub
     + gitignore
     + Git History
-15. heroku-cli
-16. HTML/XML
+17. heroku-cli
+18. HTML/XML
     + Auto Close Tag
     + Auto Rename Tag
     + Color Info
@@ -61,47 +63,54 @@
     + Mithrill Emmet
     + Open-In-Browser
     + Path Intellisense
-17. Java Extension Pack
+19. Java Extension Pack
     + Debugger for Java
     + Java Test Runner
     + Language Support for Java(TM) by Red Hat
     + Maven for Java
     + Project Manager for Java
     + Visual Studio IntelliCode
-18. JSON
-19. LISP
+20. Javascript
+    + Flow language Support
+    + JavaScript (ES6) code snippets
+    + StandardJS - JavaScript Standard Style
+21. JSON
+22. LISP
     + Black Metal Common Lisp
     + Common Lisp
     + Lisp
     + Lispy
-20. Live Server
-21. Markdown
+23. Live Server
+24. Markdown
     + Markdown Preview Github Styling
-22. npm
-23. Org Mode
-24. Path Autocomplete
-25. Power Mode
-26. PowerShell
-27. Project Manager
-28. Remote
+25. npm
+26. Org Mode
+27. Path Autocomplete
+28. Power Mode
+29. PowerShell
+30. Project Manager
+31. Remote
     + Remote - Containers
     + Remote SSH
     + Remote - SSH: Editing Configuration Files
     + Remote WSL
-29. select highlight in minimap
-30. SmoothType
-31. Stackoverflow Instant Search
-32. Syntax Highlighter
-33. TODO Highlight
-34. VimL (Vim Language, Vim Script)
-35. vscode-faker
-36. Wakatime
-37. XML
+32. select highlight in minimap
+33. SmoothType
+34. Stackoverflow Instant Search
+35. Syntax Highlighter
+36. TODO Highlight
+37. VimL (Vim Language, Vim Script)
+38. VRML
+    + VRML V2.0 Editing Kit
+    + X3D classic encoding (VRML) editing tool
+39. vscode-faker
+40. Wakatime
+41. XML
     + XML
-38. YAML
+42. YAML
     + docs-yaml
     + YAML
-39. Temy
+43. Temy
     + MS-DOS Theme
-40. Ikonky
+44. Ikonky
     + ayu

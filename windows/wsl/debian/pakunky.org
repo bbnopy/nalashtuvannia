@@ -1,0 +1,8 @@
+* Pakunky dlia Debian WSL
+
+1. apache2
+2. htop
+3. mc
+4. SSH
+    + SSH
+    + openSSH-server
