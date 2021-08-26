@@ -1,0 +1,241 @@
+{"hotkeys":[
+	{"id":"000", "name":"C-x", "description":"rozshyrennia za dopomohoiu prefiksa"},
+	{"id":"001", "name":"M-x", "description":"rozshyrennia za dopomohoiu imia komandy"},
+	{"id":"002", "name":"C-x g", "description":"perervaty komandu"},
+	{"id":"003", "name":"C-x u", "descriptio":"vidmina zmin"},
+	{"id":"004", "name":"Esc Esc Esc", "description":"mnohotsilova komanda vykhodu"},
+	{"id":"005", "name":"C-z", "description":"'tymchasovyi' vykhid iz Emacs, 'fg'abo '%emacs' dlia povernennia"},
+	{"id":"006", "name":"C-x C-c", "description":"zavershyty rabotu"},
+	{"id":"007", "name":"C-x C-f", "description":"vidkryty fail"},
+	{"id":"008", "name":"M-x make-frame", "description":"novyi freim"},
+	{"id":"009", "name":"M-x delete-frame", "description":"vydalyty potochnyi freim"},
+	{"id":"010", "name":"C-x k", "description":"zakryty fail, ale ne redaktor"},
+	{"id":"011", "name":"C-x C-b", "description":"pokazaty usi vidkryti faily"},
+	{"id":"012", "name":"C-x b", "description":"pereity v inshyi vidkrytyi fail"},
+	{"id":"013", "name":"*C-x C-a.right", "description":"perekliuchytysia na nastupnyi bufer"},
+	{"id":"014", "name":"C-x C-a.left", "description":"switch to previous buffer"},
+	{"id":"015", "name":"C-x o", "name2":"M-x other-window", "description":"peremishennia mizh viknamy"},
+	{"id":"016", "name":"C-x 2", "name2":"M-x split-window-bellow", "description":"rozbyty vikno po horyzontali"},
+	{"id":"017", "name":"C-x 3", "name2":"M-x split-window-right", "description":"rozbyty vikno po vertykali"},
+	{"id":"018", "name":"C-x 0", "description":"zakryty vikno"},
+	{"id":"019", "name":"C-x 1", "name2":"M-x delete-other-windows", "description":"zalyshyty lyshe vikno z kursorom"},
+	{"id":"020", "name":"C-x 4 C-f foo", "description":"vidkryty fail v nyzhnomu vikni razon z kursorom"},
+	{"id":"021", "name":"ESC C-v", "description":"prokrutka druhoho vikna donyzu"},
+	{"id":"022", "name":"C-x C-s", "description":"zapysaty fail"},
+	{"id":"023", "name":"C-x s", "description":"zberehty deiaki bufery"},
+	{"id":"024", "name":"C-f", "description":"vpered na symvol"},
+	{"id":"025", "name":"M-f", "description":"vpered na slovo"},
+	{"id":"026", "name":"C-b", "description":"nazad na symvol"},
+	{"id":"027", "name":"M-b", "description":"nazad na slovo"},
+	{"id":"028", "name":"C-n", "description":"nastupnyi riadok"},
+	{"id":"029", "name":"C-p", "description":"poperednii riadok"},
+	{"id":"030", "name":"C-a", "description":"na pochatok riadka"},
+	{"id":"031", "name":"M-a", "description":"na pochatok rechennia"},
+	{"id":"032", "name":"C-e", "description":"u kinets riadku"},
+	{"id":"033", "name":"M-e", "description":"u kinets rechennia"},
+	{"id":"034", "name":"C-v", "description":"perekhid na nastupnyi ekran"},
+	{"id":"035", "name":"M-v", "description":"perekhid na poperednii ekran"},
+	{"id":"036", "name":"C-l", "description":"rozmistyty v tsentri ekrana kursor"},
+	{"id":"037", "name":"M-Shift-<", "description":"peremistyty na pochatok tekstu"},
+	{"id":"038", "name":"C-Home", "description":"na pochatok failu"},
+	{"id":"039", "name":"M-Shift->", "description":"peremishennia u kinets tekstu"},
+	{"id":"040", "name":"C-End", "description":"peremishennia u kinets failu"},
+	{"id":"041", "name":"C-M-v", "description":"prokrutka druhoho vikna doverkhu"},
+	{"id":"042", "name":"M-g g", "description":"jump to specified line"},
+	{"id":"043", "name":"C-Space", "name2":"M-x set-mark-command", "description":"vkazaty pozytsiiu dlia vydilennia"},
+	{"id":"044", "name":"C-w", "description":"skopiiuvaty ta vydilyty vydilenu oblast C-Space"},
+	{"id":"045", "name":"M-w", "description":"skopiiuvaty vydilenu oblast C-Space"},
+	{"id":"046", "name":"C-x C-x", "description":"swap point and mark"},
+	{"id":"047", "name":"M-h", "description":"make region contain the current paragraph"},
+	{"id":"048", "name":"C-x n n", "description":"narrow buffer to the current region"},
+	{"id":"049", "name":"C-x n w", "description":"restore buffer/widen"},
+	{"id":"050", "name":"Del", "description":"vydalyty symvol pered kursorom"},
+	{"id":"051", "name":"M-Del", "description":"'vbyty' slovo, stoit pered kursorom"},
+	{"id":"052", "name":"C-d", "description":"vydalyty symvol nastupnyi za (nad) kursorom"},
+	{"id":"053", "name":"M-d", "description":"'vbyty' slovo, stoit za kursorom"},
+	{"id":"054", "name":"C-k", "description":"'vbyty' vse vid kursora do kintsia riadku"},
+	{"id":"055", "name":"M-k", "description":"'vbyty' vse do kintsia rechennia"},
+	{"id":"056", "name":"M-Backspace", "description":"vydalyty poperednie slovo"},
+	{"id":"057", "name":"C-w", "description":"vbyty rehion/vyrizaty"},
+	{"id":"058", "name":"M-w", "description":"zberehty rehion, shchob ubyty kiltse bez vydalennia/kopiiuvannia"},
+	{"id":"059", "name":"C-y", "description":"vstavyty ostanii vydalenyi tekst nazad/vidnovlennia ostanoho 'vbytoho' tekstu"},
+	{"id":"060", "name":"M-y", "description":"vstavliaty vydaleni tekst odyn za odnym po cherzi"},
+	{"id":"061", "name":"M-x yank-pop", "description":"insert previous copied content"},
+	{"id":"062", "name":"C-x u", "description":"vidmina"},
+	{"id":"063", "name":"C-_", "description":"vidmina"},
+	{"id":"064", "name":"C-/", "description":"vidminia ostaniu vvedenu komandu"},
+	{"id":"065", "name":"M-x comment-dwin", "name2":"M-;", "description":"to make the region into a comment or uncomment makros"},
+	{"id":"066", "name":"C-s", "description":"vmykaie poshuk, poshuk vpered"},
+	{"id":"067", "name":"C-s C-s", "description":"poshuk ostannoho shukanoho elementa"},
+	{"id":"068", "name":"C-r", "description":"poshuk nazad"},
+	{"id":"069", "name":"M-x isearch-forward", "description":"poshuk"},
+	{"id":"070", "name":"C-s C-w", "description":"shukaite slovo pid kursorom"},
+	{"id":"071", "name":"C-s M-n", "description":"nastupnyi punkt v istorii poshuku"},
+	{"id":"072", "name":"C-s M-p", "description":"poperednii element v istorii poshuku"},
+	{"id":"073", "name":"C-M-s", "description":"rehuliarnyi vyraz dodatkovyi poshuk"},
+	{"id":"074", "name":"M-x query-replace", "name2":"M-%", "description":"poshuk i zamina"},
+	{"id":"075", "name":"C-u", "description":"povtoryty komandu vkazanu kilkist raziv"},
+	{"id":"076", "name":"C-u C-u", "description":"peremishennia na 16"},
+	{"id":"077", "name":"C-u C-u C-u", "description":"peremishennia 64"},
+	{"id":"078", "name":"M-1 M-0", "description":"lichylnyk povtoren"},
+	{"id":"079", "name":"M-x replace-string", "description":"zamina odnoho riadka na inshyu"},
+	{"id":"080", "name":"M-x recover-file", "description":"vidnovlennia iz backup failu"},
+	{"id":"081", "name":"M-q", "description":"pereformatuvannia parahrafu"},
+	{"id":"082", "name":"C-x v", "description":"displays a diff showing the changes youve made to the current file"},
+	{"id":"083", "name":"C-x v ~", "description":"prompts you for a version number and shows you that version of the current file in another window"},
+	{"id":"084", "name":"C-x v g", "description":"displays an annotated version of the file showing, for each line"},
+	{"id":"085", "name":"C-x v l", "description":"displays a log of previous changes to the file"},
+	{"id":"086", "name":"M-x gnus", "description":"RSS feed"},
+	{"id":"087", "name":"M-x shell", "description":"start the shell in the buffer named *shell*/start a shell interface"},
+	{"id":"088", "name":"M-x compile", "description":"invokes make and displays output in a new buffer"},
+	{"id":"089", "name":"M-x grep", "description":"invokes grep and prints results in a new buffer"},
+	{"id":"090", "name":"M-x man", "description":"displays man pages"},
+	{"id":"091", "name":"M-x calculator", "description":"a simple calculator"},
+	{"id":"092", "name":"M-x calendar", "description":"a calendar"},
+	{"id":"093", "name":"M-x tetris", "description":"tetris"},
+	{"id":"094", "name":"M-x hanoi", "description":"towers of hanoi game"},
+	{"id":"095", "name":"M-x doctor", "description":"emacs psychotherapist"},
+	{"id":"099", "name":"M-x phases-of-moon", "description":"shows upcoming quarters of the moon"},
+	{"id":"097", "name":"M-x shell-command", "name2":"M-!", "description":"executes a command and displays the output in a new buffer"},
+	{"id":"098", "name":"M-x shell-command-on-region", "description":"executes a command and displays the output in a new buffer"},
+	{"id":"099", "name":"M-x list-colors-display", "description":"view the color and hex values/list of color names emacs support"},
+	{"id":"100", "name":"M-x irc", "description":"internet relay chat"},
+	{"id":"101", "name":"M-x string-rectangle", "name2":"C-x r t", "description":"prefix"},
+	{"id":"102", "name":"M-x kill-rectangle", "name2":"C-x r k", "description":"delete any rectangular block of text"},
+	{"id":"103", "name":"M-x set-buffer-file-coding-system", "description":"change file endings between windows/unix/mac"},
+	{"id":"104", "name":"M-x reverse-region", "description":"reverse order in region by lines"},
+	{"id":"105", "name":"M-x sort-fields", "description":"sort lines by a specific column, as string"},
+	{"id":"106", "name":"M-x sort-numerictrl+Fields", "description":"sort lines by a specific column, as number"},
+	{"id":"107", "name":"M-x delete-trailing-whitespace", "description":"does it to the whole buffer"},
+	{"id":"108", "name":"M-x whitespace-mode", "description":"make spaces and tabs visible"},
+	{"id":"109", "name":"M-x eval-buffer", "description":"to evaluate all code in current file"},
+	{"id":"110", "name":"M-x load-file", "description":"in dired 'L'"},
+	{"id":"111", "name":"M-x universal-argument", "name2":"C-u M-x shell", "description":"start a second shell"},
+	{"id":"112", "name":"M-x revert-buffer", "description":"'refresh' a openned file to its saved state"},
+	{"id":"113", "name":"M-x universal argument", "name2":"C-u", "name3":"C-h i", "description":"open info file as info"},
+	{"id":"114", "name":"M-x hexl-find-file", "description":"open file as hex"},
+	{"id":"115", "name":"M-x describe-syntax", "description":"show current buffer's syntax table"},
+	{"id":"116", "name":"C-M-a.left", "description":"backward-sexp/move to previous sibling"},
+	{"id":"117", "name":"C-M-a.right", "description":"forward-sexp/move to next sibling"},
+	{"id":"118", "name":"C-M-a.up", "description":"backward-up-list/move to parent"},
+	{"id":"119", "name":"C-M-a.down", "description":"down-list/move to first child"},
+	{"id":"120", "name":"C-x C-e", "name2":"M-x eval-last-sexp", "description":"the result is current cursor position/eval-last-swxp"},
+	{"id":"121", "name":"M-x describe-bindings", "description":"see the list on your machine"},
+	{"id":"122", "name":"M-x gdb", "description":"compiling, running and testing programs"},
+	{"id":"123", "name":"M-x ediff", "description":"differences"},
+	{"id":"124", "name":"", "description":""}
+	{"id":"125", "name":"", "description":""}
+	{"id":"126", "name":"", "description":""}
+	{"id":"127", "name":"", "description":""}
+	{"id":"128", "name":"", "description":""}
+	{"id":"129", "name":"", "description":""}
+	{"id":"130", "name":"", "description":""}
+	{"id":"131", "name":"", "description":""}
+	{"id":"132", "name":"", "description":""}
+	{"id":"133", "name":"", "description":""}
+	{"id":"134", "name":"", "description":""}
+	{"id":"135", "name":"", "description":""}
+	{"id":"136", "name":"", "description":""}
+	{"id":"137", "name":"", "description":""}
+	{"id":"138", "name":"", "description":""}
+	{"id":"139", "name":"", "description":""}
+	{"id":"140", "name":"", "description":""}
+
+**F3** - start recording macro
+**F4** - stop recording macro/play back macro one
+**M 1 F4** - play back macro 1 times
+**M-0 F4** - play back macro over and over until it fails
+
+**M-x java-mode** - mode for editing java files
+**M-x python-mode** - mode for editing python file
+**M-x text mode** - tekstovyi rezhym dlia Emacs
+**M-x fundamental-mode** - mode with no specializations at all
+
+**M-x auto-fill-mode** - rezhym avtozapovnennia
+**M-x flyspell-mode** - highlights misspelled words as you type
+**M-x follow-mode** - if you have a buffer displayed in two window side by side, 'follow-mode' forces them to scroll together
+**M-x icomplete-mode** - show completions as you type
+**M-x iswitchb-mode** - show all buffer names when you switch buffers with 'C-x b'
+
+**M-x dired** - file manager/dired-mode
+**C-x C-q** - edit in dired-mode
+**M-x wired-change-to-wired-mode** - edit in dired-mode
+
+**M-x viper-mode** - emulating vi editing behavior in Emacs
+**M-x cua-mode** - cua mode standart keys for copy cut paste
+**C-x**/**C-c**/**C-v**/**C-z** - cut, copy, paste, umdo in cua-mode
+**M-x fluspell-mode/flyspellbuffer** - spell checker
+
+**C-x f** - zadaty hranytsiu, zvychaino hranytsia dorivniuie 70-ty symvolam
+**C-x ^** - zbilshyty vysotu
+**C-x }** - zbilshennia shyryny
+**C-x {** - zmenshennia shyryny
+**C-x -** - zmenshyty vikno vidpovidno do ioho vmistu
+**C-x +** - zrobyty vsi paneli odnakovoiu po shyrini/vysoti
+
+**C-h ?**/**F1**/**M-x help** - Emacs rozpovist vam o tom yakyi help vin mozhe zaproponuvaty
+**C-h C-h** - a list of all help features
+**C-h m** - podyvytysia vidminy Text-rezhyma vid bazovoho
+**C-h c** - Emacs vidobrazhaie korotkyi opys nabranoi komandy "C-p"
+**C-h k** - bilshe informatsii o spolucheni klavish "C-p"
+**C-h f** - opys funktsii "previous-line"
+**C-h v** - vidobrazhennia dokumentatsii o zminnykh
+**C-h a** - vvedit kliuchove slovo i Emacs pokazhe vam spysok usikh komand z funktsii
+**C-h i** - chytaty snteraktyvne kerinytstvo (komanda Info)
+**M-x describe-key** - find the command name of a keyboard shortcut
+**M-x description-function** - find the keyboard shoartcut of a command
+**M-x apropos-command** - search command by name
+**M-x describe-mode** - show current mode documentation
+**C-h C-a** - about-emacs
+**C-h C-c** - describe-copying
+**C-h C-d** - view-emacs-debugging
+**C-h C-e** - view-external-packages
+**C-h C-f** - view-emacs-FAQ
+**C-h C-h** - help-for-help
+**C-h RET** - view-order-manuals
+**C-h C-n** - view-emacs-news
+**C-h C-o** - describe-distribution
+**C-h C-p** - view-emacs-problems
+**C-h C-t** - view-emacs-todo
+**C-h C-w** - describe-no-warranty
+**C-h C-\** - describe-input-method
+**C-h .** - display-local-help
+**C-h ?** - help-for-help
+**C-h c** - describe-coding-system
+**C-h f** - Info-goto-emacs-command-node
+**C-h i** - describe-input-method
+**C-h k** - Info-goto-emacs-key-command-node
+**C-h l** - describe-language-environment
+**C-h s** - info-lookup-symbol
+**C-h a** - apropos-command
+**C-h b** - describe-bindings
+**C-h c** - describe-key-briefly
+**C-h d** - apropos-documentation
+**C-h e** - view-echo-area-messages
+**C-h f** - describe-function
+**C-h g** - describe-gnu-project
+**C-h h** - view-hello-file
+**C-h i** - info
+**C-h k** - describe-key
+**C-h l** - view-lossage
+**C-h m** - describe-mode
+**C-h n** - view-emacs-news
+**C-h p** - finder-by-keyword
+**C-h q** - help-quit
+**C-h r** - info-emacs-manual
+**C-h s** - describe-syntax
+**C-h t** - help-with-tutorial
+**C-h w** - where-is
+**C-h F1** - help-for-help
+**C-h help** - help-for-help
+
+## IDO mode
+
+**M-x ido-mode** - vkliuchyty/vykliuchyty IDO mode
+**M-x ido-switch-buffer** - perekliuchyty buffer
+**M-x ido-find-file** - vidkryty fail
+**arrows** - zrobyty nastupnyi vybir
+**C-f** - zupynyty propozytsiiu, nepohano pry stvoreni novoho failu
+**C-b** - povernutysia do bufer sektsii
+**C-d** - perekliuchyty da vidkryttia directory mode
+**C-g** - vidmina
