@@ -123,119 +123,95 @@
 	{"id":"121", "name":"M-x describe-bindings", "description":"see the list on your machine"},
 	{"id":"122", "name":"M-x gdb", "description":"compiling, running and testing programs"},
 	{"id":"123", "name":"M-x ediff", "description":"differences"},
-	{"id":"124", "name":"", "description":""}
-	{"id":"125", "name":"", "description":""}
-	{"id":"126", "name":"", "description":""}
-	{"id":"127", "name":"", "description":""}
-	{"id":"128", "name":"", "description":""}
-	{"id":"129", "name":"", "description":""}
-	{"id":"130", "name":"", "description":""}
-	{"id":"131", "name":"", "description":""}
-	{"id":"132", "name":"", "description":""}
-	{"id":"133", "name":"", "description":""}
-	{"id":"134", "name":"", "description":""}
-	{"id":"135", "name":"", "description":""}
-	{"id":"136", "name":"", "description":""}
-	{"id":"137", "name":"", "description":""}
-	{"id":"138", "name":"", "description":""}
-	{"id":"139", "name":"", "description":""}
-	{"id":"140", "name":"", "description":""}
-
-**F3** - start recording macro
-**F4** - stop recording macro/play back macro one
-**M 1 F4** - play back macro 1 times
-**M-0 F4** - play back macro over and over until it fails
-
-**M-x java-mode** - mode for editing java files
-**M-x python-mode** - mode for editing python file
-**M-x text mode** - tekstovyi rezhym dlia Emacs
-**M-x fundamental-mode** - mode with no specializations at all
-
-**M-x auto-fill-mode** - rezhym avtozapovnennia
-**M-x flyspell-mode** - highlights misspelled words as you type
-**M-x follow-mode** - if you have a buffer displayed in two window side by side, 'follow-mode' forces them to scroll together
-**M-x icomplete-mode** - show completions as you type
-**M-x iswitchb-mode** - show all buffer names when you switch buffers with 'C-x b'
-
-**M-x dired** - file manager/dired-mode
-**C-x C-q** - edit in dired-mode
-**M-x wired-change-to-wired-mode** - edit in dired-mode
-
-**M-x viper-mode** - emulating vi editing behavior in Emacs
-**M-x cua-mode** - cua mode standart keys for copy cut paste
-**C-x**/**C-c**/**C-v**/**C-z** - cut, copy, paste, umdo in cua-mode
-**M-x fluspell-mode/flyspellbuffer** - spell checker
-
-**C-x f** - zadaty hranytsiu, zvychaino hranytsia dorivniuie 70-ty symvolam
-**C-x ^** - zbilshyty vysotu
-**C-x }** - zbilshennia shyryny
-**C-x {** - zmenshennia shyryny
-**C-x -** - zmenshyty vikno vidpovidno do ioho vmistu
-**C-x +** - zrobyty vsi paneli odnakovoiu po shyrini/vysoti
-
-**C-h ?**/**F1**/**M-x help** - Emacs rozpovist vam o tom yakyi help vin mozhe zaproponuvaty
-**C-h C-h** - a list of all help features
-**C-h m** - podyvytysia vidminy Text-rezhyma vid bazovoho
-**C-h c** - Emacs vidobrazhaie korotkyi opys nabranoi komandy "C-p"
-**C-h k** - bilshe informatsii o spolucheni klavish "C-p"
-**C-h f** - opys funktsii "previous-line"
-**C-h v** - vidobrazhennia dokumentatsii o zminnykh
-**C-h a** - vvedit kliuchove slovo i Emacs pokazhe vam spysok usikh komand z funktsii
-**C-h i** - chytaty snteraktyvne kerinytstvo (komanda Info)
-**M-x describe-key** - find the command name of a keyboard shortcut
-**M-x description-function** - find the keyboard shoartcut of a command
-**M-x apropos-command** - search command by name
-**M-x describe-mode** - show current mode documentation
-**C-h C-a** - about-emacs
-**C-h C-c** - describe-copying
-**C-h C-d** - view-emacs-debugging
-**C-h C-e** - view-external-packages
-**C-h C-f** - view-emacs-FAQ
-**C-h C-h** - help-for-help
-**C-h RET** - view-order-manuals
-**C-h C-n** - view-emacs-news
-**C-h C-o** - describe-distribution
-**C-h C-p** - view-emacs-problems
-**C-h C-t** - view-emacs-todo
-**C-h C-w** - describe-no-warranty
-**C-h C-\** - describe-input-method
-**C-h .** - display-local-help
-**C-h ?** - help-for-help
-**C-h c** - describe-coding-system
-**C-h f** - Info-goto-emacs-command-node
-**C-h i** - describe-input-method
-**C-h k** - Info-goto-emacs-key-command-node
-**C-h l** - describe-language-environment
-**C-h s** - info-lookup-symbol
-**C-h a** - apropos-command
-**C-h b** - describe-bindings
-**C-h c** - describe-key-briefly
-**C-h d** - apropos-documentation
-**C-h e** - view-echo-area-messages
-**C-h f** - describe-function
-**C-h g** - describe-gnu-project
-**C-h h** - view-hello-file
-**C-h i** - info
-**C-h k** - describe-key
-**C-h l** - view-lossage
-**C-h m** - describe-mode
-**C-h n** - view-emacs-news
-**C-h p** - finder-by-keyword
-**C-h q** - help-quit
-**C-h r** - info-emacs-manual
-**C-h s** - describe-syntax
-**C-h t** - help-with-tutorial
-**C-h w** - where-is
-**C-h F1** - help-for-help
-**C-h help** - help-for-help
-
-## IDO mode
-
-**M-x ido-mode** - vkliuchyty/vykliuchyty IDO mode
-**M-x ido-switch-buffer** - perekliuchyty buffer
-**M-x ido-find-file** - vidkryty fail
-**arrows** - zrobyty nastupnyi vybir
-**C-f** - zupynyty propozytsiiu, nepohano pry stvoreni novoho failu
-**C-b** - povernutysia do bufer sektsii
-**C-d** - perekliuchyty da vidkryttia directory mode
-**C-g** - vidmina
+	{"id":"124", "name":"F3", "description":"start recording macro"},
+	{"id":"125", "name":"F4", "description":"stop recording macro/play back macro one"},
+	{"id":"126", "name":"M 1 F4", "description":"play back macro 1 times"},
+	{"id":"127", "name":"M-0 F4", "description":"play back macro over and over until it fails"},
+	{"id":"128", "name":"M-x java-mode", "description":"mode for editing java files"},
+	{"id":"129", "name":"M-x python-mode", "description":"mode for editing python file"},
+	{"id":"130", "name":"M-x text mode", "description":"tekstovyi rezhym dlia Emacs"},
+	{"id":"131", "name":"M-x fundamental-mode", "description":"mode with no specializations at all"},
+	{"id":"132", "name":"M-x auto-fill-mode", "description":"rezhym avtozapovnennia"},
+	{"id":"133", "name":"M-x flyspell-mode", "description":"highlights misspelled words as you type"},
+	{"id":"134", "name":"M-x follow-mode", "description":"if you have a buffer displayed in two window side by side, 'follow-mode' forces them to scroll together"},
+	{"id":"135", "name":"M-x icomplete-mode", "description":"show completions as you type"},
+	{"id":"136", "name":"M-x iswitchb-mode", "description":"show all buffer names when you switch buffers with 'C-x b'"},
+	{"id":"137", "name":"M-x dired", "description":"file manager/dired-mode"},
+	{"id":"138", "name":"C-x C-q", "description":"edit in dired-mode"},
+	{"id":"139", "name":"M-x wired-change-to-wired-mode", "description":"edit in dired-mode"},
+	{"id":"140", "name":"M-x viper-mode", "description":"emulating vi editing behavior in Emacs"},
+	{"id":"141", "name":"M-x cua-mode", "description":"cua mode standart keys for copy cut paste"},
+	{"id":"142", "name":"C-x", "name2":"C-c", "name3":"C-v", "name4":"C-z", "description":"cut, copy, paste, umdo in cua-mode"},
+	{"id":"143", "name":"M-x fluspell-mode", "name2":"flyspellbuffer", "description":"spell checker"},
+	{"id":"144", "name":"C-x f", "description":"zadaty hranytsiu, zvychaino hranytsia dorivniuie 70-ty symvolam"},
+	{"id":"145", "name":"C-x ^", "description":"zbilshyty vysotu"},
+	{"id":"146", "name":"C-x }", "description":"zbilshennia shyryny"},
+	{"id":"147", "name":"C-x {", "description":"zmenshennia shyryny"},
+	{"id":"148", "name":"C-x -", "description":"zmenshyty vikno vidpovidno do ioho vmistu"},
+	{"id":"149", "name":"C-x +", "description":"zrobyty vsi paneli odnakovoiu po shyrini/vysoti"},
+	{"id":"150", "name":"C-h ?", "name2":"F1", "name3":"M-x help", "description":"Emacs rozpovist vam o tom yakyi help vin mozhe zaproponuvaty"},
+	{"id":"151", "name":"C-h C-h", "description":"a list of all help features"},
+	{"id":"152", "name":"C-h m", "description":"podyvytysia vidminy Text-rezhyma vid bazovoho"},
+	{"id":"153", "name":"C-h c", "description":"Emacs vidobrazhaie korotkyi opys nabranoi komandy 'C-p'"},
+	{"id":"154", "name":"C-h k", "description":"bilshe informatsii o spolucheni klavish 'C-p'"},
+	{"id":"155", "name":"C-h f", "description":"opys funktsii 'previous-line'"},
+	{"id":"156", "name":"C-h v", "description":"vidobrazhennia dokumentatsii o zminnykh"},
+	{"id":"157", "name":"C-h a", "description":"vvedit kliuchove slovo i Emacs pokazhe vam spysok usikh komand z funktsii"},
+	{"id":"158", "name":"C-h i", "description":"chytaty snteraktyvne kerinytstvo (komanda Info)"},
+	{"id":"159", "name":"M-x describe-key", "description":"find the command name of a keyboard shortcut"},
+	{"id":"160", "name":"M-x description-function", "description":"find the keyboard shoartcut of a command"},
+	{"id":"161", "name":"M-x apropos-command", "description":"search command by name"},
+	{"id":"162", "name":"M-x describe-mode", "description":"show current mode documentation"},
+	{"id":"163", "name":"C-h C-a", "description":"about-emacs"},
+	{"id":"164", "name":"C-h C-c", "description":"describe-copying"},
+	{"id":"165", "name":"C-h C-d", "description":"view-emacs-debugging"},
+	{"id":"166", "name":"C-h C-e", "description":"view-external-packages"},
+	{"id":"167", "name":"C-h C-f", "description":"view-emacs-FAQ"},
+	{"id":"168", "name":"C-h C-h", "description":"help-for-help"},
+	{"id":"169", "name":"C-h RET", "description":"view-order-manuals"},
+	{"id":"170", "name":"C-h C-n", "description":"view-emacs-news"},
+	{"id":"171", "name":"C-h C-o", "description":"describe-distribution"},
+	{"id":"172", "name":"C-h C-p", "description":"view-emacs-problems"},
+	{"id":"173", "name":"C-h C-t", "description":"view-emacs-todo"},
+	{"id":"174", "name":"C-h C-w", "description":"describe-no-warranty"},
+	{"id":"175", "name":"C-h C-\\", "description":"describe-input-method"},
+	{"id":"176", "name":"C-h .", "description":"display-local-help"},
+	{"id":"177", "name":"C-h ?", "description":"help-for-help"},
+	{"id":"178", "name":"C-h c", "description":"describe-coding-system"},
+	{"id":"179", "name":"C-h f", "description":"Info-goto-emacs-command-node"},
+	{"id":"180", "name":"C-h i", "description":"describe-input-method"},
+	{"id":"181", "name":"C-h k", "description":"Info-goto-emacs-key-command-node"},
+	{"id":"182", "name":"C-h l", "description":"describe-language-environment"},
+	{"id":"183", "name":"C-h s", "description":"info-lookup-symbol"},
+	{"id":"184", "name":"C-h a", "description":"apropos-command"},
+	{"id":"185", "name":"C-h b", "description":"describe-bindings"},
+	{"id":"186", "name":"C-h c", "description":"describe-key-briefly"},
+	{"id":"187", "name":"C-h d", "description":"apropos-documentation"},
+	{"id":"188", "name":"C-h e", "description":"view-echo-area-messages"},
+	{"id":"189", "name":"C-h f", "description":"describe-function"},
+	{"id":"190", "name":"C-h g", "description":"describe-gnu-project"},
+	{"id":"191", "name":"C-h h", "description":"view-hello-file"},
+	{"id":"192", "name":"C-h i", "description":"info"},
+	{"id":"193", "name":"C-h k", "description":"describe-key"},
+	{"id":"194", "name":"C-h l", "description":"view-lossage"},
+	{"id":"195", "name":"C-h m", "description":"describe-mode"},
+	{"id":"196", "name":"C-h n", "description":"view-emacs-news"},
+	{"id":"197", "name":"C-h p", "description":"finder-by-keyword"},
+	{"id":"198", "name":"C-h q", "description":"help-quit"},
+	{"id":"199", "name":"C-h r", "description":"info-emacs-manual"},
+	{"id":"200", "name":"C-h s", "description":"describe-syntax"},
+	{"id":"201", "name":"C-h t", "description":"help-with-tutorial"},
+	{"id":"202", "name":"C-h w", "description":"where-is"},
+	{"id":"203", "name":"C-h F1", "description":"help-for-help"},
+	{"id":"204", "name":"C-h help", "description":"help-for-help"}
+	],
+ "idomode":[
+	{"id":"205", "name":"M-x ido-mode", "description":"vkliuchyty/vykliuchyty IDO mode"},
+	{"id":"206", "name":"M-x ido-switch-buffer", "description":"perekliuchyty buffer"},
+	{"id":"207", "name":"M-x ido-find-file", "description":"vidkryty fail"},
+	{"id":"208", "name":"arrows", "description":"zrobyty nastupnyi vybir"},
+	{"id":"209", "name":"C-f", "description":"zupynyty propozytsiiu, nepohano pry stvoreni novoho failu"},
+	{"id":"210", "name":"C-b", "description":"povernutysia do bufer sektsii"},
+	{"id":"211", "name":"C-d", "description":"perekliuchyty da vidkryttia directory mode"},
+	{"id":"138", "name":"C-g", "description":"vidmina"}
+]}
