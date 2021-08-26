@@ -1,3 +1,0 @@
-* Pakunky dlia Emacs
-
-1. ido-mode
